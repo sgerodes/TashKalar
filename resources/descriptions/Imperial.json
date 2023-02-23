@@ -1,0 +1,92 @@
+{
+    "Infantry Captain": {
+        "type": "Imperial",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    "Chronicler": {
+        "type": "Imperial",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    "Gun Tower": {
+        "type": "Imperial",
+        "name": "Gun Tower",
+        "text": "You may choose 1 of the indicated directions: Destroy the first 2 pieces in that direction. A legendary piece cannot be destroyed and stops the shot."
+    },
+    "Knight": {
+        "type": "Imperial",
+        "name": "Knight",
+        "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
+    },
+    "Cannon": {
+        "type": "Imperial",
+        "name": "Cannon",
+        "text": "You may choose 1 of the indicated directions: Destroy all common pieces in that direction."
+    },
+    "Messenger": {
+        "type": "Imperial",
+        "name": "Messenger",
+        "text": "You may choose 1 of your non-legendary pieces and a direction. That piece may do any number of standard moves in that direction."
+    },
+    "Herald": {
+        "type": "Imperial",
+        "name": "Herald",
+        "text": "Do up to 2 moves, using only your pieces. These moves can only be onto empty squares."
+    },
+    "Champion": {
+        "type": "Imperial",
+        "name": "Champion",
+        "text": "You may destroy 1 adjacent enemy piece. If that piece was legendary, you also destroy the Champion and gain an action."
+    },
+    "Summoner": {
+        "type": "Imperial",
+        "name": "Summoner",
+        "text": "You may place up to 2 common pieces of your color on empty marked squares."
+    },
+    "Cavalry Captain": {
+        "type": "Imperial",
+        "name": "Cavalry Captain",
+        "text": "You may choose 1 of your pieces other than the Cavalry Captain: You may do up to 1 combat move and up to 2 standard moves with it (in any order)."
+    },
+    "Bomb": {
+        "type": "Imperial",
+        "name": "Bomb",
+        "text": "If summoning the Bomb is your last action this turn, nothing happens ; otherwise, destroy the Bomb and all common pieces adjacent to it."
+    },
+    "Master of Intrigue": {
+        "type": "Imperial",
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    "High Priestess": {
+        "type": "Imperial",
+        "name": "High Priestess",
+        "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
+    },
+    "Hypnotist": {
+        "type": "Imperial",
+        "name": "Hypnotist",
+        "text": "You may choose up to 3 common or up to 2 heroic pieces in one enemy color: Do 1 combat move with each."
+    },
+    "Gryphon Rider": {
+        "type": "Imperial",
+        "name": "Gryphon Rider",
+        "text": "The Gryphon Rider may do a combat leap. If she does, you may then downgrade her and place 1 common piece of your color on an empty adjacent space."
+    },
+    "Assassin": {
+        "type": "Imperial",
+        "name": "Assassin",
+        "text": "Destroy any piece on the marked square. If the marked square was empty, the Assassin may move onto it."
+    },
+    "Time Mage": {
+        "type": "Imperial",
+        "name": "Time Mage",
+        "text": "Gain an action. If there is an enemy piece on the marked square, destroy it."
+    },
+    "Swordmaster": {
+        "type": "Imperial",
+        "name": "Swordmaster",
+        "text": "You may destroy 1 common enemy piece on a diagonally adjacent square. If you do, upgrade the Swordmaster."
+    }
+}

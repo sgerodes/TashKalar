@@ -1,0 +1,103 @@
+{
+    "Greater Shadow Twin": {
+        "type": "Etherweave",
+        "name": "Greater Shadow Twin",
+        "text": "If Lesser Shadow Twin is in your discard pile, you may destroy one heroic piece adjacent to at least two of your pieces.",
+        "warptext": "Upgrade 1 of your common pieces."
+    },
+    "Iris of Eternity": {
+        "type": "Etherweave",
+        "name": "Iris of Eternity",
+        "text": "You may either destroy an adjacent legendary piece or upgrade the Iris. If the Iris becomes legendary, count it as a legend summoned this turn and discard all your legendary cards."
+    },
+    "Antimatter Spirit": {
+        "type": "Etherweave",
+        "name": "Antimatter Spirit",
+        "text": "",
+        "warptext": "Place a common piece of your color on an empty colorless square. It does a combat move. Place a common piece of another color on the same empty square. It does a combat move in the opposite direction. This is a linked effect."
+    },
+    "Dark Sphere": {
+        "type": "Etherweave",
+        "name": "Dark Sphere",
+        "text": "Choose up to 3 non-legendary pieces, at most 2 of one color. With each, do a combat move. Each move must end at distance 2 from the Dark Sphere."
+    },
+    "Polarity Queen": {
+        "type": "Etherweave",
+        "name": "Polarity Queen",
+        "text": "Choose 2 of your non-legendary pieces other than the Queen. Do 1 combat move with each of them in opposite directions. This is a linked effect.",
+        "warptext": "Place a common piece of your color on an empty square adjacent to an enemy piece."
+    },
+    "Doppelganger": {
+        "type": "Etherweave",
+        "name": "Doppelganger",
+        "text": "If you have a pending being, copy its warp effect."
+    },
+    "Reality Patch": {
+        "type": "Etherweave",
+        "name": "Reality Patch",
+        "text": "In each enemy color, you may destroy 1 heroic piece. You may discard your pending being. You may discard one card of any type from your hand."
+    },
+    "Paradox Worm": {
+        "type": "Etherweave",
+        "name": "Paradox Worm",
+        "text": "You may swap one of your non-legendary pieces with an enemy piece of the same rank.",
+        "warptext": "Upgrade 1 enemy common piece. You may then discard your pending being."
+    },
+    "Ziggurat Sentinel": {
+        "type": "Etherweave",
+        "name": "Ziggurat Sentinel",
+        "text": "You may either copy a warp effect on a card in your discard pile, or do up to 3 combat moves with Ziggurat Sentinel in the marked direction.",
+        "warptext": "Do 1 combat move or 2 standard moves with one of your non-legendary pieces."
+    },
+    "Merchant of Time": {
+        "type": "Etherweave",
+        "name": "Merchant of Time",
+        "text": "If there is a piece on this card, do a standard leap with that piece to any colorless square on the board.",
+        "warptext": "Take a piece from a colorless square and put it on this card. This card cannot be copied. If pending, it cannot be discarded or returned to hand."
+    },
+    "Time Traveler": {
+        "type": "Etherweave",
+        "name": "Time Traveler",
+        "text": "Time Traveler's summoning square can be any colorless empty square. You may destroy an adjacent common piece. If you do, put the top card of your discard pile on top of your deck."
+    },
+    "Singularity": {
+        "type": "Etherweave",
+        "name": "Singularity",
+        "text": "Choose an empty colorless square. All common pieces adjacent to that square must do a combat move onto it in the order of your choosing."
+    },
+    "Gate of Oblivion": {
+        "type": "Etherweave",
+        "name": "Gate of Oblivion",
+        "text": "Destroy any piece on the purple marked square. On another marked square, you may destroy a non-legendary piece.",
+        "warptext": "For the rest of this turn, when you destroy a piece count it as though you also destroyed an additional piece of the same color and rank."
+    },
+    "Void Summoner": {
+        "type": "Etherweave",
+        "name": "Void Summoner",
+        "text": "For your next summoning this turn, you may count up to two empty squares as common pieces of your color.",
+        "warptext": "Do a standard move with one of your non-legendary pieces."
+    },
+    "Eternal Emperor": {
+        "type": "Etherweave",
+        "name": "Eternal Emperor",
+        "text": "If you have not played Eternal Emperor's warp effect this turn, you may perform it now as a normal effect.",
+        "warptext": "Either place a common piece of your color on an empty square, or move 1 of your pieces - combat move if common, standard move if upgraded."
+    },
+    "Warpmaster": {
+        "type": "Etherweave",
+        "name": "Warpmaster",
+        "text": "You may either return your pending being to your hand or do a standard move with the Warpmaster."
+    },
+    "Translocationist": {
+        "type": "Etherweave",
+        "name": "Translocationist",
+        "text": "You may swap up to 2 of your heroic pieces with your common pieces.",
+        "warptext": "Gain an action."
+    },
+    "Lesser Shadow Twin": {
+        "type": "Etherweave",
+        "name": "Lesser Shadow Twin",
+        "text": "If Greater Shadow Twin is in your discard pile, choose one of your pieces and destroy up to 2 common pieces adjacent to it.",
+        "warptext": "Upgrade 1 of your common pieces."
+    }
+}
