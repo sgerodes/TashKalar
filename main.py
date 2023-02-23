@@ -22,7 +22,7 @@ description_folder = 'resources/descriptions'
 imperial_factions = {Faction.SOUTHERN.value, Faction.NORTHERN.value, Faction.IMPERIAL.value}
 factions_imperial_combined = (Faction.SYLVAN, Faction.IMPERIAL, Faction.HIGHLAND,
                               Faction.EVERFROST, Faction.NETHERVOID, Faction.ETHERWEAVE)
-factions_original = (Faction.SYLVAN, Faction.SOUTHERN, Faction.NORTHER, Faction.HIGHLAND,
+factions_original = (Faction.SYLVAN, Faction.SOUTHERN, Faction.NORTHERN, Faction.HIGHLAND,
                      Faction.EVERFROST, Faction.NETHERVOID, Faction.ETHERWEAVE)
 
 
@@ -42,10 +42,10 @@ def split_into_singles():
         destination_folder = f"{big_images_folder}/single_cards/{name_of_card_type}"
         create_new_folder(destination_folder)
         for i in range(width//card_width):
-            croped = im.crop((card_width * i, 0, card_width * (i + 1), height))
+            cropped = im.crop((card_width * i, 0, card_width * (i + 1), height))
             new_picture_name = cards_pictures_order[name_of_card_type][i] if name_of_card_type in cards_pictures_order else f"{name_of_card_type}_{i}"
             new_picture_relative_path= f"{destination_folder}/{new_picture_name}.webp"
-            croped.save(new_picture_relative_path)
+            cropped.save(new_picture_relative_path)
 
 
 def create_new_folder(folder_name):
