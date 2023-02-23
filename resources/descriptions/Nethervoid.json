@@ -1,0 +1,150 @@
+{
+   "hand": [
+      {
+         "id": "129",
+         "type": "Legends",
+         "type_arg": "9",
+         "location": "hand",
+         "location_arg": "90958523",
+         "name": "Time Elemental",
+         "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
+      },
+      {
+         "id": "131",
+         "type": "Legends",
+         "type_arg": "7",
+         "location": "hand",
+         "location_arg": "90958523",
+         "name": "Two-Headed Dragon",
+         "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+      },
+      {
+         "id": "94",
+         "type": "Nethervoid",
+         "type_arg": "14",
+         "location": "hand",
+         "location_arg": "90958523",
+         "name": "Demon of Lust",
+         "text": "Choose up to 2 pieces (not necessarily yours). With each, do 1 combat move toward the Gateway. These moves must not destroy the Gateway."
+      },
+      {
+         "id": "98",
+         "type": "Nethervoid",
+         "type_arg": "6",
+         "location": "hand",
+         "location_arg": "90958523",
+         "name": "Acolyte of Growth",
+         "text": "Place a common piece of your color on an empty square. If the Gateway is on a green square, place a heroic piece of your color on an empty square adjacent to that new common piece."
+      },
+      {
+         "id": "103",
+         "type": "Nethervoid",
+         "type_arg": "9",
+         "location": "hand",
+         "location_arg": "90958523",
+         "name": "Vortex Master",
+         "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+      }
+   ],
+   "discard": [
+      {
+         "id": "91",
+         "type": "Nethervoid",
+         "type_arg": "3",
+         "location": "discard",
+         "location_arg": "11",
+         "name": "Demon of Gluttony",
+         "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+      },
+      {
+         "id": "92",
+         "type": "Nethervoid",
+         "type_arg": "15",
+         "location": "discard",
+         "location_arg": "32",
+         "name": "Demon of Sloth",
+         "text": "Spend an action to do nothing. If you cannot, destroy the Gateway instead."
+      },
+      {
+         "id": "93",
+         "type": "Nethervoid",
+         "type_arg": "5",
+         "location": "discard",
+         "location_arg": "19",
+         "name": "Acolyte of Destruction",
+         "text": "Destroy a common piece. If the Gateway is on a red square, you may also destroy a heroic piece adjacent to the destroyed piece's square."
+      },
+      {
+         "id": "97",
+         "type": "Nethervoid",
+         "type_arg": "17",
+         "location": "discard",
+         "location_arg": "3",
+         "name": "Possessed Summoner",
+         "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+      },
+      {
+         "id": "99",
+         "type": "Nethervoid",
+         "type_arg": "0",
+         "location": "discard",
+         "location_arg": "15",
+         "name": "Shadow Imp",
+         "text": "The Shadow Imp may do 1 combat move. If it does and it is not the Gateway, then the Gateway may do 1 combat move in the same direction"
+      },
+      {
+         "id": "100",
+         "type": "Nethervoid",
+         "type_arg": "2",
+         "location": "discard",
+         "location_arg": "26",
+         "name": "Gate Keeper",
+         "text": "You may upgrade any one of your common pieces or place a common piece of your color on an empty square.  In either case, that piece becomes the Gateway."
+      },
+      {
+         "id": "101",
+         "type": "Nethervoid",
+         "type_arg": "16",
+         "location": "discard",
+         "location_arg": "1",
+         "name": "Demon of Envy",
+         "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+      },
+      {
+         "id": "102",
+         "type": "Nethervoid",
+         "type_arg": "13",
+         "location": "discard",
+         "location_arg": "9",
+         "name": "Demon of Greed",
+         "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+      },
+      {
+         "id": "105",
+         "type": "Nethervoid",
+         "type_arg": "1",
+         "location": "discard",
+         "location_arg": "5",
+         "name": "Flame Imp",
+         "text": "You may destroy a common piece adjacent to the Gateway."
+      },
+      {
+         "id": "107",
+         "type": "Nethervoid",
+         "type_arg": "7",
+         "location": "discard",
+         "location_arg": "20",
+         "name": "Power Seeker",
+         "text": "If the Power Seeker is the Gateway, it may do 1 standard move. Otherwise, it may do any number of combat moves towards the Gateway."
+      },
+      {
+         "id": "108",
+         "type": "Nethervoid",
+         "type_arg": "10",
+         "location": "discard",
+         "location_arg": "10",
+         "name": "Gate Master",
+         "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+      }
+   ]
+}

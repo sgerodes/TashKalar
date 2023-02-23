@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tashkalar"
+version = "0.1.0"
+description = ""
+authors = ["sergeyg <sergey.gerodes@raysono.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+webp = "^0.1.5"
+pillow = "^9.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

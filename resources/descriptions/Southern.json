@@ -1,0 +1,138 @@
+{
+    "hand": [
+    ],
+    "discard": [
+    ],
+    "faction_cards": [
+        {
+            "type": "Southern",
+            "name": "Infantry Captain",
+            "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+        },
+        {
+            "type": "Southern",
+            "name": "Chronicler",
+            "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+        },
+        {
+            "type": "Southern",
+            "name": "Gun Tower",
+            "text": "You may choose 1 of the indicated directions: Destroy the first 2 pieces in that direction. A legendary piece cannot be destroyed and stops the shot."
+        },
+        {
+            "type": "Southern",
+            "name": "Knight",
+            "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
+        },
+        {
+            "type": "Southern",
+            "name": "Cannon",
+            "text": "You may choose 1 of the indicated directions: Destroy all common pieces in that direction."
+        },
+        {
+            "type": "Southern",
+            "name": "Messenger",
+            "text": "You may choose 1 of your non-legendary pieces and a direction. That piece may do any number of standard moves in that direction."
+        },
+        {
+            "type": "Southern",
+            "name": "Herald",
+            "text": "Do up to 2 moves, using only your pieces. These moves can only be onto empty squares."
+        },
+        {
+            "type": "Southern",
+            "name": "Champion",
+            "text": "You may destroy 1 adjacent enemy piece. If that piece was legendary, you also destroy the Champion and gain an action."
+        },
+        {
+            "type": "Southern",
+            "name": "Summoner",
+            "text": "You may place up to 2 common pieces of your color on empty marked squares."
+        },
+        {
+            "type": "Southern",
+            "name": "Cavalry Captain",
+            "text": "You may choose 1 of your pieces other than the Cavalry Captain: You may do up to 1 combat move and up to 2 standard moves with it (in any order)."
+        },
+        {
+            "type": "Southern",
+            "name": "Bomb",
+            "text": "If summoning the Bomb is your last action this turn, nothing happens ; otherwise, destroy the Bomb and all common pieces adjacent to it."
+        },
+        {
+            "type": "Southern",
+            "name": "Master of Intrigue",
+            "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+        },
+        {
+            "type": "Southern",
+            "name": "High Priestess",
+            "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
+        },
+        {
+            "type": "Southern",
+            "name": "Hypnotist",
+            "text": "You may choose up to 3 common or up to 2 heroic pieces in one enemy color: Do 1 combat move with each."
+        },
+        {
+            "type": "Southern",
+            "name": "Knight",
+            "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
+        },
+        {
+            "type": "Southern",
+            "name": "Cannon",
+            "text": "You may choose 1 of the indicated directions: Destroy all common pieces in that direction."
+        },
+        {
+            "type": "Southern",
+            "name": "Messenger",
+            "text": "You may choose 1 of your non-legendary pieces and a direction. That piece may do any number of standard moves in that direction."
+        },
+        {
+            "type": "Southern",
+            "name": "Herald",
+            "text": "Do up to 2 moves, using only your pieces. These moves can only be onto empty squares."
+        },
+        {
+            "type": "Southern",
+            "name": "Champion",
+            "text": "You may destroy 1 adjacent enemy piece. If that piece was legendary, you also destroy the Champion and gain an action."
+        },
+        {
+            "type": "Southern",
+            "name": "Summoner",
+            "text": "You may place up to 2 common pieces of your color on empty marked squares."
+        },
+        {
+            "type": "Southern",
+            "name": "Cavalry Captain",
+            "text": "You may choose 1 of your pieces other than the Cavalry Captain: You may do up to 1 combat move and up to 2 standard moves with it (in any order)."
+        },
+        {
+            "type": "Southern",
+            "name": "Infantry Captain",
+            "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+        },
+        {
+            "type": "Southern",
+            "name": "Chronicler",
+            "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+        },
+        {
+            "type": "Southern",
+            "name": "Gryphon Rider",
+            "text": "The Gryphon Rider may do a combat leap. If she does, you may then downgrade her and place 1 common piece of your color on an empty adjacent space."
+        },
+        {
+            "type": "Southern",
+            "name": "Gun Tower",
+            "text": "You may choose 1 of the indicated directions: Destroy the first 2 pieces in that direction. A legendary piece cannot be destroyed and stops the shot."
+        },
+        {
+            "type": "Southern",
+            "name": "Bomb",
+            "text": "If summoning the Bomb is your last action this turn, nothing happens ; otherwise, destroy the Bomb and all common pieces adjacent to it."
+        }
+    ]
+}

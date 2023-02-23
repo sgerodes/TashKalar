@@ -1,0 +1,83 @@
+[
+        {
+            "type": "Legends",
+            "name": "The Eldest Tree",
+            "text": "On up to 3 adjacent squares: if it has an enemy non-legendary piece, destroy it; if it has your common piece, upgrade it; if it is empty, place 1 common piece of your color there."
+        },
+        {
+            "type": "Legends",
+            "name": "Fire Dragon",
+            "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+        },
+        {
+            "type": "Legends",
+            "name": "Two-Headed Dragon",
+            "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+        },
+        {
+            "type": "Legends",
+            "name": "Earth Elemental",
+            "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+        },
+        {
+            "type": "Legends",
+            "name": "The Eldest Tree",
+            "text": "On up to 3 adjacent squares: if it has an enemy non-legendary piece, destroy it; if it has your common piece, upgrade it; if it is empty, place 1 common piece of your color there."
+        },
+        {
+            "type": "Legends",
+            "name": "Fire Dragon",
+            "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+        },
+
+        {
+            "type": "Legends",
+            "name": "Earth Elemental",
+            "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+        },
+        {
+            "type": "Legends",
+            "name": "Two-Headed Dragon",
+            "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+        },
+          {
+            "type": "Legends",
+            "name": "The Eldest Tree",
+            "text": "On up to 3 adjacent squares: if it has an enemy non-legendary piece, destroy it; if it has your common piece, upgrade it; if it is empty, place 1 common piece of your color there."
+        },
+        {
+            "type": "Legends",
+            "name": "Titan",
+            "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+        },
+        {
+            "type": "Legends",
+            "name": "Angel of Death",
+            "text": "You may choose any 1 piece other than the Angel of Death: Upgrade it and then do a combat leap onto its square with the Angel of Death."
+        },
+        {
+            "type": "Legends",
+            "name": "Titan",
+            "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+        },
+          {
+            "type": "Legends",
+            "name": "Titan",
+            "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+        },
+        {
+            "type": "Legends",
+            "name": "Hell Bull",
+            "text": "Choose any direction: The Hell Bull may do any number of combat moves in that direction. If it destroys a legendary piece, it stops."
+        },
+        {
+            "type": "Legends",
+            "name": "Earth Elemental",
+            "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+        },
+        {
+            "type": "Legends",
+            "name": "Hell Bull",
+            "text": "Choose any direction: The Hell Bull may do any number of combat moves in that direction. If it destroys a legendary piece, it stops."
+        }
+]

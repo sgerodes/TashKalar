@@ -1,0 +1,465 @@
+{
+    "players":{
+       "84804090":{
+          "id":"84804090",
+          "score":"7",
+          "color":"d6b156",
+          "deck":"2",
+          "card":"16",
+          "cardname":"Werewolf",
+          "text":"If the Werewolf was summoned on a non-central red or green square, it may do up to 3 combat moves. Otherwise it may do 1 standard move.",
+          "color_back":null,
+          "name":"Arxij",
+          "avatar":"x00000",
+          "zombie":0,
+          "eliminated":0,
+          "is_ai":"0",
+          "beginner":false
+       },
+       "90958523":{
+          "id":"90958523",
+          "score":"13",
+          "color":"6a548f",
+          "deck":"6",
+          "card":"13",
+          "cardname":"Reality Patch",
+          "text":"In each enemy color, you may destroy 1 heroic piece. You may discard your pending being. You may discard one card of any type from your hand.",
+          "color_back":null,
+          "name":"BordGameFreak",
+          "avatar":"53d75a7ccc",
+          "zombie":0,
+          "eliminated":0,
+          "is_ai":"0",
+          "beginner":false
+       }
+    },
+    "game_form":"highform",
+    "last_player":"90958523",
+    "hand":[
+       {
+          "id":"117",
+          "type":"Etherweave",
+          "type_arg":"8",
+          "location":"hand",
+          "location_arg":"90958523",
+          "name":"Greater Shadow Twin",
+          "text":"If Lesser Shadow Twin is in your discard pile, you may destroy one heroic piece adjacent to at least two of your pieces.",
+          "warptext":"Upgrade 1 of your common pieces."
+       },
+       {
+          "id":"118",
+          "type":"Etherweave",
+          "type_arg":"17",
+          "location":"hand",
+          "location_arg":"90958523",
+          "name":"Iris of Eternity",
+          "text":"You may either destroy an adjacent legendary piece or upgrade the Iris. If the Iris becomes legendary, count it as a legend summoned this turn and discard all your legendary cards."
+       },
+       {
+          "id":"123",
+          "type":"Etherweave",
+          "type_arg":"4",
+          "location":"hand",
+          "location_arg":"90958523",
+          "name":"Antimatter Spirit",
+          "text":"",
+          "warptext":"Place a common piece of your color on an empty colorless square. It does a combat move. Place a common piece of another color on the same empty square. It does a combat move in the opposite direction. This is a linked effect."
+       },
+       {
+          "id":"144",
+          "type":"Flare",
+          "type_arg":"6",
+          "location":"hand",
+          "location_arg":"90958523",
+          "upgraded":"Place 1 common piece of your color on any empty square.",
+          "pieces":"Upgrade 1 of your common pieces. Gain an action."
+       },
+       {
+          "id":"135",
+          "type":"Legends",
+          "type_arg":"7",
+          "location":"hand",
+          "location_arg":"90958523",
+          "name":"Two-Headed Dragon",
+          "text":"You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+       },
+       {
+          "id":"136",
+          "type":"Legends",
+          "type_arg":"4",
+          "location":"hand",
+          "location_arg":"90958523",
+          "name":"Bone Catapult",
+          "text":"You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+       }
+    ],
+    "discard":[
+       {
+          "id":"109",
+          "type":"Etherweave",
+          "type_arg":"10",
+          "location":"discard",
+          "location_arg":"22",
+          "name":"Dark Sphere",
+          "text":"Choose up to 3 non-legendary pieces, at most 2 of one color. With each, do a combat move. Each move must end at distance 2 from the Dark Sphere."
+       },
+       {
+          "id":"110",
+          "type":"Etherweave",
+          "type_arg":"14",
+          "location":"discard",
+          "location_arg":"3",
+          "name":"Polarity Queen",
+          "text":"Choose 2 of your non-legendary pieces other than the Queen. Do 1 combat move with each of them in opposite directions. This is a linked effect.",
+          "warptext":"Place a common piece of your color on an empty square adjacent to an enemy piece."
+       },
+       {
+          "id":"111",
+          "type":"Etherweave",
+          "type_arg":"0",
+          "location":"discard",
+          "location_arg":"10",
+          "name":"Doppelganger",
+          "text":"If you have a pending being, copy its warp effect."
+       },
+       {
+          "id":"112",
+          "type":"Etherweave",
+          "type_arg":"13",
+          "location":"discard",
+          "location_arg":"42",
+          "name":"Reality Patch",
+          "text":"In each enemy color, you may destroy 1 heroic piece. You may discard your pending being. You may discard one card of any type from your hand."
+       },
+       {
+          "id":"113",
+          "type":"Etherweave",
+          "type_arg":"1",
+          "location":"discard",
+          "location_arg":"2",
+          "name":"Paradox Worm",
+          "text":"You may swap one of your non-legendary pieces with an enemy piece of the same rank.",
+          "warptext":"Upgrade 1 enemy common piece. You may then discard your pending being."
+       },
+       {
+          "id":"114",
+          "type":"Etherweave",
+          "type_arg":"16",
+          "location":"discard",
+          "location_arg":"35",
+          "name":"Ziggurat Sentinel",
+          "text":"You may either copy a warp effect on a card in your discard pile, or do up to 3 combat moves with Ziggurat Sentinel in the marked direction.",
+          "warptext":"Do 1 combat move or 2 standard moves with one of your non-legendary pieces."
+       },
+       {
+          "id":"115",
+          "type":"Etherweave",
+          "type_arg":"5",
+          "location":"discard",
+          "location_arg":"20",
+          "name":"Merchant of Time",
+          "text":"If there is a piece on this card, do a standard leap with that piece to any colorless square on the board.",
+          "warptext":"Take a piece from a colorless square and put it on this card. This card cannot be copied. If pending, it cannot be discarded or returned to hand."
+       },
+       {
+          "id":"116",
+          "type":"Etherweave",
+          "type_arg":"7",
+          "location":"discard",
+          "location_arg":"31",
+          "name":"Time Traveler",
+          "text":"Time Traveler's summoning square can be any colorless empty square. You may destroy an adjacent common piece. If you do, put the top card of your discard pile on top of your deck."
+       },
+       {
+          "id":"119",
+          "type":"Etherweave",
+          "type_arg":"15",
+          "location":"discard",
+          "location_arg":"27",
+          "name":"Singularity",
+          "text":"Choose an empty colorless square. All common pieces adjacent to that square must do a combat move onto it in the order of your choosing."
+       },
+       {
+          "id":"120",
+          "type":"Etherweave",
+          "type_arg":"6",
+          "location":"discard",
+          "location_arg":"18",
+          "name":"Gate of Oblivion",
+          "text":"Destroy any piece on the purple marked square. On another marked square, you may destroy a non-legendary piece.",
+          "warptext":"For the rest of this turn, when you destroy a piece count it as though you also destroyed an additional piece of the same color and rank."
+       },
+       {
+          "id":"121",
+          "type":"Etherweave",
+          "type_arg":"11",
+          "location":"discard",
+          "location_arg":"40",
+          "name":"Void Summoner",
+          "text":"For your next summoning this turn, you may count up to two empty squares as common pieces of your color.",
+          "warptext":"Do a standard move with one of your non-legendary pieces."
+       },
+       {
+          "id":"122",
+          "type":"Etherweave",
+          "type_arg":"12",
+          "location":"discard",
+          "location_arg":"11",
+          "name":"Eternal Emperor",
+          "text":"If you have not played Eternal Emperor's warp effect this turn, you may perform it now as a normal effect.",
+          "warptext":"Either place a common piece of your color on an empty square, or move 1 of your pieces - combat move if common, standard move if upgraded."
+       },
+       {
+          "id":"124",
+          "type":"Etherweave",
+          "type_arg":"9",
+          "location":"discard",
+          "location_arg":"8",
+          "name":"Warpmaster",
+          "text":"You may either return your pending being to your hand or do a standard move with the Warpmaster."
+       },
+       {
+          "id":"125",
+          "type":"Etherweave",
+          "type_arg":"3",
+          "location":"discard",
+          "location_arg":"26",
+          "name":"Translocationist",
+          "text":"You may swap up to 2 of your heroic pieces with your common pieces.",
+          "warptext":"Gain an action."
+       },
+       {
+          "id":"126",
+          "type":"Etherweave",
+          "type_arg":"2",
+          "location":"discard",
+          "location_arg":"1",
+          "name":"Lesser Shadow Twin",
+          "text":"If Greater Shadow Twin is in your discard pile, choose one of your pieces and destroy up to 2 common pieces adjacent to it.",
+          "warptext":"Upgrade 1 of your common pieces."
+       }
+    ],
+   "faction_cards": [
+        {
+            "type": "Etherweave",
+            "name": "Lesser Shadow Twin",
+            "text": "If Greater Shadow Twin is in your discard pile, choose one of your pieces and destroy up to 2 common pieces adjacent to it.",
+            "warptext": "Upgrade 1 of your common pieces."
+        },
+        {
+            "type": "Etherweave",
+            "name": "Time Traveler",
+            "text": "Time Traveler's summoning square can be any colorless empty square. You may destroy an adjacent common piece. If you do, put the top card of your discard pile on top of your deck."
+        },
+        {
+            "type": "Etherweave",
+            "name": "Reality Patch",
+            "text": "In each enemy color, you may destroy 1 heroic piece. You may discard your pending being. You may discard one card of any type from your hand."
+        },
+        {
+            "type": "Etherweave",
+            "name": "Gate of Oblivion",
+            "text": "Destroy any piece on the purple marked square. On another marked square, you may destroy a non-legendary piece.",
+            "warptext": "For the rest of this turn, when you destroy a piece count it as though you also destroyed an additional piece of the same color and rank."
+        },
+        {
+            "type": "Etherweave",
+            "name": "Greater Shadow Twin",
+            "text": "If Lesser Shadow Twin is in your discard pile, you may destroy one heroic piece adjacent to at least two of your pieces.",
+            "warptext": "Upgrade 1 of your common pieces."
+        },
+        {
+            "type": "Etherweave",
+            "name": "Dark Sphere",
+            "text": "Choose up to 3 non-legendary pieces, at most 2 of one color. With each, do a combat move. Each move must end at distance 2 from the Dark Sphere."
+        },
+        {
+            "type": "Etherweave",
+            "name": "Iris of Eternity",
+            "text": "You may either destroy an adjacent legendary piece or upgrade the Iris. If the Iris becomes legendary, count it as a legend summoned this turn and discard all your legendary cards."
+        },
+        {
+            "type": "Etherweave",
+            "name": "Merchant of Time",
+            "text": "If there is a piece on this card, do a standard leap with that piece to any colorless square on the board.",
+            "warptext": "Take a piece from a colorless square and put it on this card. This card cannot be copied. If pending, it cannot be discarded or returned to hand."
+        },
+        {
+            "type": "Etherweave",
+            "name": "Singularity",
+            "text": "Choose an empty colorless square. All common pieces adjacent to that square must do a combat move onto it in the order of your choosing."
+        },
+        {
+            "type": "Etherweave",
+            "name": "Antimatter Spirit",
+            "text": "",
+            "warptext": "Place a common piece of your color on an empty colorless square. It does a combat move. Place a common piece of another color on the same empty square. It does a combat move in the opposite direction. This is a linked effect."
+        },
+        {
+            "type": "Etherweave",
+            "name": "Polarity Queen",
+            "text": "Choose 2 of your non-legendary pieces other than the Queen. Do 1 combat move with each of them in opposite directions. This is a linked effect.",
+            "warptext": "Place a common piece of your color on an empty square adjacent to an enemy piece."
+        },
+        {
+            "type": "Etherweave",
+            "name": "Void Summoner",
+            "text": "For your next summoning this turn, you may count up to two empty squares as common pieces of your color.",
+            "warptext": "Do a standard move with one of your non-legendary pieces."
+        },
+        {
+            "type": "Etherweave",
+            "name": "Ziggurat Sentinel",
+            "text": "You may either copy a warp effect on a card in your discard pile, or do up to 3 combat moves with Ziggurat Sentinel in the marked direction.",
+            "warptext": "Do 1 combat move or 2 standard moves with one of your non-legendary pieces."
+        },
+        {
+            "type": "Etherweave",
+            "name": "Warpmaster",
+            "text": "You may either return your pending being to your hand or do a standard move with the Warpmaster."
+        },
+        {
+            "type": "Etherweave",
+            "name": "Eternal Emperor",
+            "text": "If you have not played Eternal Emperor's warp effect this turn, you may perform it now as a normal effect.",
+            "warptext": "Either place a common piece of your color on an empty square, or move 1 of your pieces - combat move if common, standard move if upgraded."
+        }
+    ],
+    "current_tasks":{
+       "154":{
+          "id":"154",
+          "type":"task",
+          "type_arg":"20",
+          "location":"current_tasks",
+          "location_arg":"0",
+          "name":"Corner Chain",
+          "text":"Squares in two opposite corners of the board are connected by a chain of your pieces."
+       },
+       "157":{
+          "id":"157",
+          "type":"task",
+          "type_arg":"3",
+          "location":"current_tasks",
+          "location_arg":"0",
+          "name":"Heroic Devastation",
+          "text":"You destroyed at least 4 enemy pieces this turn, at least 2 of them upgraded."
+       },
+       "171":{
+          "id":"171",
+          "type":"task",
+          "type_arg":"19",
+          "location":"current_tasks",
+          "location_arg":"0",
+          "name":"Side Chain",
+          "text":"Squares on two opposite sides of the board are connected by a chain of your pieces."
+       }
+    },
+    "next_task":{
+       "161":{
+          "id":"161",
+          "type":"task",
+          "type_arg":"5",
+          "location":"next_task",
+          "location_arg":"0",
+          "name":"Red Conquest",
+          "text":"You have at least 3 pieces on red squares, and at least 2 of them are upgraded."
+       }
+    },
+    "claimed":{
+       "84804090":{
+          "151":{
+             "id":"151",
+             "type":"task",
+             "type_arg":"12",
+             "location":"claimed",
+             "location_arg":"84804090",
+             "name":"Green Summoning",
+             "text":"You summoned at least 2 beings this turn, at least 1 on a green square."
+          },
+          "159":{
+             "id":"159",
+             "type":"task",
+             "type_arg":"10",
+             "location":"claimed",
+             "location_arg":"84804090",
+             "name":"Rainbow Dominance",
+             "text":"You have more upgraded pieces on red squares and more upgraded pieces on green squares than your opponent does."
+          },
+          "165":{
+             "id":"165",
+             "type":"task",
+             "type_arg":"11",
+             "location":"claimed",
+             "location_arg":"84804090",
+             "name":"Red Summoning",
+             "text":"You summoned at least 2 beings this turn, at least 1 on a red square."
+          },
+          "166":{
+             "id":"166",
+             "type":"task",
+             "type_arg":"15",
+             "location":"claimed",
+             "location_arg":"84804090",
+             "name":"Central Dominance",
+             "text":"You have at least 5 pieces on the nine central squares, and at least 2 of them are upgraded."
+          }
+       },
+       "90958523":{
+          "156":{
+             "id":"156",
+             "type":"task",
+             "type_arg":"0",
+             "location":"claimed",
+             "location_arg":"90958523",
+             "name":"Destruction",
+             "text":"You destroyed at least 3 enemy pieces this turn."
+          },
+          "158":{
+             "id":"158",
+             "type":"task",
+             "type_arg":"17",
+             "location":"claimed",
+             "location_arg":"90958523",
+             "name":"Line Dominance",
+             "text":"On one of the orthogonal lines through the central squares, you have 6 more pieces than your opponent does."
+          },
+          "162":{
+             "id":"162",
+             "type":"task",
+             "type_arg":"7",
+             "location":"claimed",
+             "location_arg":"90958523",
+             "name":"Color Conquest",
+             "text":"You have at least 5 pieces on red and\/or green squares, and at least 3 of them are upgraded."
+          },
+          "163":{
+             "id":"163",
+             "type":"task",
+             "type_arg":"4",
+             "location":"claimed",
+             "location_arg":"90958523",
+             "name":"End of Legends",
+             "text":"You destroyed at least 1 legendary enemy piece or 2 heroic enemy pieces this turn."
+          },
+          "170":{
+             "id":"170",
+             "type":"task",
+             "type_arg":"23",
+             "location":"claimed",
+             "location_arg":"90958523",
+             "name":"Isolation",
+             "text":"An enemy piece is within 2 squares of another enemy piece, but it cannot get adjacent to any enemy piece in 3 or fewer moves through empty squares."
+          },
+          "174":{
+             "id":"174",
+             "type":"task",
+             "type_arg":"21",
+             "location":"claimed",
+             "location_arg":"90958523",
+             "name":"Imprisonment",
+             "text":"You have at least 6 pieces adjacent to the same enemy piece."
+          }
+       }
+    }
+
+ }

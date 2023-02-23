@@ -1,0 +1,284 @@
+{
+   "hand":[
+      {
+         "id":"87",
+         "type":"Everfrost",
+         "type_arg":"13",
+         "location":"hand",
+         "location_arg":"90958523",
+         "name":"Snow Monster",
+         "text":"Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+      },
+      {
+         "id":"142",
+         "type":"Flare",
+         "type_arg":"4",
+         "location":"hand",
+         "location_arg":"90958523",
+         "upgraded":"Do 1 standard move with one of your common pieces, or upgrade 1 of your common pieces.",
+         "pieces":"Place 2 common pieces of your color on empty squares."
+      },
+      {
+         "id":"131",
+         "type":"Legends",
+         "type_arg":"7",
+         "location":"hand",
+         "location_arg":"90958523",
+         "name":"Two-Headed Dragon",
+         "text":"You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+      },
+      {
+         "id":"135",
+         "type":"Legends",
+         "type_arg":"11",
+         "location":"hand",
+         "location_arg":"90958523",
+         "name":"Titan",
+         "text":"Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+      }
+   ],
+   "discard":[
+      {
+         "id":"73",
+         "type":"Everfrost",
+         "type_arg":"11",
+         "location":"discard",
+         "location_arg":"2",
+         "name":"Polar Bear",
+         "text":"The Polar Bear may do a combat move. If that move destroys a piece, it may do a standard move. If that destroys a piece, it may do a move onto an empty square."
+      },
+      {
+         "id":"74",
+         "type":"Everfrost",
+         "type_arg":"7",
+         "location":"discard",
+         "location_arg":"33",
+         "name":"Winter Whisperer",
+         "text":"",
+         "frozentext":"You may destroy one of your common pieces. You may discard 1 flare. If you do both, gain an action."
+      },
+      {
+         "id":"75",
+         "type":"Everfrost",
+         "type_arg":"15",
+         "location":"discard",
+         "location_arg":"6",
+         "name":"Ice Wyvern",
+         "text":"The Ice Wyvern may do a combat leap to anywhere on the board. If the leap destroys a piece, destroy the Ice Wyvern.",
+         "frozentext":"Place a common piece of your color on an empty square adjacent to one of your heroic pieces."
+      },
+      {
+         "id":"76",
+         "type":"Everfrost",
+         "type_arg":"16",
+         "location":"discard",
+         "location_arg":"26",
+         "name":"Deathbringer",
+         "text":"You may destroy an adjacent piece; if heroic, it must be adjacent to at least 1 other piece of yours; if legendary, 3 other pieces of yours. Count it as two destroyed pieces. Remove it from the game."
+      },
+      {
+         "id":"77",
+         "type":"Everfrost",
+         "type_arg":"14",
+         "location":"discard",
+         "location_arg":"38",
+         "name":"Frost Imp",
+         "text":"You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+      },
+      {
+         "id":"78",
+         "type":"Everfrost",
+         "type_arg":"4",
+         "location":"discard",
+         "location_arg":"11",
+         "name":"Ice Princess",
+         "text":"You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+         "frozentext":"Do 1 standard move with one of your common pieces."
+      },
+      {
+         "id":"79",
+         "type":"Everfrost",
+         "type_arg":"9",
+         "location":"discard",
+         "location_arg":"24",
+         "name":"Everfrost Sentinel",
+         "text":"If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+      },
+      {
+         "id":"80",
+         "type":"Everfrost",
+         "type_arg":"10",
+         "location":"discard",
+         "location_arg":"9",
+         "name":"Glacier Giant",
+         "text":"The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+      },
+      {
+         "id":"81",
+         "type":"Everfrost",
+         "type_arg":"17",
+         "location":"discard",
+         "location_arg":"20",
+         "name":"Frostweave Illusionist",
+         "text":"Convert the Frostweave Illusionist to a common piece of an enemy color.",
+         "frozentext":"Convert any common enemy piece to your common piece."
+      },
+      {
+         "id":"82",
+         "type":"Everfrost",
+         "type_arg":"12",
+         "location":"discard",
+         "location_arg":"19",
+         "name":"War Sled",
+         "text":"The War Sled may do up to 3 combat moves, the first in one of the indicated directions and each subsequent move in a direction that differs by no more than 45 degrees from the previous move."
+      },
+      {
+         "id":"83",
+         "type":"Everfrost",
+         "type_arg":"5",
+         "location":"discard",
+         "location_arg":"21",
+         "name":"Ice Queen",
+         "text":"You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+         "frozentext":"Do 1 standard move with one of your heroic pieces."
+      },
+      {
+         "id":"84",
+         "type":"Everfrost",
+         "type_arg":"6",
+         "location":"discard",
+         "location_arg":"25",
+         "name":"Frostweave Summoner",
+         "text":"",
+         "frozentext":"Use just before summoning a being. For the pattern of that being, you may use one enemy piece as though it were yours."
+      },
+      {
+         "id":"85",
+         "type":"Everfrost",
+         "type_arg":"0",
+         "location":"discard",
+         "location_arg":"4",
+         "name":"Snow Fox",
+         "text":"The Snow Fox may do up to 2 standard moves."
+      },
+      {
+         "id":"86",
+         "type":"Everfrost",
+         "type_arg":"2",
+         "location":"discard",
+         "location_arg":"12",
+         "name":"Crystal Mirror",
+         "text":"You may choose 1 heroic or up to 2 common pieces on yellow-marked squares: For each, place one of your pieces with the same rank on the mirror-image square, if it is empty."
+      },
+      {
+         "id":"88",
+         "type":"Everfrost",
+         "type_arg":"1",
+         "location":"discard",
+         "location_arg":"39",
+         "name":"Royal Reindeer",
+         "text":"The Royal Reindeer may do a combat leap to a distance of exactly 2. If neither the summoning nor the leap destroys a piece, upgrade the Royal Reindeer."
+      },
+      {
+         "id":"89",
+         "type":"Everfrost",
+         "type_arg":"8",
+         "location":"discard",
+         "location_arg":"15",
+         "name":"Frozen Chest",
+         "text":"You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+      },
+      {
+         "id":"90",
+         "type":"Everfrost",
+         "type_arg":"3",
+         "location":"discard",
+         "location_arg":"28",
+         "name":"Crystal Grower",
+         "text":"Upgrade 1 common piece of each enemy color.",
+         "frozentext":"Upgrade a common piece of your color."
+      }
+   ],
+   "faction_cards": [
+        {
+            "type": "Everfrost",
+            "name": "Glacier Giant",
+            "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+        },
+        {
+            "type": "Everfrost",
+            "name": "Everfrost Sentinel",
+            "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+        },
+        {
+            "type": "Everfrost",
+            "name": "Snow Monster",
+            "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+        },
+        {
+            "type": "Everfrost",
+            "name": "Deathbringer",
+            "text": "You may destroy an adjacent piece; if heroic, it must be adjacent to at least 1 other piece of yours; if legendary, 3 other pieces of yours. Count it as two destroyed pieces. Remove it from the game."
+        },
+        {
+            "type": "Everfrost",
+            "name": "Ice Queen",
+            "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+            "frozentext": "Do 1 standard move with one of your heroic pieces."
+        },
+        {
+            "type": "Everfrost",
+            "name": "Ice Wyvern",
+            "text": "The Ice Wyvern may do a combat leap to anywhere on the board. If the leap destroys a piece, destroy the Ice Wyvern.",
+            "frozentext": "Place a common piece of your color on an empty square adjacent to one of your heroic pieces."
+        },
+        {
+            "type": "Everfrost",
+            "name": "Crystal Grower",
+            "text": "Upgrade 1 common piece of each enemy color.",
+            "frozentext": "Upgrade a common piece of your color."
+        },
+        {
+            "type": "Everfrost",
+            "name": "Crystal Mirror",
+            "text": "You may choose 1 heroic or up to 2 common pieces on yellow-marked squares: For each, place one of your pieces with the same rank on the mirror-image square, if it is empty."
+        },
+        {
+            "type": "Everfrost",
+            "name": "Winter Whisperer",
+            "text": "",
+            "frozentext": "You may destroy one of your common pieces. You may discard 1 flare. If you do both, gain an action."
+        },
+        {
+            "type": "Everfrost",
+            "name": "Royal Reindeer",
+            "text": "The Royal Reindeer may do a combat leap to a distance of exactly 2. If neither the summoning nor the leap destroys a piece, upgrade the Royal Reindeer."
+        },
+        {
+            "type": "Everfrost",
+            "name": "Ice Princess",
+            "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+            "frozentext": "Do 1 standard move with one of your common pieces."
+        },
+        {
+            "type": "Everfrost",
+            "name": "War Sled",
+            "text": "The War Sled may do up to 3 combat moves, the first in one of the indicated directions and each subsequent move in a direction that differs by no more than 45 degrees from the previous move."
+        },
+        {
+            "type": "Everfrost",
+            "name": "Frost Imp",
+            "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+        },
+        {
+            "type": "Everfrost",
+            "name": "Polar Bear",
+            "text": "The Polar Bear may do a combat move. If that move destroys a piece, it may do a standard move. If that destroys a piece, it may do a move onto an empty square."
+        },
+        {
+            "type": "Everfrost",
+            "name": "Frozen Chest",
+            "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+        }
+    ]
+}

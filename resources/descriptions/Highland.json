@@ -1,0 +1,286 @@
+{
+   "hand":[
+      {
+         "id":"150",
+         "type":"Flare",
+         "type_arg":"10",
+         "location":"hand",
+         "location_arg":"90958523",
+         "upgraded":"Place 1 common piece of your color on any empty square.",
+         "pieces":"You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
+      },
+      {
+         "id":"37",
+         "type":"Highland",
+         "type_arg":"14",
+         "location":"hand",
+         "location_arg":"90958523",
+         "name":"Mountain Troll",
+         "text":"Destroy all common enemy pieces on adjacent squares. If you destroy at least 2 this way, gain an action."
+      },
+      {
+         "id":"41",
+         "type":"Highland",
+         "type_arg":"15",
+         "location":"hand",
+         "location_arg":"90958523",
+         "name":"Hungry Bear",
+         "text":"The hungry bear may do up to 2 standard moves. If it moves onto an empty square, it stops moving."
+      },
+      {
+         "id":"44",
+         "type":"Highland",
+         "type_arg":"9",
+         "location":"hand",
+         "location_arg":"90958523",
+         "name":"Hill Giant",
+         "text":"Destroy all non-legendary pieces on orthogonally adjacent squares."
+      },
+      {
+         "id":"131",
+         "type":"Legends",
+         "type_arg":"10",
+         "location":"hand",
+         "location_arg":"90958523",
+         "name":"Storm Elemental",
+         "text":"You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+      },
+      {
+         "id":"134",
+         "type":"Legends",
+         "type_arg":"11",
+         "location":"hand",
+         "location_arg":"90958523",
+         "name":"Titan",
+         "text":"Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+      }
+   ],
+   "discard":[
+      {
+         "id":"38",
+         "type":"Highland",
+         "type_arg":"12",
+         "location":"discard",
+         "location_arg":"29",
+         "name":"Ritual Master",
+         "text":"If the Ritual Master was summoned on a green square, gain 2 actions; if on a red square, you may destroy 1 heroic and\/or 1 common piece anywhere on the board."
+      },
+      {
+         "id":"39",
+         "type":"Highland",
+         "type_arg":"2",
+         "location":"discard",
+         "location_arg":"16",
+         "name":"Clan Healer",
+         "text":"You may place up to 2 common pieces of your color. Each must be placed on an empty square adjacent to a green square."
+      },
+      {
+         "id":"40",
+         "type":"Highland",
+         "type_arg":"5",
+         "location":"discard",
+         "location_arg":"13",
+         "name":"Eagle Lord",
+         "text":"The Eagle Lord may do a combat leap to any square of the board."
+      },
+      {
+         "id":"42",
+         "type":"Highland",
+         "type_arg":"17",
+         "location":"discard",
+         "location_arg":"25",
+         "name":"Clan Guardian",
+         "text":"You may upgrade 1 common piece used to summon the Clan Guardian."
+      },
+      {
+         "id":"43",
+         "type":"Highland",
+         "type_arg":"7",
+         "location":"discard",
+         "location_arg":"6",
+         "name":"Blood Shaman",
+         "text":"Destroy 1 non-legendary piece. If it was on a red square, destroy all common pieces adjacent to the red square."
+      },
+      {
+         "id":"46",
+         "type":"Highland",
+         "type_arg":"0",
+         "location":"discard",
+         "location_arg":"36",
+         "name":"Wild Eagle",
+         "text":"The Wild Eagle may do a combat leap to any square of the board."
+      },
+      {
+         "id":"47",
+         "type":"Highland",
+         "type_arg":"4",
+         "location":"discard",
+         "location_arg":"17",
+         "name":"Ritual Keeper",
+         "text":"If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
+      },
+      {
+         "id":"48",
+         "type":"Highland",
+         "type_arg":"3",
+         "location":"discard",
+         "location_arg":"30",
+         "name":"Dire Wolf",
+         "text":"The Dire Wolf may do up to 2 combat moves."
+      },
+      {
+         "id":"49",
+         "type":"Highland",
+         "type_arg":"11",
+         "location":"discard",
+         "location_arg":"3",
+         "name":"War Summoner",
+         "text":"Gain an action. For the pattern of the next being you summon this turn, you may use one enemy piece as though it were yours."
+      },
+      {
+         "id":"50",
+         "type":"Highland",
+         "type_arg":"8",
+         "location":"discard",
+         "location_arg":"7",
+         "name":"War Drummer",
+         "text":"Do either 1 combat move or up to 2 standard moves, using your pieces other than the War Drummer."
+      },
+      {
+         "id":"51",
+         "type":"Highland",
+         "type_arg":"10",
+         "location":"discard",
+         "location_arg":"12",
+         "name":"Warlord",
+         "text":"Do up to 3 combat moves, using your pieces. If you do all 3, at least one has to be with the Warlord."
+      },
+      {
+         "id":"52",
+         "type":"Highland",
+         "type_arg":"6",
+         "location":"discard",
+         "location_arg":"1",
+         "name":"Wolf Rider",
+         "text":"The Wolf Rider may do up to 2 combat moves."
+      },
+      {
+         "id":"53",
+         "type":"Highland",
+         "type_arg":"16",
+         "location":"discard",
+         "location_arg":"22",
+         "name":"Werewolf",
+         "text":"If the Werewolf was summoned on a non-central red or green square, it may do up to 3 combat moves. Otherwise it may do 1 standard move."
+      }
+   ],
+   "current_tasks":{
+      "158":{
+         "id":"158",
+         "type":"task",
+         "type_arg":"10",
+         "location":"current_tasks",
+         "location_arg":"0",
+         "name":"Rainbow Dominance",
+         "text":"You have more upgraded pieces on red squares and more upgraded pieces on green squares than your opponent does."
+      },
+      "166":{
+         "id":"166",
+         "type":"task",
+         "type_arg":"12",
+         "location":"current_tasks",
+         "location_arg":"0",
+         "name":"Green Summoning",
+         "text":"You summoned at least 2 beings this turn, at least 1 on a green square."
+      },
+      "169":{
+         "id":"169",
+         "type":"task",
+         "type_arg":"21",
+         "location":"current_tasks",
+         "location_arg":"0",
+         "name":"Imprisonment",
+         "text":"You have at least 6 pieces adjacent to the same enemy piece."
+      }
+   },
+   "next_task":{
+      "164":{
+         "id":"164",
+         "type":"task",
+         "type_arg":"0",
+         "location":"next_task",
+         "location_arg":"0",
+         "name":"Destruction",
+         "text":"You destroyed at least 3 enemy pieces this turn."
+      }
+   },
+   "claimed":{
+      "84804090":{
+         "151":{
+            "id":"151",
+            "type":"task",
+            "type_arg":"17",
+            "location":"claimed",
+            "location_arg":"84804090",
+            "name":"Line Dominance",
+            "text":"On one of the orthogonal lines through the central squares, you have 6 more pieces than your opponent does."
+         },
+         "155":{
+            "id":"155",
+            "type":"task",
+            "type_arg":"16",
+            "location":"claimed",
+            "location_arg":"84804090",
+            "name":"Center Cross",
+            "text":"You have at least 5 pieces on the central squares in a + or x pattern."
+         },
+         "162":{
+            "id":"162",
+            "type":"task",
+            "type_arg":"8",
+            "location":"claimed",
+            "location_arg":"84804090",
+            "name":"Red Legends",
+            "text":"You have at least 2 upgraded pieces on red squares, and at least 1 of them is legendary."
+         },
+         "171":{
+            "id":"171",
+            "type":"task",
+            "type_arg":"7",
+            "location":"claimed",
+            "location_arg":"84804090",
+            "name":"Color Conquest",
+            "text":"You have at least 5 pieces on red and\/or green squares, and at least 3 of them are upgraded."
+         }
+      },
+      "90958523":{
+         "161":{
+            "id":"161",
+            "type":"task",
+            "type_arg":"9",
+            "location":"claimed",
+            "location_arg":"90958523",
+            "name":"Green Legends",
+            "text":"You have at least 2 upgraded pieces on green squares, and at least 1 of them is legendary."
+         },
+         "165":{
+            "id":"165",
+            "type":"task",
+            "type_arg":"20",
+            "location":"claimed",
+            "location_arg":"90958523",
+            "name":"Corner Chain",
+            "text":"Squares in two opposite corners of the board are connected by a chain of your pieces."
+         },
+         "168":{
+            "id":"168",
+            "type":"task",
+            "type_arg":"5",
+            "location":"claimed",
+            "location_arg":"90958523",
+            "name":"Red Conquest",
+            "text":"You have at least 3 pieces on red squares, and at least 2 of them are upgraded."
+         }
+      }
+   }
+}

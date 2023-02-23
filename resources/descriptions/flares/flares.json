@@ -1,0 +1,201 @@
+[
+   {
+      "id":"144",
+      "type":"Flare",
+      "type_arg":"6",
+      "location":"hand",
+      "location_arg":"90958523",
+      "upgraded":"Place 1 common piece of your color on any empty square.",
+      "pieces":"Upgrade 1 of your common pieces. Gain an action."
+   },
+   {
+      "id":"142",
+      "type":"Flare",
+      "type_arg":"4",
+      "location":"hand",
+      "location_arg":"90958523",
+      "upgraded":"Do 1 standard move with one of your common pieces, or upgrade 1 of your common pieces.",
+      "pieces":"Place 2 common pieces of your color on empty squares."
+   },
+   {
+      "id":"148",
+      "type":"Flare",
+      "type_arg":"5",
+      "location":"hand",
+      "location_arg":"90958523",
+      "upgraded":"Place 1 common piece of your color on any empty square, or upgrade 1 of your common pieces.",
+      "pieces":"You may do 1 combat leap with one of your common pieces."
+   },
+   {
+      "id":"139",
+      "type":"Flare",
+      "type_arg":"6",
+      "location":"hand",
+      "location_arg":"90958523",
+      "upgraded":"Place 1 common piece of your color on any empty square.",
+      "pieces":"Upgrade 1 of your common pieces. Gain an action."
+   },
+   {
+      "id":"147",
+      "type":"Flare",
+      "type_arg":"6",
+      "location":"hand",
+      "location_arg":"90958523",
+      "upgraded":"Place 1 common piece of your color on any empty square.",
+      "pieces":"Upgrade 1 of your common pieces. Gain an action."
+   },
+   {
+      "id":"143",
+      "type":"Flare",
+      "type_arg":"7",
+      "location":"hand",
+      "location_arg":"90958523",
+      "upgraded":"Gain an action.",
+      "pieces":"Place 1 common piece of your color on any empty square."
+   },
+   {
+      "id":"148",
+      "type":"Flare",
+      "type_arg":"4",
+      "location":"hand",
+      "location_arg":"90958523",
+      "upgraded":"Do 1 standard move with one of your common pieces, or upgrade 1 of your common pieces.",
+      "pieces":"Place 2 common pieces of your color on empty squares."
+   },
+   {
+      "id":"145",
+      "type":"Flare",
+      "type_arg":"6",
+      "location":"hand",
+      "location_arg":"90958523",
+      "upgraded":"Place 1 common piece of your color on any empty square.",
+      "pieces":"Upgrade 1 of your common pieces. Gain an action."
+   },
+   {
+      "id":"150",
+      "type":"Flare",
+      "type_arg":"10",
+      "location":"hand",
+      "location_arg":"90958523",
+      "upgraded":"Place 1 common piece of your color on any empty square.",
+      "pieces":"You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
+   },
+   {
+      "id":"148",
+      "type":"Flare",
+      "type_arg":"4",
+      "location":"hand",
+      "location_arg":"90958523",
+      "upgraded":"Do 1 standard move with one of your common pieces, or upgrade 1 of your common pieces.",
+      "pieces":"Place 2 common pieces of your color on empty squares."
+   },
+   {
+      "id":"143",
+      "type":"Flare",
+      "type_arg":"7",
+      "location":"hand",
+      "location_arg":"90958523",
+      "upgraded":"Gain an action.",
+      "pieces":"Place 1 common piece of your color on any empty square."
+   },
+   {
+      "id":"143",
+      "type":"Flare",
+      "type_arg":"7",
+      "location":"hand",
+      "location_arg":"90958523",
+      "upgraded":"Gain an action.",
+      "pieces":"Place 1 common piece of your color on any empty square."
+   },
+   {
+      "id":"149",
+      "type":"Flare",
+      "type_arg":"8",
+      "location":"hand",
+      "location_arg":"90958523",
+      "upgraded":"Place 1 heroic piece of your color on any empty square.",
+      "pieces":"You may do 1 standard move and 1 combat move (in either order), using your common pieces."
+   },
+   {
+      "id":"145",
+      "type":"Flare",
+      "type_arg":"6",
+      "location":"hand",
+      "location_arg":"90958523",
+      "upgraded":"Place 1 common piece of your color on any empty square.",
+      "pieces":"Upgrade 1 of your common pieces. Gain an action."
+   },
+   {
+      "id":"150",
+      "type":"Flare",
+      "type_arg":"10",
+      "location":"hand",
+      "location_arg":"90958523",
+      "upgraded":"Place 1 common piece of your color on any empty square.",
+      "pieces":"You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
+   },
+   {
+      "id":"149",
+      "type":"Flare",
+      "type_arg":"8",
+      "location":"hand",
+      "location_arg":"90958523",
+      "upgraded":"Place 1 heroic piece of your color on any empty square.",
+      "pieces":"You may do 1 standard move and 1 combat move (in either order), using your common pieces."
+   },
+   {
+      "id":"140",
+      "type":"Flare",
+      "type_arg":"10",
+      "location":"hand",
+      "location_arg":"90958523",
+      "upgraded":"Place 1 common piece of your color on any empty square.",
+      "pieces":"You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
+   },
+   {
+      "id":"150",
+      "type":"Flare",
+      "type_arg":"4",
+      "location":"hand",
+      "location_arg":"90958523",
+      "upgraded":"Do 1 standard move with one of your common pieces, or upgrade 1 of your common pieces.",
+      "pieces":"Place 2 common pieces of your color on empty squares."
+   },
+
+        {
+            "type": "Flare",
+            "upgraded": "Place 1 common piece of your color on any empty square.",
+            "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+        },
+        {
+            "type": "Flare",
+            "upgraded": "Do 1 standard move with one of your common pieces, or upgrade 1 of your common pieces.",
+            "pieces": "Place 2 common pieces of your color on empty squares."
+        },
+           {
+            "type": "Flare",
+            "upgraded": "Place 1 common piece of your color on any empty square.",
+            "pieces": "You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
+        },
+           {
+            "type": "Flare",
+            "upgraded": "Place 1 common piece of your color on any empty square.",
+            "pieces": "You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
+        },
+           {
+            "type": "Flare",
+            "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+            "pieces": "Gain an action."
+        },
+           {
+            "type": "Flare",
+            "upgraded": "Place 1 common piece of your color on any empty square, or upgrade 1 of your common pieces.",
+            "pieces": "You may do 1 combat leap with one of your common pieces."
+        },
+           {
+            "type": "Flare",
+            "upgraded": "Do 1 standard move with one of your common pieces, or upgrade 1 of your common pieces.",
+            "pieces": "Place 2 common pieces of your color on empty squares."
+        }
+
+]
