@@ -86,3 +86,8 @@ class Faction(Enum):
 
     def is_imperial(self):
         return self is self.NORTHERN or self is self.SOUTHERN
+
+class NonFactionType(Enum):
+    LEGEND = "Legends"
+    FLARE = "Flare"
+    TASK = "task"

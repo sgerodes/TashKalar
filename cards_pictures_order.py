@@ -1,5 +1,75 @@
+from models import Faction, NonFactionType
+
+
+cards_manual_metadata_ordered = {
+    NonFactionType.LEGEND.value: [
+        {
+            "name": "Fire Dragon",
+            "common_cost": 1,
+            "upgraded_cost": 3,
+        },
+        {
+            "name": "Hell Bull",
+            "common_cost": 4,
+            "upgraded_cost": 2,
+        },
+        {
+            "name": "Angel of Death",
+            "common_cost": 5,
+            "upgraded_cost": 1,
+        },
+        {
+            "name": "The Eldest Tree",
+            "common_cost": 2,
+            "upgraded_cost": 2,
+        },
+        {
+            "name": "Bone Catapult",
+            "common_cost": 1,
+            "upgraded_cost": 3,
+        },
+        {
+            "name": "Fire  Elemental",
+            "common_cost": 3,
+            "upgraded_cost": 2,
+        },
+        {
+            "name": "Leviathan",
+            "common_cost": 1,
+            "upgraded_cost": 3,
+        },
+        {
+            "name": "Two-Headed Dragon",
+            "common_cost": 2,
+            "upgraded_cost": 3,
+        },
+        {
+            "name": "Earth Elemental",
+            "common_cost": 2,
+            "upgraded_cost": 3,
+        },
+        {
+            "name": "Time Elemental",
+            "common_cost": 2,
+            "upgraded_cost": 3,
+        },
+        {
+            "name": "Storm Elemental",
+            "common_cost": 1,
+            "upgraded_cost": 3,
+        },
+        {
+            "name": "Titan",
+            "common_cost": 3,
+            "upgraded_cost": 2,
+        },
+    ]
+}
+
+
+
 cards_pictures_order = {
-    'Etherweave': [
+    Faction.ETHERWEAVE.value: [
         "Doppelganger",
         "Paradox Worm",
         "Lesser Shadow Twin",
@@ -19,7 +89,7 @@ cards_pictures_order = {
         "Ziggurat Sentinel",
         "Iris of Eternity",
     ],
-    'Imperial': [
+    Faction.IMPERIAL.value: [
         "Swordmaster",
         "Messenger",
         "Herald",
@@ -38,13 +108,13 @@ cards_pictures_order = {
         "High Priestess",
         "Master of Intrigue",
         "Gun Tower"
-    ]
+    ],
 }
 cards_pictures_order['Northern'] = cards_pictures_order.get('Imperial')
 cards_pictures_order['Southern'] = cards_pictures_order.get('Imperial')
 
 cards_pictures_stats = {
-    'Etherweave': {
+    Faction.ETHERWEAVE.value: {
         "Doppelganger": {'cost': 2},
         "Paradox Worm": {'cost': 3},
         "Lesser Shadow Twin": {'cost': 3},
@@ -64,7 +134,7 @@ cards_pictures_stats = {
         "Ziggurat Sentinel": {'cost': 5},
         "Iris of Eternity": {'cost': 5},
     },
-    'Imperial': {
+    Faction.IMPERIAL.value: {
         "Swordmaster": {'cost': 2},
         "Messenger": {'cost': 2},
         "Herald": {'cost': 3},

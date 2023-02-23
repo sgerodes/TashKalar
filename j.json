@@ -3,118 +3,58 @@
         {
             "type": "Flare",
             "upgraded": "Place 1 common piece of your color on any empty square.",
-            "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+            "pieces": "You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
         }
     ],
     "legends": [
         {
             "type": "Legends",
-            "name": "Earth Elemental",
-            "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+            "name": "The Eldest Tree",
+            "text": "On up to 3 adjacent squares: if it has an enemy non-legendary piece, destroy it; if it has your common piece, upgrade it; if it is empty, place 1 common piece of your color there."
         },
         {
             "type": "Legends",
-            "name": "Hell Bull",
-            "text": "Choose any direction: The Hell Bull may do any number of combat moves in that direction. If it destroys a legendary piece, it stops."
+            "name": "Time Elemental",
+            "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
         }
     ],
     "faction_cards": [
         {
-            "type": "Southern",
-            "name": "Master of Intrigue",
-            "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+            "type": "Highland",
+            "name": "Ritual Keeper",
+            "text": "If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
         },
         {
-            "type": "Southern",
-            "name": "High Priestess",
-            "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
+            "type": "Highland",
+            "name": "Hill Giant",
+            "text": "Destroy all non-legendary pieces on orthogonally adjacent squares."
         },
         {
-            "type": "Southern",
-            "name": "Hypnotist",
-            "text": "You may choose up to 3 common or up to 2 heroic pieces in one enemy color: Do 1 combat move with each."
-        },
-        {
-            "type": "Southern",
-            "name": "Knight",
-            "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
-        },
-        {
-            "type": "Southern",
-            "name": "Cannon",
-            "text": "You may choose 1 of the indicated directions: Destroy all common pieces in that direction."
-        },
-        {
-            "type": "Southern",
-            "name": "Messenger",
-            "text": "You may choose 1 of your non-legendary pieces and a direction. That piece may do any number of standard moves in that direction."
-        },
-        {
-            "type": "Southern",
-            "name": "Herald",
-            "text": "Do up to 2 moves, using only your pieces. These moves can only be onto empty squares."
-        },
-        {
-            "type": "Southern",
-            "name": "Champion",
-            "text": "You may destroy 1 adjacent enemy piece. If that piece was legendary, you also destroy the Champion and gain an action."
-        },
-        {
-            "type": "Southern",
-            "name": "Summoner",
-            "text": "You may place up to 2 common pieces of your color on empty marked squares."
-        },
-        {
-            "type": "Southern",
-            "name": "Cavalry Captain",
-            "text": "You may choose 1 of your pieces other than the Cavalry Captain: You may do up to 1 combat move and up to 2 standard moves with it (in any order)."
-        },
-        {
-            "type": "Southern",
-            "name": "Infantry Captain",
-            "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
-        },
-        {
-            "type": "Southern",
-            "name": "Chronicler",
-            "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
-        },
-        {
-            "type": "Southern",
-            "name": "Gryphon Rider",
-            "text": "The Gryphon Rider may do a combat leap. If she does, you may then downgrade her and place 1 common piece of your color on an empty adjacent space."
-        },
-        {
-            "type": "Southern",
-            "name": "Gun Tower",
-            "text": "You may choose 1 of the indicated directions: Destroy the first 2 pieces in that direction. A legendary piece cannot be destroyed and stops the shot."
-        },
-        {
-            "type": "Southern",
-            "name": "Bomb",
-            "text": "If summoning the Bomb is your last action this turn, nothing happens ; otherwise, destroy the Bomb and all common pieces adjacent to it."
+            "type": "Highland",
+            "name": "Eagle Lord",
+            "text": "The Eagle Lord may do a combat leap to any square of the board."
         }
     ],
     "tasks": [
         {
             "type": "task",
-            "name": "Green Legends",
-            "text": "You have at least 2 upgraded pieces on green squares, and at least 1 of them is legendary."
+            "name": "Central Dominance",
+            "text": "You have at least 5 pieces on the nine central squares, and at least 2 of them are upgraded."
         },
         {
             "type": "task",
-            "name": "Imprisonment",
-            "text": "You have at least 6 pieces adjacent to the same enemy piece."
+            "name": "Side Chain",
+            "text": "Squares on two opposite sides of the board are connected by a chain of your pieces."
+        },
+        {
+            "type": "task",
+            "name": "Heroic Destruction",
+            "text": "You destroyed at least 3 enemy pieces this turn, at least 1 of them upgraded."
         },
         {
             "type": "task",
             "name": "Envelopment",
             "text": "You have at least 7 pieces adjacent to the same enemy piece."
-        },
-        {
-            "type": "task",
-            "name": "Red Legends",
-            "text": "You have at least 2 upgraded pieces on red squares, and at least 1 of them is legendary."
         }
     ]
 }

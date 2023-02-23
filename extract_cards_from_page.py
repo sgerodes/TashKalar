@@ -16,8 +16,12 @@ with open(f'./game_page.html', 'r') as f:
     legends = list()
     faction_cards = list()
 
-    for t in list(j.get('current_tasks').values()) + list(j.get('next_task').values()):
-        tasks.append({k:v for k,v in t.items() if k in {'type', 'name', 'text'}})
+    if j.get('current_tasks'):
+        for t in list(j.get('current_tasks').values()):
+            tasks.append({k: v for k, v in t.items() if k in {'type', 'name', 'text'}})
+    if j.get('next_task'):
+        for t in list(j.get('next_task').values()):
+            tasks.append({k: v for k, v in t.items() if k in {'type', 'name', 'text'}})
 
     for c in cards:
         if c.get('type') == "Flare":

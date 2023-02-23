@@ -1,21 +1,16 @@
 import json
+from cards_pictures_order import cards_pictures_order
 
+def read_legends():
+    with open(f'resources/descriptions/legends/legends.json', 'r') as f:
+        j = json.loads(f.read())
+        legend_set = {l['name'] for l in j}
+        for l in legend_set:
+            print(f'"{l}",')
 
-flares_description_folder = f"resources/descriptions/flares/"
-with open(flares_description_folder + "flares.json", "r") as f:
-    j = json.loads(f.read())
-    d = {flare['upgraded']+flare['pieces']: flare for flare in j}
-    for k, v in d.items():
-        d[k] = {
-            "upgraded": v["upgraded"],
-            "pieces": v["pieces"],
-            "pieces_cost": 0,
-            "upgraded_cost": 0,
-        }
+def reformat_legend():
+    cpo = cards_pictures_order.get('Legend')
+    for c in cpo:
+        print(f'\t\t{{\n\t\t\t"name": "{c}",\n\t\t\t"common_cost": 0,\n\t\t\t"upgraded_cost": 0,\n\t\t}},')
 
-    val_list = list(d.values())
-    result = {i: val_list[i] for i in range(len(val_list))}
-
-    with open(flares_description_folder + "flares_set.json", "w") as f2:
-        f2.write(json.dumps(result, indent=4))
 
