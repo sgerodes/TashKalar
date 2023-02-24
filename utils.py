@@ -4,6 +4,7 @@ import constants
 import logging
 from metadata import all_manual_metadata_ordered
 from models import *
+from imageManager import ImageManager
 
 
 logger = logging.getLogger()
@@ -29,21 +30,25 @@ def create_card(card_type: str, card_name: str) -> Card:
         card = CreatureCard()
         card.name = card_name
         card.text = fetched_metadata.get(card_name).get('text')
+        card.common_cost = manual_metadata.get(card_name).get('common_cost')
         # TODO
-    elif type == NonFactionType.LEGEND.value:
+    elif card_type == NonFactionType.LEGEND.value:
         card = LegendaryCard()
         card.name = card_name
         card.text = fetched_metadata.get(card_name).get('text')
+        card.common_cost = manual_metadata.get(card_name).get('common_cost')
+        card.upgraded_cost = manual_metadata.get(card_name).get('upgraded_cost')
         # TODO
-    elif type == NonFactionType.TASK.value:
+    elif card_type == NonFactionType.TASK.value:
         card = TaskCard()
         # TODO
-    elif type == NonFactionType.FLARE.value:
+    elif card_type == NonFactionType.FLARE.value:
         card = FlareCard()
         # TODO
     else:
-        logger.warning(f'Type {type} is not known')
+        logger.warning(f'Type {card_type} is not known')
         raise RuntimeError()
 
-    # card.pilImage = get_card_image_from_big_image(faction, card_name)
+    card.pilImage = get_card_image_from_big_image(faction, card_name)
 
+    return card

@@ -61,7 +61,7 @@ class LegendaryCard(CreatureCard):
         self.rank: str = Rank.LEGENDARY.value
         self.upgraded_cost = None
 
-    def get_pieces_cost(self) -> int:
+    def get_total_cost(self) -> int:
         return self.common_cost + self.upgraded_cost
 
 
