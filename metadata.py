@@ -1,7 +1,7 @@
 from models import Faction, NonFactionType
 
 
-cards_manual_metadata_ordered = {
+all_manual_metadata_ordered = {
     NonFactionType.LEGEND.value: [
         {
             "name": "Fire Dragon",

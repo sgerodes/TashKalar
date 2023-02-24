@@ -1,5 +1,5 @@
 import json
-from cards_pictures_order import cards_pictures_order
+from metadata import cards_pictures_order
 
 def read_legends():
     with open(f'resources/descriptions/legends/legends.json', 'r') as f:

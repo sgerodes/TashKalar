@@ -1,6 +1,6 @@
 from PIL import Image
 import os
-from cards_pictures_order import cards_pictures_order, cards_pictures_stats, cards_manual_metadata_ordered
+from metadata import cards_pictures_order, cards_pictures_stats, all_manual_metadata_ordered
 from functools import reduce
 import json
 from collections import defaultdict
@@ -123,7 +123,7 @@ def create_card_old(faction:str, card_name:str) -> Card:
 
 def create_card(type: str, card_name: str) -> Card:
     cards_jsons_dict = get_fetched_metadata(type)
-    cards_metadata = cards_manual_metadata_ordered[type]
+    cards_metadata = all_manual_metadata_ordered[type]
 
     if type in factions_original or type == Faction.IMPERIAL.value:
         card = CreatureCard()
@@ -254,7 +254,7 @@ def create_ranked_legends():
     create_new_folder(ranked_pictures_path)
     legend_str = NonFactionType.LEGEND.value
     legend_cards = list()
-    legends_metadata_ordered = cards_manual_metadata_ordered[legend_str]
+    legends_metadata_ordered = all_manual_metadata_ordered[legend_str]
     for l in legends_metadata_ordered:
         card_name = l.get('name')
 
