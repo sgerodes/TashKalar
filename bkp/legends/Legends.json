@@ -79,5 +79,15 @@
             "type": "Legends",
             "name": "Hell Bull",
             "text": "Choose any direction: The Hell Bull may do any number of combat moves in that direction. If it destroys a legendary piece, it stops."
+        },
+          {
+            "type": "Legends",
+            "name": "Storm Elemental",
+            "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+        },
+        {
+            "type": "Legends",
+            "name": "Fire Dragon",
+            "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
         }
 ]

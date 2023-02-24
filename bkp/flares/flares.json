@@ -201,6 +201,11 @@
             "type": "Flare",
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
+        },
+          {
+            "type": "Flare",
+            "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+            "pieces": "Gain an action."
         }
 
 ]

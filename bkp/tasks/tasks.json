@@ -118,6 +118,26 @@
             "type": "task",
             "name": "Red Legends",
             "text": "You have at least 2 upgraded pieces on red squares, and at least 1 of them is legendary."
+        },
+          {
+            "type": "task",
+            "name": "Green Conquest",
+            "text": "You have at least 3 pieces on green squares, and at least 2 of them are upgraded."
+        },
+        {
+            "type": "task",
+            "name": "Red Conquest",
+            "text": "You have at least 3 pieces on red squares, and at least 2 of them are upgraded."
+        },
+        {
+            "type": "task",
+            "name": "Central Dominance",
+            "text": "You have at least 5 pieces on the nine central squares, and at least 2 of them are upgraded."
+        },
+        {
+            "type": "task",
+            "name": "Envelopment",
+            "text": "You have at least 7 pieces adjacent to the same enemy piece."
         }
 
 ]

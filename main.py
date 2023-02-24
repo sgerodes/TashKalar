@@ -147,9 +147,32 @@ def create_card(type: str, card_name: str) -> Card:
 
 
 def get_fetched_metadata(faction):
-    important_card_json_keys = {'type', 'name', 'text', 'warptext', 'frozentext'}
+    important_card_json_keys = {'type', 'name', 'text', 'warptext', 'frozentext', 'upgraded', 'pieces'}
     def filter_only_important_data(card_json):
         return {k: v for k, v in card_json.items() if k in important_card_json_keys}
+
+    # open all.jsons
+    all_jsons = list()
+    all_jsons_paths = [
+        f'{description_folder}/all_0.json',
+        f'{description_folder}/all_1.json',
+        f'{description_folder}/all_2.json',
+        f'{description_folder}/all_3.json',
+        f'{description_folder}/all_4.json',
+        f'{description_folder}/all_5.json',
+        f'{description_folder}/all_6.json',
+    ]
+    for file in all_jsons_paths:
+        with open(file, 'r') as f:
+            all_jsons.extend(json.loads(f.read()))
+
+    if faction == NonFactionType.FLARE.value:
+        local_cards_jsons = list(filter(lambda card: card.get('type') == faction, all_jsons))
+        return {j['upgraded']+j['pieces']: filter_only_important_data(j) for j in local_cards_jsons}
+
+    if faction == NonFactionType.TASK.value:
+        local_cards_jsons = list(filter(lambda card: card.get('type') == faction, all_jsons))
+        return {j['name']: filter_only_important_data(j) for j in local_cards_jsons}
 
     if faction in imperial_factions:
         paths = [
@@ -177,7 +200,9 @@ def get_fetched_metadata(faction):
             return None
         with open(file_path, 'r') as f:
             description_json = json.loads(f.read())
-            return {j['name']: j for j in description_json}
+            description_json += all_jsons
+            description_json = list(filter(lambda card: card.get('type') == faction, description_json))
+            return {j['name']: filter_only_important_data(j) for j in description_json}
     else:
         file_path = f'{description_folder}/{faction}.json'
         logger.info(f'Reading json of faction {faction} at {file_path}')
@@ -187,6 +212,7 @@ def get_fetched_metadata(faction):
         with open(file_path, 'r') as f:
             description_json = json.loads(f.read())
             cards_jsons = description_json.get('hand') + description_json.get('discard')
+            cards_jsons += all_jsons
             if description_json.get('faction_cards'):
                 cards_jsons += description_json.get('faction_cards')
             cards_jsons = list(filter(lambda card: card.get('type') == faction, cards_jsons))
@@ -274,19 +300,15 @@ def combine_imperial():
     combined_set_image.save(f'{pictures_folder}/Imperial_big.webp')
     # combined_set_image.show()
 
-
-if __name__ == '__main__':
-    # Highland Not all cards present. Is 16, Should 18
-    # Sylvan Not all cards present. Is 15, Should 18
-    # NETHERVOID Not all cards present. Is 14, Should 18
-    card_type = Faction.HIGHLAND
+def save_for_faction():
+    card_type = NonFactionType.TASK
     if card_type in factions_all:
         card_count = faction_card_count
-    elif card_type == NonFactionType.LEGEND.value:
+    elif card_type == NonFactionType.LEGEND:
         card_count = legend_count
-    elif card_type == NonFactionType.FLARE.value:
+    elif card_type == NonFactionType.FLARE:
         card_count = flares_count
-    elif card_type == NonFactionType.TASK.value:
+    elif card_type == NonFactionType.TASK:
         card_count = tasks_count
     else:
         raise RuntimeError(f'Not known card_type: {card_type}')
@@ -296,6 +318,29 @@ if __name__ == '__main__':
     if len(fetched_metadata) < card_count:
         print(f'Not all cards present. Is {len(fetched_metadata)}, Should {card_count}')
     print(fetched_metadata)
+    print(sorted(fetched_metadata.keys()))
     with open(f'resources/descriptions/{faction_str}_2.json', "w") as f:
         f.write(json.dumps(fetched_metadata, indent=4))
+
+
+def create_all_in_one_description():
+    card_to_read = list(factions_imperial_combined) + [NonFactionType.TASK, NonFactionType.FLARE, NonFactionType.LEGEND]
+    card_to_read = list(map(lambda e: e.value, card_to_read))
+
+    all_in_one_json = {}
+    for card_type in card_to_read:
+        fp = f'resources/descriptions/{card_type}.json'
+        with open(fp, "r") as fr:
+            all_in_one_json[card_type] = json.loads(fr.read())
+
+    all_in_one_json[Faction.SOUTHERN.value] = all_in_one_json[Faction.IMPERIAL.value]
+    all_in_one_json[Faction.NORTHERN.value] = all_in_one_json[Faction.IMPERIAL.value]
+
+    with open(f'resources/descriptions/all_in_one.json', "w") as fw:
+        fw.write(json.dumps(all_in_one_json, indent=4))
+
+
+
+if __name__ == '__main__':
+    create_all_in_one_description()
 

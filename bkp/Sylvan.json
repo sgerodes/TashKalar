@@ -1,0 +1,404 @@
+{
+   "players":{
+      "86382033":{
+         "id":"86382033",
+         "score":"3",
+         "color":"d6b156",
+         "deck":"2",
+         "card":"3",
+         "cardname":"Dire Wolf",
+         "text":"The Dire Wolf may do up to 2 combat moves.",
+         "color_back":null,
+         "name":"SunovaPeach",
+         "avatar":"355fd1555a",
+         "zombie":0,
+         "eliminated":0,
+         "is_ai":"0",
+         "beginner":false
+      },
+      "90958523":{
+         "id":"90958523",
+         "score":"6",
+         "color":"8ec459",
+         "deck":"3",
+         "card":"2",
+         "cardname":"Charging Buck",
+         "text":"The Charging Buck may do up to 2 combat leaps, each of distance exactly 2.",
+         "color_back":null,
+         "name":"BordGameFreak",
+         "avatar":"_def_171",
+         "zombie":0,
+         "eliminated":0,
+         "is_ai":"0",
+         "beginner":false
+      }
+   },
+   "game_form":"highform",
+   "last_player":"0",
+   "board":[
+      {
+         "x":"3",
+         "y":"2",
+         "player":"86382033",
+         "rank":"1"
+      },
+      {
+         "x":"3",
+         "y":"3",
+         "player":"86382033",
+         "rank":"0"
+      },
+      {
+         "x":"3",
+         "y":"5",
+         "player":"90958523",
+         "rank":"1"
+      },
+      {
+         "x":"4",
+         "y":"1",
+         "player":"86382033",
+         "rank":"1"
+      },
+      {
+         "x":"4",
+         "y":"3",
+         "player":"86382033",
+         "rank":"0"
+      },
+      {
+         "x":"4",
+         "y":"7",
+         "player":"90958523",
+         "rank":"1"
+      },
+      {
+         "x":"5",
+         "y":"1",
+         "player":"86382033",
+         "rank":"0"
+      },
+      {
+         "x":"5",
+         "y":"2",
+         "player":"86382033",
+         "rank":"1"
+      },
+      {
+         "x":"5",
+         "y":"4",
+         "player":"86382033",
+         "rank":"2"
+      },
+      {
+         "x":"5",
+         "y":"7",
+         "player":"90958523",
+         "rank":"1"
+      },
+      {
+         "x":"6",
+         "y":"1",
+         "player":"86382033",
+         "rank":"0"
+      },
+      {
+         "x":"6",
+         "y":"6",
+         "player":"90958523",
+         "rank":"0"
+      },
+      {
+         "x":"6",
+         "y":"7",
+         "player":"90958523",
+         "rank":"0"
+      },
+      {
+         "x":"7",
+         "y":"3",
+         "player":"86382033",
+         "rank":"1"
+      },
+      {
+         "x":"7",
+         "y":"7",
+         "player":"90958523",
+         "rank":"0"
+      }
+   ],
+   "hand":[
+      {
+         "id":"148",
+         "type":"Flare",
+         "type_arg":"5",
+         "location":"hand",
+         "location_arg":"90958523",
+         "upgraded":"Place 1 common piece of your color on any empty square, or upgrade 1 of your common pieces.",
+         "pieces":"You may do 1 combat leap with one of your common pieces."
+      },
+      {
+         "id":"130",
+         "type":"Legends",
+         "type_arg":"10",
+         "location":"hand",
+         "location_arg":"90958523",
+         "name":"Storm Elemental",
+         "text":"You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+      },
+      {
+         "id":"135",
+         "type":"Legends",
+         "type_arg":"6",
+         "location":"hand",
+         "location_arg":"90958523",
+         "name":"Leviathan",
+         "text":"Chose one: Either downgrade a connected group of up to 3 upgraded pieces or destroy a connected group of up to 4 common pieces. (A group may have multiple colors.)"
+      },
+      {
+         "id":"137",
+         "type":"Legends",
+         "type_arg":"5",
+         "location":"hand",
+         "location_arg":"90958523",
+         "name":"Fire Elemental",
+         "text":"Destroy either all non-legendary enemy pieces on all adjacent squares or all common enemy pieces up to distance 2."
+      },
+      {
+         "id":"57",
+         "type":"Sylvan",
+         "type_arg":"17",
+         "location":"hand",
+         "location_arg":"90958523",
+         "name":"Tree Shepherd",
+         "text":"Choose 1 of your pieces: If it is common, upgrade it; if heroic, it may do 1 combat move; if legendary, it may do 1 standard move."
+      },
+      {
+         "id":"58",
+         "type":"Sylvan",
+         "type_arg":"16",
+         "location":"hand",
+         "location_arg":"90958523",
+         "name":"Kiskin Boughrunner",
+         "text":"The Kiskin Boughrunner may do up to 3 combat moves. Each move must end on a square adjacent to one of your pieces."
+      },
+      {
+         "id":"69",
+         "type":"Sylvan",
+         "type_arg":"4",
+         "location":"hand",
+         "location_arg":"90958523",
+         "name":"Naiad",
+         "text":"You may choose up to 2 of your pieces adjacent to the Naiad and do 1 standard move with each."
+      }
+   ],
+   "discard":[
+      {
+         "id":"55",
+         "type":"Sylvan",
+         "type_arg":"2",
+         "location":"discard",
+         "location_arg":"27",
+         "name":"Charging Buck",
+         "text":"The Charging Buck may do up to 2 combat leaps, each of distance exactly 2."
+      },
+      {
+         "id":"56",
+         "type":"Sylvan",
+         "type_arg":"12",
+         "location":"discard",
+         "location_arg":"19",
+         "name":"Woodland Druid",
+         "text":"Upgrade 1 common piece of each color."
+      },
+      {
+         "id":"59",
+         "type":"Sylvan",
+         "type_arg":"13",
+         "location":"discard",
+         "location_arg":"2",
+         "name":"Forest Ancient",
+         "text":"Place 2 enemy common pieces on empty squares up to distance 2. Then destroy 2 common pieces of the same color or colors up to distance 3."
+      },
+      {
+         "id":"60",
+         "type":"Sylvan",
+         "type_arg":"5",
+         "location":"discard",
+         "location_arg":"1",
+         "name":"Kiskin Spirit",
+         "text":"You may choose a card from your discard pile and put it on top of your deck. If you do, or if your discard pile was empty, draw 1 extra card from your deck at the end of this turn."
+      },
+      {
+         "id":"61",
+         "type":"Sylvan",
+         "type_arg":"0",
+         "location":"discard",
+         "location_arg":"22",
+         "name":"Sapling",
+         "text":"Upgrade the Sapling after summoning it."
+      },
+      {
+         "id":"62",
+         "type":"Sylvan",
+         "type_arg":"8",
+         "location":"discard",
+         "location_arg":"16",
+         "name":"Centaur Chieftain",
+         "text":"The Centaur Chieftain may do 1 combat move. If he does, you may do up to 3 combat moves in the same direction, using other pieces of yours."
+      },
+      {
+         "id":"66",
+         "type":"Sylvan",
+         "type_arg":"10",
+         "location":"discard",
+         "location_arg":"9",
+         "name":"Sylvan Queen",
+         "text":"You may convert 1 non-legendary enemy piece on a diagonally adjacent square to your piece of the same rank."
+      },
+      {
+         "id":"67",
+         "type":"Sylvan",
+         "type_arg":"14",
+         "location":"discard",
+         "location_arg":"8",
+         "name":"Forest Mystic",
+         "text":"At the end of this turn, draw 1 extra card from your deck and 1 extra card from the legendary deck."
+      },
+      {
+         "id":"68",
+         "type":"Sylvan",
+         "type_arg":"9",
+         "location":"discard",
+         "location_arg":"3",
+         "name":"Unicorn",
+         "text":"Choose one: Either the Unicorn may do 1 combat move, or you gain 1 action."
+      },
+      {
+         "id":"70",
+         "type":"Sylvan",
+         "type_arg":"7",
+         "location":"discard",
+         "location_arg":"26",
+         "name":"Centaur Spearman",
+         "text":"The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+      },
+      {
+         "id":"71",
+         "type":"Sylvan",
+         "type_arg":"3",
+         "location":"discard",
+         "location_arg":"14",
+         "name":"Forest Wardens",
+         "text":"Destroy 1 common piece of an opponent with more common pieces than you. Destroy 1 heroic piece of an opponent with more upgraded pieces than you."
+      },
+      {
+         "id":"72",
+         "type":"Sylvan",
+         "type_arg":"11",
+         "location":"discard",
+         "location_arg":"4",
+         "name":"Sylvan Princess",
+         "text":"You may convert 1 common enemy piece on a diagonally adjacent square to your common piece."
+      }
+   ],
+   "current_tasks":{
+      "154":{
+         "id":"154",
+         "type":"task",
+         "type_arg":"6",
+         "location":"current_tasks",
+         "location_arg":"0",
+         "name":"Green Conquest",
+         "text":"You have at least 3 pieces on green squares, and at least 2 of them are upgraded."
+      },
+      "159":{
+         "id":"159",
+         "type":"task",
+         "type_arg":"19",
+         "location":"current_tasks",
+         "location_arg":"0",
+         "name":"Side Chain",
+         "text":"Squares on two opposite sides of the board are connected by a chain of your pieces."
+      },
+      "169":{
+         "id":"169",
+         "type":"task",
+         "type_arg":"23",
+         "location":"current_tasks",
+         "location_arg":"0",
+         "name":"Isolation",
+         "text":"An enemy piece is within 2 squares of another enemy piece, but it cannot get adjacent to any enemy piece in 3 or fewer moves through empty squares."
+      }
+   },
+   "next_task":{
+      "161":{
+         "id":"161",
+         "type":"task",
+         "type_arg":"21",
+         "location":"next_task",
+         "location_arg":"0",
+         "name":"Imprisonment",
+         "text":"You have at least 6 pieces adjacent to the same enemy piece."
+      }
+   },
+   "claimed":{
+      "86382033":{
+         "168":{
+            "id":"168",
+            "type":"task",
+            "type_arg":"2",
+            "location":"claimed",
+            "location_arg":"86382033",
+            "name":"Heroic Destruction",
+            "text":"You destroyed at least 3 enemy pieces this turn, at least 1 of them upgraded."
+         }
+      },
+      "90958523":{
+         "151":{
+            "id":"151",
+            "type":"task",
+            "type_arg":"1",
+            "location":"claimed",
+            "location_arg":"90958523",
+            "name":"Devastation",
+            "text":"You destroyed at least 4 enemy pieces this turn."
+         },
+         "160":{
+            "id":"160",
+            "type":"task",
+            "type_arg":"22",
+            "location":"claimed",
+            "location_arg":"90958523",
+            "name":"Envelopment",
+            "text":"You have at least 7 pieces adjacent to the same enemy piece."
+         },
+         "171":{
+            "id":"171",
+            "type":"task",
+            "type_arg":"16",
+            "location":"claimed",
+            "location_arg":"90958523",
+            "name":"Center Cross",
+            "text":"You have at least 5 pieces on the central squares in a + or x pattern."
+         }
+      }
+   },
+   "faction_cards": [
+     {
+         "type": "Sylvan",
+         "name": "Forest Ancient",
+         "text": "Place 2 enemy common pieces on empty squares up to distance 2. Then destroy 2 common pieces of the same color or colors up to distance 3."
+     },
+     {
+         "type": "Sylvan",
+         "name": "Sylvan Princess",
+         "text": "You may convert 1 common enemy piece on a diagonally adjacent square to your common piece."
+     },
+     {
+         "type": "Sylvan",
+         "name": "Tree Shepherd",
+         "text": "Choose 1 of your pieces: If it is common, upgrade it; if heroic, it may do 1 combat move; if legendary, it may do 1 standard move."
+     }
+ ]
+}

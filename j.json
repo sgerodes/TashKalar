@@ -2,54 +2,54 @@
     "flares": [
         {
             "type": "Flare",
-            "upgraded": "Place 1 common piece of your color on any empty square.",
-            "pieces": "You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
+            "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+            "pieces": "Gain an action."
         }
     ],
     "legends": [
         {
             "type": "Legends",
-            "name": "The Eldest Tree",
-            "text": "On up to 3 adjacent squares: if it has an enemy non-legendary piece, destroy it; if it has your common piece, upgrade it; if it is empty, place 1 common piece of your color there."
+            "name": "Storm Elemental",
+            "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
         },
         {
             "type": "Legends",
-            "name": "Time Elemental",
-            "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
+            "name": "Fire Dragon",
+            "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
         }
     ],
     "faction_cards": [
         {
-            "type": "Highland",
-            "name": "Ritual Keeper",
-            "text": "If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
+            "type": "Sylvan",
+            "name": "Forest Ancient",
+            "text": "Place 2 enemy common pieces on empty squares up to distance 2. Then destroy 2 common pieces of the same color or colors up to distance 3."
         },
         {
-            "type": "Highland",
-            "name": "Hill Giant",
-            "text": "Destroy all non-legendary pieces on orthogonally adjacent squares."
+            "type": "Sylvan",
+            "name": "Sylvan Princess",
+            "text": "You may convert 1 common enemy piece on a diagonally adjacent square to your common piece."
         },
         {
-            "type": "Highland",
-            "name": "Eagle Lord",
-            "text": "The Eagle Lord may do a combat leap to any square of the board."
+            "type": "Sylvan",
+            "name": "Tree Shepherd",
+            "text": "Choose 1 of your pieces: If it is common, upgrade it; if heroic, it may do 1 combat move; if legendary, it may do 1 standard move."
         }
     ],
     "tasks": [
         {
             "type": "task",
+            "name": "Green Conquest",
+            "text": "You have at least 3 pieces on green squares, and at least 2 of them are upgraded."
+        },
+        {
+            "type": "task",
+            "name": "Red Conquest",
+            "text": "You have at least 3 pieces on red squares, and at least 2 of them are upgraded."
+        },
+        {
+            "type": "task",
             "name": "Central Dominance",
             "text": "You have at least 5 pieces on the nine central squares, and at least 2 of them are upgraded."
-        },
-        {
-            "type": "task",
-            "name": "Side Chain",
-            "text": "Squares on two opposite sides of the board are connected by a chain of your pieces."
-        },
-        {
-            "type": "task",
-            "name": "Heroic Destruction",
-            "text": "You destroyed at least 3 enemy pieces this turn, at least 1 of them upgraded."
         },
         {
             "type": "task",
