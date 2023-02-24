@@ -1,0 +1,3506 @@
+[
+    {
+        "id": "151",
+        "type": "task",
+        "type_arg": "19",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Side Chain",
+        "text": "Squares on two opposite sides of the board are connected by a chain of your pieces."
+    },
+    {
+        "id": "151",
+        "type": "task",
+        "type_arg": "19",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Side Chain",
+        "text": "Squares on two opposite sides of the board are connected by a chain of your pieces."
+    },
+    {
+        "id": "131",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "144",
+        "type": "Flare",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 heroic piece of your color on any empty square."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "17",
+        "location": "frozen",
+        "location_arg": "1",
+        "name": "Frostweave Illusionist",
+        "text": "Convert the Frostweave Illusionist to a common piece of an enemy color.",
+        "frozentext": "Convert any common enemy piece to your common piece."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Frostweave Illusionist",
+        "text": "Convert the Frostweave Illusionist to a common piece of an enemy color.",
+        "frozentext": "Convert any common enemy piece to your common piece."
+    },
+    {
+        "id": "168",
+        "type": "task",
+        "type_arg": "8",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Red Legends",
+        "text": "You have at least 2 upgraded pieces on red squares, and at least 1 of them is legendary."
+    },
+    {
+        "id": "168",
+        "type": "task",
+        "type_arg": "8",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Red Legends",
+        "text": "You have at least 2 upgraded pieces on red squares, and at least 1 of them is legendary."
+    },
+    {
+        "id": "95",
+        "type": "Nethervoid",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Gate Keeper",
+        "text": "You may upgrade any one of your common pieces or place a common piece of your color on an empty square.  In either case, that piece becomes the Gateway."
+    },
+    {
+        "id": "103",
+        "type": "Nethervoid",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Pride",
+        "text": "Upgrade the Demon of Pride. It becomes the Gateway. It may do 1 combat move."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Frostweave Illusionist",
+        "text": "Convert the Frostweave Illusionist to a common piece of an enemy color.",
+        "frozentext": "Convert any common enemy piece to your common piece."
+    },
+    {
+        "id": "139",
+        "type": "Flare",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "Gain an action.",
+        "pieces": "Place 1 common piece of your color on any empty square."
+    },
+    {
+        "id": "88",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "155",
+        "type": "task",
+        "type_arg": "17",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Line Dominance",
+        "text": "On one of the orthogonal lines through the central squares, you have 6 more pieces than your opponent does."
+    },
+    {
+        "id": "155",
+        "type": "task",
+        "type_arg": "17",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Line Dominance",
+        "text": "On one of the orthogonal lines through the central squares, you have 6 more pieces than your opponent does."
+    },
+    {
+        "id": "108",
+        "type": "Nethervoid",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Lust",
+        "text": "Choose up to 2 pieces (not necessarily yours). With each, do 1 combat move toward the Gateway. These moves must not destroy the Gateway."
+    },
+    {
+        "id": "137",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "94",
+        "type": "Nethervoid",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Flame Imp",
+        "text": "You may destroy a common piece adjacent to the Gateway."
+    },
+    {
+        "id": "88",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "141",
+        "type": "Flare",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "Do 1 standard move with one of your common pieces, or upgrade 1 of your common pieces.",
+        "pieces": "Place 2 common pieces of your color on empty squares."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Snow Fox",
+        "text": "The Snow Fox may do up to 2 standard moves."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "11",
+        "name": "Ice Princess",
+        "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+        "frozentext": "Do 1 standard move with one of your common pieces."
+    },
+    {
+        "id": "74",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "130",
+        "type": "Legends",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Time Elemental",
+        "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
+    },
+    {
+        "id": "140",
+        "type": "Flare",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Deathbringer",
+        "text": "You may destroy an adjacent piece; if heroic, it must be adjacent to at least 1 other piece of yours; if legendary, 3 other pieces of yours. Count it as two destroyed pieces. Remove it from the game."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "82",
+        "type": "Everfrost",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Crystal Mirror",
+        "text": "You may choose 1 heroic or up to 2 common pieces on yellow-marked squares: For each, place one of your pieces with the same rank on the mirror-image square, if it is empty."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Snow Fox",
+        "text": "The Snow Fox may do up to 2 standard moves."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "11",
+        "name": "Ice Princess",
+        "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+        "frozentext": "Do 1 standard move with one of your common pieces."
+    },
+    {
+        "id": "74",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "130",
+        "type": "Legends",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Time Elemental",
+        "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
+    },
+    {
+        "id": "140",
+        "type": "Flare",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Deathbringer",
+        "text": "You may destroy an adjacent piece; if heroic, it must be adjacent to at least 1 other piece of yours; if legendary, 3 other pieces of yours. Count it as two destroyed pieces. Remove it from the game."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "82",
+        "type": "Everfrost",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Crystal Mirror",
+        "text": "You may choose 1 heroic or up to 2 common pieces on yellow-marked squares: For each, place one of your pieces with the same rank on the mirror-image square, if it is empty."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Snow Fox",
+        "text": "The Snow Fox may do up to 2 standard moves."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "11",
+        "name": "Ice Princess",
+        "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+        "frozentext": "Do 1 standard move with one of your common pieces."
+    },
+    {
+        "id": "74",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "130",
+        "type": "Legends",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Time Elemental",
+        "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
+    },
+    {
+        "id": "140",
+        "type": "Flare",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Deathbringer",
+        "text": "You may destroy an adjacent piece; if heroic, it must be adjacent to at least 1 other piece of yours; if legendary, 3 other pieces of yours. Count it as two destroyed pieces. Remove it from the game."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "82",
+        "type": "Everfrost",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Crystal Mirror",
+        "text": "You may choose 1 heroic or up to 2 common pieces on yellow-marked squares: For each, place one of your pieces with the same rank on the mirror-image square, if it is empty."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Snow Fox",
+        "text": "The Snow Fox may do up to 2 standard moves."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "11",
+        "name": "Ice Princess",
+        "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+        "frozentext": "Do 1 standard move with one of your common pieces."
+    },
+    {
+        "id": "74",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "130",
+        "type": "Legends",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Time Elemental",
+        "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
+    },
+    {
+        "id": "140",
+        "type": "Flare",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Deathbringer",
+        "text": "You may destroy an adjacent piece; if heroic, it must be adjacent to at least 1 other piece of yours; if legendary, 3 other pieces of yours. Count it as two destroyed pieces. Remove it from the game."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "82",
+        "type": "Everfrost",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Crystal Mirror",
+        "text": "You may choose 1 heroic or up to 2 common pieces on yellow-marked squares: For each, place one of your pieces with the same rank on the mirror-image square, if it is empty."
+    },
+    {
+        "id": "166",
+        "type": "task",
+        "type_arg": "22",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Envelopment",
+        "text": "You have at least 7 pieces adjacent to the same enemy piece."
+    },
+    {
+        "id": "166",
+        "type": "task",
+        "type_arg": "22",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Envelopment",
+        "text": "You have at least 7 pieces adjacent to the same enemy piece."
+    },
+    {
+        "id": "103",
+        "type": "Nethervoid",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Pride",
+        "text": "Upgrade the Demon of Pride. It becomes the Gateway. It may do 1 combat move."
+    },
+    {
+        "id": "100",
+        "type": "Nethervoid",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Shadow Imp",
+        "text": "The Shadow Imp may do 1 combat move. If it does and it is not the Gateway, then the Gateway may do 1 combat move in the same direction"
+    },
+    {
+        "id": "104",
+        "type": "Nethervoid",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Gluttony",
+        "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+    },
+    {
+        "id": "105",
+        "type": "Nethervoid",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Hell Rider",
+        "text": "If the Hell Rider is the Gateway, it may do 1 combat move. Otherwise, it may do up to 3 combat moves."
+    },
+    {
+        "id": "82",
+        "type": "Everfrost",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Crystal Mirror",
+        "text": "You may choose 1 heroic or up to 2 common pieces on yellow-marked squares: For each, place one of your pieces with the same rank on the mirror-image square, if it is empty."
+    },
+    {
+        "id": "140",
+        "type": "Flare",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "4",
+        "location": "frozen",
+        "location_arg": "1",
+        "name": "Ice Princess",
+        "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+        "frozentext": "Do 1 standard move with one of your common pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Ice Princess",
+        "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+        "frozentext": "Do 1 standard move with one of your common pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Snow Fox",
+        "text": "The Snow Fox may do up to 2 standard moves."
+    },
+    {
+        "id": "74",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "130",
+        "type": "Legends",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Time Elemental",
+        "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
+    },
+    {
+        "id": "142",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Deathbringer",
+        "text": "You may destroy an adjacent piece; if heroic, it must be adjacent to at least 1 other piece of yours; if legendary, 3 other pieces of yours. Count it as two destroyed pieces. Remove it from the game."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Ice Princess",
+        "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+        "frozentext": "Do 1 standard move with one of your common pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Snow Fox",
+        "text": "The Snow Fox may do up to 2 standard moves."
+    },
+    {
+        "id": "74",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "130",
+        "type": "Legends",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Time Elemental",
+        "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
+    },
+    {
+        "id": "142",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Deathbringer",
+        "text": "You may destroy an adjacent piece; if heroic, it must be adjacent to at least 1 other piece of yours; if legendary, 3 other pieces of yours. Count it as two destroyed pieces. Remove it from the game."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Ice Princess",
+        "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+        "frozentext": "Do 1 standard move with one of your common pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Snow Fox",
+        "text": "The Snow Fox may do up to 2 standard moves."
+    },
+    {
+        "id": "74",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "130",
+        "type": "Legends",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Time Elemental",
+        "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
+    },
+    {
+        "id": "142",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Deathbringer",
+        "text": "You may destroy an adjacent piece; if heroic, it must be adjacent to at least 1 other piece of yours; if legendary, 3 other pieces of yours. Count it as two destroyed pieces. Remove it from the game."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Ice Princess",
+        "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+        "frozentext": "Do 1 standard move with one of your common pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Snow Fox",
+        "text": "The Snow Fox may do up to 2 standard moves."
+    },
+    {
+        "id": "74",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "130",
+        "type": "Legends",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Time Elemental",
+        "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
+    },
+    {
+        "id": "142",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Deathbringer",
+        "text": "You may destroy an adjacent piece; if heroic, it must be adjacent to at least 1 other piece of yours; if legendary, 3 other pieces of yours. Count it as two destroyed pieces. Remove it from the game."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Ice Princess",
+        "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+        "frozentext": "Do 1 standard move with one of your common pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Snow Fox",
+        "text": "The Snow Fox may do up to 2 standard moves."
+    },
+    {
+        "id": "74",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "130",
+        "type": "Legends",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Time Elemental",
+        "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
+    },
+    {
+        "id": "142",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Deathbringer",
+        "text": "You may destroy an adjacent piece; if heroic, it must be adjacent to at least 1 other piece of yours; if legendary, 3 other pieces of yours. Count it as two destroyed pieces. Remove it from the game."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Ice Princess",
+        "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+        "frozentext": "Do 1 standard move with one of your common pieces."
+    },
+    {
+        "id": "156",
+        "type": "task",
+        "type_arg": "14",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Legendary Summoning",
+        "text": "You summoned at least 2 beings this turn, at least one of them legendary."
+    },
+    {
+        "id": "156",
+        "type": "task",
+        "type_arg": "14",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Legendary Summoning",
+        "text": "You summoned at least 2 beings this turn, at least one of them legendary."
+    },
+    {
+        "id": "94",
+        "type": "Nethervoid",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Flame Imp",
+        "text": "You may destroy a common piece adjacent to the Gateway."
+    },
+    {
+        "id": "105",
+        "type": "Nethervoid",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Hell Rider",
+        "text": "If the Hell Rider is the Gateway, it may do 1 combat move. Otherwise, it may do up to 3 combat moves."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "discard_buffer",
+        "location_arg": "1",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "104",
+        "type": "Nethervoid",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Gluttony",
+        "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "discard_buffer",
+        "location_arg": "1",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "104",
+        "type": "Nethervoid",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Gluttony",
+        "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "discard_buffer",
+        "location_arg": "1",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "104",
+        "type": "Nethervoid",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Gluttony",
+        "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "104",
+        "type": "Nethervoid",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Gluttony",
+        "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "104",
+        "type": "Nethervoid",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Gluttony",
+        "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "104",
+        "type": "Nethervoid",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Gluttony",
+        "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "104",
+        "type": "Nethervoid",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Gluttony",
+        "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "discard_buffer",
+        "location_arg": "1",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "104",
+        "type": "Nethervoid",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Gluttony",
+        "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "discard_buffer",
+        "location_arg": "1",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "104",
+        "type": "Nethervoid",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Gluttony",
+        "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "discard_buffer",
+        "location_arg": "1",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "104",
+        "type": "Nethervoid",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Gluttony",
+        "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "104",
+        "type": "Nethervoid",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Gluttony",
+        "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "104",
+        "type": "Nethervoid",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Gluttony",
+        "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "142",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Snow Fox",
+        "text": "The Snow Fox may do up to 2 standard moves."
+    },
+    {
+        "id": "74",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "130",
+        "type": "Legends",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Time Elemental",
+        "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
+    },
+    {
+        "id": "143",
+        "type": "Flare",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "Place 1 common piece of your color on any empty square, or upgrade 1 of your common pieces.",
+        "pieces": "You may do 1 combat leap with one of your common pieces."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Deathbringer",
+        "text": "You may destroy an adjacent piece; if heroic, it must be adjacent to at least 1 other piece of yours; if legendary, 3 other pieces of yours. Count it as two destroyed pieces. Remove it from the game."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Ice Princess",
+        "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+        "frozentext": "Do 1 standard move with one of your common pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Snow Fox",
+        "text": "The Snow Fox may do up to 2 standard moves."
+    },
+    {
+        "id": "74",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "130",
+        "type": "Legends",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Time Elemental",
+        "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
+    },
+    {
+        "id": "143",
+        "type": "Flare",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "Place 1 common piece of your color on any empty square, or upgrade 1 of your common pieces.",
+        "pieces": "You may do 1 combat leap with one of your common pieces."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Deathbringer",
+        "text": "You may destroy an adjacent piece; if heroic, it must be adjacent to at least 1 other piece of yours; if legendary, 3 other pieces of yours. Count it as two destroyed pieces. Remove it from the game."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Ice Princess",
+        "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+        "frozentext": "Do 1 standard move with one of your common pieces."
+    },
+    {
+        "id": "104",
+        "type": "Nethervoid",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Gluttony",
+        "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "discard_buffer",
+        "location_arg": "1",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "discard_buffer",
+        "location_arg": "1",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "discard_buffer",
+        "location_arg": "1",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Snow Fox",
+        "text": "The Snow Fox may do up to 2 standard moves."
+    },
+    {
+        "id": "74",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "130",
+        "type": "Legends",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Time Elemental",
+        "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
+    },
+    {
+        "id": "143",
+        "type": "Flare",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "Place 1 common piece of your color on any empty square, or upgrade 1 of your common pieces.",
+        "pieces": "You may do 1 combat leap with one of your common pieces."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Deathbringer",
+        "text": "You may destroy an adjacent piece; if heroic, it must be adjacent to at least 1 other piece of yours; if legendary, 3 other pieces of yours. Count it as two destroyed pieces. Remove it from the game."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Ice Princess",
+        "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+        "frozentext": "Do 1 standard move with one of your common pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Snow Fox",
+        "text": "The Snow Fox may do up to 2 standard moves."
+    },
+    {
+        "id": "74",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "130",
+        "type": "Legends",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Time Elemental",
+        "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
+    },
+    {
+        "id": "143",
+        "type": "Flare",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "Place 1 common piece of your color on any empty square, or upgrade 1 of your common pieces.",
+        "pieces": "You may do 1 combat leap with one of your common pieces."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Deathbringer",
+        "text": "You may destroy an adjacent piece; if heroic, it must be adjacent to at least 1 other piece of yours; if legendary, 3 other pieces of yours. Count it as two destroyed pieces. Remove it from the game."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Ice Princess",
+        "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+        "frozentext": "Do 1 standard move with one of your common pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Snow Fox",
+        "text": "The Snow Fox may do up to 2 standard moves."
+    },
+    {
+        "id": "74",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "130",
+        "type": "Legends",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Time Elemental",
+        "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
+    },
+    {
+        "id": "143",
+        "type": "Flare",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "Place 1 common piece of your color on any empty square, or upgrade 1 of your common pieces.",
+        "pieces": "You may do 1 combat leap with one of your common pieces."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Deathbringer",
+        "text": "You may destroy an adjacent piece; if heroic, it must be adjacent to at least 1 other piece of yours; if legendary, 3 other pieces of yours. Count it as two destroyed pieces. Remove it from the game."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Ice Princess",
+        "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+        "frozentext": "Do 1 standard move with one of your common pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Snow Fox",
+        "text": "The Snow Fox may do up to 2 standard moves."
+    },
+    {
+        "id": "74",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "130",
+        "type": "Legends",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Time Elemental",
+        "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
+    },
+    {
+        "id": "143",
+        "type": "Flare",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "87180438",
+        "upgraded": "Place 1 common piece of your color on any empty square, or upgrade 1 of your common pieces.",
+        "pieces": "You may do 1 combat leap with one of your common pieces."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Deathbringer",
+        "text": "You may destroy an adjacent piece; if heroic, it must be adjacent to at least 1 other piece of yours; if legendary, 3 other pieces of yours. Count it as two destroyed pieces. Remove it from the game."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Ice Princess",
+        "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+        "frozentext": "Do 1 standard move with one of your common pieces."
+    },
+    {
+        "id": "172",
+        "type": "task",
+        "type_arg": "3",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Heroic Devastation",
+        "text": "You destroyed at least 4 enemy pieces this turn, at least 2 of them upgraded."
+    },
+    {
+        "id": "172",
+        "type": "task",
+        "type_arg": "3",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Heroic Devastation",
+        "text": "You destroyed at least 4 enemy pieces this turn, at least 2 of them upgraded."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84765558",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "84765558",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Ice Princess",
+        "text": "You may do 1 combat move with one of your common pieces other than the Ice Princess.",
+        "frozentext": "Do 1 standard move with one of your common pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Snow Fox",
+        "text": "The Snow Fox may do up to 2 standard moves."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "74",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "frozen",
+        "location_arg": "1",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "74",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "87180438",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "154",
+        "type": "task",
+        "type_arg": "1",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Devastation",
+        "text": "You destroyed at least 4 enemy pieces this turn."
+    },
+    {
+        "name": "Red Conquest",
+        "type": "task",
+        "difficulty": "simple",
+        "text": "You have at least 3 pieces on red squares, and at least 2 of them are upgraded.",
+        "criteria": "conquestTask",
+        "critargs": [
+            3,
+            2,
+            0,
+            "redSquares"
+        ],
+        "points": 2,
+        "type_arg": "5"
+    },
+    {
+        "name": "Imprisonment",
+        "type": "task",
+        "difficulty": "simple",
+        "text": "You have at least 6 pieces adjacent to the same enemy piece.",
+        "criteria": "dominanceTask",
+        "critargs": [
+            6,
+            0,
+            0,
+            "aroundEnemy"
+        ],
+        "points": 1,
+        "type_arg": "21"
+    },
+    {
+        "name": "Red Summoning",
+        "type": "task",
+        "difficulty": "simple",
+        "text": "You summoned at least 2 beings this turn, at least 1 on a red square.",
+        "criteria": "summoningTask",
+        "critargs": [
+            2,
+            0,
+            1,
+            "red"
+        ],
+        "points": 1,
+        "type_arg": "11"
+    },
+    {
+        "id": "149",
+        "type": "Flare",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": 84765558,
+        "upgraded": "Place 2 common pieces of your color on empty squares.",
+        "pieces": "Place 1 common piece of your color on any empty square."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": 84765558,
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": 84765558,
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": 84765558,
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": 84765558,
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": 84765558,
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    {
+        "id": "143",
+        "type": "Flare",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": 87180438,
+        "upgraded": "Place 1 common piece of your color on any empty square, or upgrade 1 of your common pieces.",
+        "pieces": "You may do 1 combat leap with one of your common pieces."
+    },
+    {
+        "id": "130",
+        "type": "Legends",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": 87180438,
+        "name": "Time Elemental",
+        "text": "After this turn, take an extra turn (even if the end of the game has been triggered)."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": 87180438,
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": 87180438,
+        "name": "Snow Fox",
+        "text": "The Snow Fox may do up to 2 standard moves."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": 87180438,
+        "name": "Deathbringer",
+        "text": "You may destroy an adjacent piece; if heroic, it must be adjacent to at least 1 other piece of yours; if legendary, 3 other pieces of yours. Count it as two destroyed pieces. Remove it from the game."
+    },
+    {
+        "id": "74",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": 87180438,
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    }
+]

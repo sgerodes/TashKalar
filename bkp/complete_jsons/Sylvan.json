@@ -1,0 +1,92 @@
+{
+    "Tree Shepherd": {
+        "type": "Sylvan",
+        "name": "Tree Shepherd",
+        "text": "Choose 1 of your pieces: If it is common, upgrade it; if heroic, it may do 1 combat move; if legendary, it may do 1 standard move."
+    },
+    "Kiskin Boughrunner": {
+        "type": "Sylvan",
+        "name": "Kiskin Boughrunner",
+        "text": "The Kiskin Boughrunner may do up to 3 combat moves. Each move must end on a square adjacent to one of your pieces."
+    },
+    "Naiad": {
+        "type": "Sylvan",
+        "name": "Naiad",
+        "text": "You may choose up to 2 of your pieces adjacent to the Naiad and do 1 standard move with each."
+    },
+    "Charging Buck": {
+        "type": "Sylvan",
+        "name": "Charging Buck",
+        "text": "The Charging Buck may do up to 2 combat leaps, each of distance exactly 2."
+    },
+    "Woodland Druid": {
+        "type": "Sylvan",
+        "name": "Woodland Druid",
+        "text": "Upgrade 1 common piece of each color."
+    },
+    "Forest Ancient": {
+        "type": "Sylvan",
+        "name": "Forest Ancient",
+        "text": "Place 2 enemy common pieces on empty squares up to distance 2. Then destroy 2 common pieces of the same color or colors up to distance 3."
+    },
+    "Kiskin Spirit": {
+        "type": "Sylvan",
+        "name": "Kiskin Spirit",
+        "text": "You may choose a card from your discard pile and put it on top of your deck. If you do, or if your discard pile was empty, draw 1 extra card from your deck at the end of this turn."
+    },
+    "Sapling": {
+        "type": "Sylvan",
+        "name": "Sapling",
+        "text": "Upgrade the Sapling after summoning it."
+    },
+    "Centaur Chieftain": {
+        "type": "Sylvan",
+        "name": "Centaur Chieftain",
+        "text": "The Centaur Chieftain may do 1 combat move. If he does, you may do up to 3 combat moves in the same direction, using other pieces of yours."
+    },
+    "Sylvan Queen": {
+        "type": "Sylvan",
+        "name": "Sylvan Queen",
+        "text": "You may convert 1 non-legendary enemy piece on a diagonally adjacent square to your piece of the same rank."
+    },
+    "Forest Mystic": {
+        "type": "Sylvan",
+        "name": "Forest Mystic",
+        "text": "At the end of this turn, draw 1 extra card from your deck and 1 extra card from the legendary deck."
+    },
+    "Unicorn": {
+        "type": "Sylvan",
+        "name": "Unicorn",
+        "text": "Choose one: Either the Unicorn may do 1 combat move, or you gain 1 action."
+    },
+    "Centaur Spearman": {
+        "type": "Sylvan",
+        "name": "Centaur Spearman",
+        "text": "The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+    },
+    "Forest Wardens": {
+        "type": "Sylvan",
+        "name": "Forest Wardens",
+        "text": "Destroy 1 common piece of an opponent with more common pieces than you. Destroy 1 heroic piece of an opponent with more upgraded pieces than you."
+    },
+    "Sylvan Princess": {
+        "type": "Sylvan",
+        "name": "Sylvan Princess",
+        "text": "You may convert 1 common enemy piece on a diagonally adjacent square to your common piece."
+    },
+    "Kiskin Leafsplitter": {
+        "type": "Sylvan",
+        "name": "Kiskin Leafsplitter",
+        "text": "Up to 2 times, you may choose a diagonal direction and destroy the first piece in that direction."
+    },
+    "Dryad": {
+        "type": "Sylvan",
+        "name": "Dryad",
+        "text": "On one of the adjacent squares, you may convert 1 non-legendary enemy piece to your common piece."
+    },
+    "Kiskin Farseeders": {
+        "type": "Sylvan",
+        "name": "Kiskin Farseeders",
+        "text": "You may place 1 common piece of your color on an empty square adjacent to one of your pieces."
+    }
+}

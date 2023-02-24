@@ -1,0 +1,3212 @@
+[
+    {
+        "id": "160",
+        "type": "task",
+        "type_arg": "7",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Color Conquest",
+        "text": "You have at least 5 pieces on red and/or green squares, and at least 3 of them are upgraded."
+    },
+    {
+        "id": "160",
+        "type": "task",
+        "type_arg": "7",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Color Conquest",
+        "text": "You have at least 5 pieces on red and/or green squares, and at least 3 of them are upgraded."
+    },
+    {
+        "id": "162",
+        "type": "task",
+        "type_arg": "1",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Devastation",
+        "text": "You destroyed at least 4 enemy pieces this turn."
+    },
+    {
+        "id": "162",
+        "type": "task",
+        "type_arg": "1",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Devastation",
+        "text": "You destroyed at least 4 enemy pieces this turn."
+    },
+    {
+        "id": "89",
+        "type": "Everfrost",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Crystal Mirror",
+        "text": "You may choose 1 heroic or up to 2 common pieces on yellow-marked squares: For each, place one of your pieces with the same rank on the mirror-image square, if it is empty."
+    },
+    {
+        "id": "73",
+        "type": "Everfrost",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Polar Bear",
+        "text": "The Polar Bear may do a combat move. If that move destroys a piece, it may do a standard move. If that destroys a piece, it may do a move onto an empty square."
+    },
+    {
+        "id": "142",
+        "type": "Flare",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "upgraded": "Gain an action.",
+        "pieces": "Place 1 common piece of your color on any empty square."
+    },
+    {
+        "id": "82",
+        "type": "Everfrost",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frostweave Summoner",
+        "text": "",
+        "frozentext": "Use just before summoning a being. For the pattern of that being, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "15",
+        "location": "frozen",
+        "location_arg": "1",
+        "name": "Ice Wyvern",
+        "text": "The Ice Wyvern may do a combat leap to anywhere on the board. If the leap destroys a piece, destroy the Ice Wyvern.",
+        "frozentext": "Place a common piece of your color on an empty square adjacent to one of your heroic pieces."
+    },
+    {
+        "id": "86",
+        "type": "Everfrost",
+        "type_arg": "17",
+        "location": "discard_buffer",
+        "location_arg": "2",
+        "name": "Frostweave Illusionist",
+        "text": "Convert the Frostweave Illusionist to a common piece of an enemy color.",
+        "frozentext": "Convert any common enemy piece to your common piece."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "84",
+        "type": "Everfrost",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "Royal Reindeer",
+        "text": "The Royal Reindeer may do a combat leap to a distance of exactly 2. If neither the summoning nor the leap destroys a piece, upgrade the Royal Reindeer."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "22",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "18",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Winter Whisperer",
+        "text": "",
+        "frozentext": "You may destroy one of your common pieces. You may discard 1 flare. If you do both, gain an action."
+    },
+    {
+        "id": "82",
+        "type": "Everfrost",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frostweave Summoner",
+        "text": "",
+        "frozentext": "Use just before summoning a being. For the pattern of that being, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "15",
+        "location": "frozen",
+        "location_arg": "1",
+        "name": "Ice Wyvern",
+        "text": "The Ice Wyvern may do a combat leap to anywhere on the board. If the leap destroys a piece, destroy the Ice Wyvern.",
+        "frozentext": "Place a common piece of your color on an empty square adjacent to one of your heroic pieces."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "15",
+        "location": "frozen",
+        "location_arg": "1",
+        "name": "Ice Wyvern",
+        "text": "The Ice Wyvern may do a combat leap to anywhere on the board. If the leap destroys a piece, destroy the Ice Wyvern.",
+        "frozentext": "Place a common piece of your color on an empty square adjacent to one of your heroic pieces."
+    },
+    {
+        "id": "86",
+        "type": "Everfrost",
+        "type_arg": "17",
+        "location": "discard_buffer",
+        "location_arg": "2",
+        "name": "Frostweave Illusionist",
+        "text": "Convert the Frostweave Illusionist to a common piece of an enemy color.",
+        "frozentext": "Convert any common enemy piece to your common piece."
+    },
+    {
+        "id": "86",
+        "type": "Everfrost",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frostweave Illusionist",
+        "text": "Convert the Frostweave Illusionist to a common piece of an enemy color.",
+        "frozentext": "Convert any common enemy piece to your common piece."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "84",
+        "type": "Everfrost",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "Royal Reindeer",
+        "text": "The Royal Reindeer may do a combat leap to a distance of exactly 2. If neither the summoning nor the leap destroys a piece, upgrade the Royal Reindeer."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "22",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "18",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "144",
+        "type": "Flare",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "6987217",
+        "upgraded": "You may do 1 standard leap with one of your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Winter Whisperer",
+        "text": "",
+        "frozentext": "You may destroy one of your common pieces. You may discard 1 flare. If you do both, gain an action."
+    },
+    {
+        "id": "86",
+        "type": "Everfrost",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frostweave Illusionist",
+        "text": "Convert the Frostweave Illusionist to a common piece of an enemy color.",
+        "frozentext": "Convert any common enemy piece to your common piece."
+    },
+    {
+        "id": "82",
+        "type": "Everfrost",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frostweave Summoner",
+        "text": "",
+        "frozentext": "Use just before summoning a being. For the pattern of that being, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "167",
+        "type": "task",
+        "type_arg": "19",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Side Chain",
+        "text": "Squares on two opposite sides of the board are connected by a chain of your pieces."
+    },
+    {
+        "id": "167",
+        "type": "task",
+        "type_arg": "19",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Side Chain",
+        "text": "Squares on two opposite sides of the board are connected by a chain of your pieces."
+    },
+    {
+        "id": "128",
+        "type": "Legends",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Hell Bull",
+        "text": "Choose any direction: The Hell Bull may do any number of combat moves in that direction. If it destroys a legendary piece, it stops."
+    },
+    {
+        "id": "62",
+        "type": "Sylvan",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Kiskin Boughrunner",
+        "text": "The Kiskin Boughrunner may do up to 3 combat moves. Each move must end on a square adjacent to one of your pieces."
+    },
+    {
+        "id": "82",
+        "type": "Everfrost",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frostweave Summoner",
+        "text": "",
+        "frozentext": "Use just before summoning a being. For the pattern of that being, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "87",
+        "type": "Everfrost",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Winter Whisperer",
+        "text": "",
+        "frozentext": "You may destroy one of your common pieces. You may discard 1 flare. If you do both, gain an action."
+    },
+    {
+        "id": "144",
+        "type": "Flare",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "6987217",
+        "upgraded": "You may do 1 standard leap with one of your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Ice Wyvern",
+        "text": "The Ice Wyvern may do a combat leap to anywhere on the board. If the leap destroys a piece, destroy the Ice Wyvern.",
+        "frozentext": "Place a common piece of your color on an empty square adjacent to one of your heroic pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "84",
+        "type": "Everfrost",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "Royal Reindeer",
+        "text": "The Royal Reindeer may do a combat leap to a distance of exactly 2. If neither the summoning nor the leap destroys a piece, upgrade the Royal Reindeer."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "18",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "139",
+        "type": "Flare",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "upgraded": "Place 1 heroic piece of your color on any empty square.",
+        "pieces": "You may do 1 standard move and 1 combat move (in either order), using your common pieces."
+    },
+    {
+        "id": "86",
+        "type": "Everfrost",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frostweave Illusionist",
+        "text": "Convert the Frostweave Illusionist to a common piece of an enemy color.",
+        "frozentext": "Convert any common enemy piece to your common piece."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Ice Wyvern",
+        "text": "The Ice Wyvern may do a combat leap to anywhere on the board. If the leap destroys a piece, destroy the Ice Wyvern.",
+        "frozentext": "Place a common piece of your color on an empty square adjacent to one of your heroic pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "84",
+        "type": "Everfrost",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "Royal Reindeer",
+        "text": "The Royal Reindeer may do a combat leap to a distance of exactly 2. If neither the summoning nor the leap destroys a piece, upgrade the Royal Reindeer."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "18",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "139",
+        "type": "Flare",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "upgraded": "Place 1 heroic piece of your color on any empty square.",
+        "pieces": "You may do 1 standard move and 1 combat move (in either order), using your common pieces."
+    },
+    {
+        "id": "86",
+        "type": "Everfrost",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frostweave Illusionist",
+        "text": "Convert the Frostweave Illusionist to a common piece of an enemy color.",
+        "frozentext": "Convert any common enemy piece to your common piece."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Ice Wyvern",
+        "text": "The Ice Wyvern may do a combat leap to anywhere on the board. If the leap destroys a piece, destroy the Ice Wyvern.",
+        "frozentext": "Place a common piece of your color on an empty square adjacent to one of your heroic pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "84",
+        "type": "Everfrost",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "Royal Reindeer",
+        "text": "The Royal Reindeer may do a combat leap to a distance of exactly 2. If neither the summoning nor the leap destroys a piece, upgrade the Royal Reindeer."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "18",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "139",
+        "type": "Flare",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "upgraded": "Place 1 heroic piece of your color on any empty square.",
+        "pieces": "You may do 1 standard move and 1 combat move (in either order), using your common pieces."
+    },
+    {
+        "id": "86",
+        "type": "Everfrost",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frostweave Illusionist",
+        "text": "Convert the Frostweave Illusionist to a common piece of an enemy color.",
+        "frozentext": "Convert any common enemy piece to your common piece."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Ice Wyvern",
+        "text": "The Ice Wyvern may do a combat leap to anywhere on the board. If the leap destroys a piece, destroy the Ice Wyvern.",
+        "frozentext": "Place a common piece of your color on an empty square adjacent to one of your heroic pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "84",
+        "type": "Everfrost",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "Royal Reindeer",
+        "text": "The Royal Reindeer may do a combat leap to a distance of exactly 2. If neither the summoning nor the leap destroys a piece, upgrade the Royal Reindeer."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "18",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "139",
+        "type": "Flare",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "upgraded": "Place 1 heroic piece of your color on any empty square.",
+        "pieces": "You may do 1 standard move and 1 combat move (in either order), using your common pieces."
+    },
+    {
+        "id": "86",
+        "type": "Everfrost",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frostweave Illusionist",
+        "text": "Convert the Frostweave Illusionist to a common piece of an enemy color.",
+        "frozentext": "Convert any common enemy piece to your common piece."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Ice Wyvern",
+        "text": "The Ice Wyvern may do a combat leap to anywhere on the board. If the leap destroys a piece, destroy the Ice Wyvern.",
+        "frozentext": "Place a common piece of your color on an empty square adjacent to one of your heroic pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "84",
+        "type": "Everfrost",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "Royal Reindeer",
+        "text": "The Royal Reindeer may do a combat leap to a distance of exactly 2. If neither the summoning nor the leap destroys a piece, upgrade the Royal Reindeer."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "18",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "86",
+        "type": "Everfrost",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frostweave Illusionist",
+        "text": "Convert the Frostweave Illusionist to a common piece of an enemy color.",
+        "frozentext": "Convert any common enemy piece to your common piece."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Ice Wyvern",
+        "text": "The Ice Wyvern may do a combat leap to anywhere on the board. If the leap destroys a piece, destroy the Ice Wyvern.",
+        "frozentext": "Place a common piece of your color on an empty square adjacent to one of your heroic pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "84",
+        "type": "Everfrost",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "Royal Reindeer",
+        "text": "The Royal Reindeer may do a combat leap to a distance of exactly 2. If neither the summoning nor the leap destroys a piece, upgrade the Royal Reindeer."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "18",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "86",
+        "type": "Everfrost",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frostweave Illusionist",
+        "text": "Convert the Frostweave Illusionist to a common piece of an enemy color.",
+        "frozentext": "Convert any common enemy piece to your common piece."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Ice Wyvern",
+        "text": "The Ice Wyvern may do a combat leap to anywhere on the board. If the leap destroys a piece, destroy the Ice Wyvern.",
+        "frozentext": "Place a common piece of your color on an empty square adjacent to one of your heroic pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Ice Wyvern",
+        "text": "The Ice Wyvern may do a combat leap to anywhere on the board. If the leap destroys a piece, destroy the Ice Wyvern.",
+        "frozentext": "Place a common piece of your color on an empty square adjacent to one of your heroic pieces."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "84",
+        "type": "Everfrost",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "Royal Reindeer",
+        "text": "The Royal Reindeer may do a combat leap to a distance of exactly 2. If neither the summoning nor the leap destroys a piece, upgrade the Royal Reindeer."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "18",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "86",
+        "type": "Everfrost",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frostweave Illusionist",
+        "text": "Convert the Frostweave Illusionist to a common piece of an enemy color.",
+        "frozentext": "Convert any common enemy piece to your common piece."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Ice Wyvern",
+        "text": "The Ice Wyvern may do a combat leap to anywhere on the board. If the leap destroys a piece, destroy the Ice Wyvern.",
+        "frozentext": "Place a common piece of your color on an empty square adjacent to one of your heroic pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Ice Wyvern",
+        "text": "The Ice Wyvern may do a combat leap to anywhere on the board. If the leap destroys a piece, destroy the Ice Wyvern.",
+        "frozentext": "Place a common piece of your color on an empty square adjacent to one of your heroic pieces."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "84",
+        "type": "Everfrost",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "Royal Reindeer",
+        "text": "The Royal Reindeer may do a combat leap to a distance of exactly 2. If neither the summoning nor the leap destroys a piece, upgrade the Royal Reindeer."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "18",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "139",
+        "type": "Flare",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "upgraded": "Place 1 heroic piece of your color on any empty square.",
+        "pieces": "You may do 1 standard move and 1 combat move (in either order), using your common pieces."
+    },
+    {
+        "id": "86",
+        "type": "Everfrost",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frostweave Illusionist",
+        "text": "Convert the Frostweave Illusionist to a common piece of an enemy color.",
+        "frozentext": "Convert any common enemy piece to your common piece."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Ice Wyvern",
+        "text": "The Ice Wyvern may do a combat leap to anywhere on the board. If the leap destroys a piece, destroy the Ice Wyvern.",
+        "frozentext": "Place a common piece of your color on an empty square adjacent to one of your heroic pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "84",
+        "type": "Everfrost",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "Royal Reindeer",
+        "text": "The Royal Reindeer may do a combat leap to a distance of exactly 2. If neither the summoning nor the leap destroys a piece, upgrade the Royal Reindeer."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "18",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "139",
+        "type": "Flare",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "upgraded": "Place 1 heroic piece of your color on any empty square.",
+        "pieces": "You may do 1 standard move and 1 combat move (in either order), using your common pieces."
+    },
+    {
+        "id": "86",
+        "type": "Everfrost",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frostweave Illusionist",
+        "text": "Convert the Frostweave Illusionist to a common piece of an enemy color.",
+        "frozentext": "Convert any common enemy piece to your common piece."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Ice Wyvern",
+        "text": "The Ice Wyvern may do a combat leap to anywhere on the board. If the leap destroys a piece, destroy the Ice Wyvern.",
+        "frozentext": "Place a common piece of your color on an empty square adjacent to one of your heroic pieces."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "157",
+        "type": "task",
+        "type_arg": "12",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Green Summoning",
+        "text": "You summoned at least 2 beings this turn, at least 1 on a green square."
+    },
+    {
+        "id": "157",
+        "type": "task",
+        "type_arg": "12",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Green Summoning",
+        "text": "You summoned at least 2 beings this turn, at least 1 on a green square."
+    },
+    {
+        "id": "56",
+        "type": "Sylvan",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Tree Shepherd",
+        "text": "Choose 1 of your pieces: If it is common, upgrade it; if heroic, it may do 1 combat move; if legendary, it may do 1 standard move."
+    },
+    {
+        "id": "61",
+        "type": "Sylvan",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Sylvan Queen",
+        "text": "You may convert 1 non-legendary enemy piece on a diagonally adjacent square to your piece of the same rank."
+    },
+    {
+        "id": "62",
+        "type": "Sylvan",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Kiskin Boughrunner",
+        "text": "The Kiskin Boughrunner may do up to 3 combat moves. Each move must end on a square adjacent to one of your pieces."
+    },
+    {
+        "id": "130",
+        "type": "Legends",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Angel of Death",
+        "text": "You may choose any 1 piece other than the Angel of Death: Upgrade it and then do a combat leap onto its square with the Angel of Death."
+    },
+    {
+        "id": "66",
+        "type": "Sylvan",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Unicorn",
+        "text": "Choose one: Either the Unicorn may do 1 combat move, or you gain 1 action."
+    },
+    {
+        "id": "64",
+        "type": "Sylvan",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Forest Mystic",
+        "text": "At the end of this turn, draw 1 extra card from your deck and 1 extra card from the legendary deck."
+    },
+    {
+        "id": "83",
+        "type": "Everfrost",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Ice Wyvern",
+        "text": "The Ice Wyvern may do a combat leap to anywhere on the board. If the leap destroys a piece, destroy the Ice Wyvern.",
+        "frozentext": "Place a common piece of your color on an empty square adjacent to one of your heroic pieces."
+    },
+    {
+        "id": "86",
+        "type": "Everfrost",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frostweave Illusionist",
+        "text": "Convert the Frostweave Illusionist to a common piece of an enemy color.",
+        "frozentext": "Convert any common enemy piece to your common piece."
+    },
+    {
+        "id": "139",
+        "type": "Flare",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "upgraded": "Place 1 heroic piece of your color on any empty square.",
+        "pieces": "You may do 1 standard move and 1 combat move (in either order), using your common pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "frozen",
+        "location_arg": "1",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "13",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "84",
+        "type": "Everfrost",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Royal Reindeer",
+        "text": "The Royal Reindeer may do a combat leap to a distance of exactly 2. If neither the summoning nor the leap destroys a piece, upgrade the Royal Reindeer."
+    },
+    {
+        "id": "168",
+        "type": "task",
+        "type_arg": "13",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Colored Summoning",
+        "text": "You summoned at least 2 beings on red and/or green squares this turn. (Both of them may have been summoned on the same square.)"
+    },
+    {
+        "id": "168",
+        "type": "task",
+        "type_arg": "13",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Colored Summoning",
+        "text": "You summoned at least 2 beings on red and/or green squares this turn. (Both of them may have been summoned on the same square.)"
+    },
+    {
+        "id": "66",
+        "type": "Sylvan",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Unicorn",
+        "text": "Choose one: Either the Unicorn may do 1 combat move, or you gain 1 action."
+    },
+    {
+        "id": "70",
+        "type": "Sylvan",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Centaur Spearman",
+        "text": "The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+    },
+    {
+        "id": "84",
+        "type": "Everfrost",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Royal Reindeer",
+        "text": "The Royal Reindeer may do a combat leap to a distance of exactly 2. If neither the summoning nor the leap destroys a piece, upgrade the Royal Reindeer."
+    },
+    {
+        "id": "143",
+        "type": "Flare",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": "6987217",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "discard_buffer",
+        "location_arg": "2",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "frozen",
+        "location_arg": "1",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "150",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "6987217",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "150",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "6987217",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "153",
+        "type": "task",
+        "type_arg": "8",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Red Legends",
+        "text": "You have at least 2 upgraded pieces on red squares, and at least 1 of them is legendary."
+    },
+    {
+        "id": "153",
+        "type": "task",
+        "type_arg": "8",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Red Legends",
+        "text": "You have at least 2 upgraded pieces on red squares, and at least 1 of them is legendary."
+    },
+    {
+        "id": "64",
+        "type": "Sylvan",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Forest Mystic",
+        "text": "At the end of this turn, draw 1 extra card from your deck and 1 extra card from the legendary deck."
+    },
+    {
+        "id": "63",
+        "type": "Sylvan",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Dryad",
+        "text": "On one of the adjacent squares, you may convert 1 non-legendary enemy piece to your common piece."
+    },
+    {
+        "id": "72",
+        "type": "Sylvan",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Sylvan Princess",
+        "text": "You may convert 1 common enemy piece on a diagonally adjacent square to your common piece."
+    },
+    {
+        "id": "77",
+        "type": "Everfrost",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Ice Queen",
+        "text": "You may do 1 combat move with one of your heroic pieces other than the Ice Queen.",
+        "frozentext": "Do 1 standard move with one of your heroic pieces."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "frozen",
+        "location_arg": "1",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "150",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "6987217",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "150",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "6987217",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "150",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "6987217",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "150",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "6987217",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "128",
+        "type": "Legends",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Hell Bull",
+        "text": "Choose any direction: The Hell Bull may do any number of combat moves in that direction. If it destroys a legendary piece, it stops."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "The Eldest Tree",
+        "text": "On up to 3 adjacent squares: if it has an enemy non-legendary piece, destroy it; if it has your common piece, upgrade it; if it is empty, place 1 common piece of your color there."
+    },
+    {
+        "id": "90",
+        "type": "Everfrost",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Crystal Grower",
+        "text": "Upgrade 1 common piece of each enemy color.",
+        "frozentext": "Upgrade a common piece of your color."
+    },
+    {
+        "id": "78",
+        "type": "Everfrost",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Glacier Giant",
+        "text": "The Glacier Giant may do any number of combat moves in one of the indicated directions. If it moves, it may continue 1 more square to destroy a legendary piece, but this also destroys the Glacier Giant."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "155",
+        "type": "task",
+        "type_arg": "0",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Destruction",
+        "text": "You destroyed at least 3 enemy pieces this turn."
+    },
+    {
+        "id": "155",
+        "type": "task",
+        "type_arg": "0",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Destruction",
+        "text": "You destroyed at least 3 enemy pieces this turn."
+    },
+    {
+        "id": "72",
+        "type": "Sylvan",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Sylvan Princess",
+        "text": "You may convert 1 common enemy piece on a diagonally adjacent square to your common piece."
+    },
+    {
+        "id": "70",
+        "type": "Sylvan",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Centaur Spearman",
+        "text": "The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+    },
+    {
+        "id": "71",
+        "type": "Sylvan",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Kiskin Spirit",
+        "text": "You may choose a card from your discard pile and put it on top of your deck. If you do, or if your discard pile was empty, draw 1 extra card from your deck at the end of this turn."
+    },
+    {
+        "id": "70",
+        "type": "Sylvan",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Centaur Spearman",
+        "text": "The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "4",
+        "name": "Naiad",
+        "text": "You may choose up to 2 of your pieces adjacent to the Naiad and do 1 standard move with each."
+    },
+    {
+        "id": "57",
+        "type": "Sylvan",
+        "type_arg": "2",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Charging Buck",
+        "text": "The Charging Buck may do up to 2 combat leaps, each of distance exactly 2."
+    },
+    {
+        "id": "70",
+        "type": "Sylvan",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Centaur Spearman",
+        "text": "The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "4",
+        "name": "Naiad",
+        "text": "You may choose up to 2 of your pieces adjacent to the Naiad and do 1 standard move with each."
+    },
+    {
+        "id": "57",
+        "type": "Sylvan",
+        "type_arg": "2",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Charging Buck",
+        "text": "The Charging Buck may do up to 2 combat leaps, each of distance exactly 2."
+    },
+    {
+        "id": "71",
+        "type": "Sylvan",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Kiskin Spirit",
+        "text": "You may choose a card from your discard pile and put it on top of your deck. If you do, or if your discard pile was empty, draw 1 extra card from your deck at the end of this turn."
+    },
+    {
+        "id": "69",
+        "type": "Sylvan",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Kiskin Leafsplitter",
+        "text": "Up to 2 times, you may choose a diagonal direction and destroy the first piece in that direction."
+    },
+    {
+        "id": "63",
+        "type": "Sylvan",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Dryad",
+        "text": "On one of the adjacent squares, you may convert 1 non-legendary enemy piece to your common piece."
+    },
+    {
+        "id": "137",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "The Eldest Tree",
+        "text": "On up to 3 adjacent squares: if it has an enemy non-legendary piece, destroy it; if it has your common piece, upgrade it; if it is empty, place 1 common piece of your color there."
+    },
+    {
+        "id": "141",
+        "type": "Flare",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "84515661",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 heroic piece of your color on any empty square."
+    },
+    {
+        "id": "70",
+        "type": "Sylvan",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Centaur Spearman",
+        "text": "The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "4",
+        "name": "Naiad",
+        "text": "You may choose up to 2 of your pieces adjacent to the Naiad and do 1 standard move with each."
+    },
+    {
+        "id": "57",
+        "type": "Sylvan",
+        "type_arg": "2",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Charging Buck",
+        "text": "The Charging Buck may do up to 2 combat leaps, each of distance exactly 2."
+    },
+    {
+        "id": "71",
+        "type": "Sylvan",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Kiskin Spirit",
+        "text": "You may choose a card from your discard pile and put it on top of your deck. If you do, or if your discard pile was empty, draw 1 extra card from your deck at the end of this turn."
+    },
+    {
+        "id": "69",
+        "type": "Sylvan",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Kiskin Leafsplitter",
+        "text": "Up to 2 times, you may choose a diagonal direction and destroy the first piece in that direction."
+    },
+    {
+        "id": "63",
+        "type": "Sylvan",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Dryad",
+        "text": "On one of the adjacent squares, you may convert 1 non-legendary enemy piece to your common piece."
+    },
+    {
+        "id": "137",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "The Eldest Tree",
+        "text": "On up to 3 adjacent squares: if it has an enemy non-legendary piece, destroy it; if it has your common piece, upgrade it; if it is empty, place 1 common piece of your color there."
+    },
+    {
+        "id": "141",
+        "type": "Flare",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "84515661",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 heroic piece of your color on any empty square."
+    },
+    {
+        "id": "70",
+        "type": "Sylvan",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Centaur Spearman",
+        "text": "The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "4",
+        "name": "Naiad",
+        "text": "You may choose up to 2 of your pieces adjacent to the Naiad and do 1 standard move with each."
+    },
+    {
+        "id": "57",
+        "type": "Sylvan",
+        "type_arg": "2",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Charging Buck",
+        "text": "The Charging Buck may do up to 2 combat leaps, each of distance exactly 2."
+    },
+    {
+        "id": "70",
+        "type": "Sylvan",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Centaur Spearman",
+        "text": "The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "4",
+        "name": "Naiad",
+        "text": "You may choose up to 2 of your pieces adjacent to the Naiad and do 1 standard move with each."
+    },
+    {
+        "id": "57",
+        "type": "Sylvan",
+        "type_arg": "2",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Charging Buck",
+        "text": "The Charging Buck may do up to 2 combat leaps, each of distance exactly 2."
+    },
+    {
+        "id": "71",
+        "type": "Sylvan",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Kiskin Spirit",
+        "text": "You may choose a card from your discard pile and put it on top of your deck. If you do, or if your discard pile was empty, draw 1 extra card from your deck at the end of this turn."
+    },
+    {
+        "id": "69",
+        "type": "Sylvan",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Kiskin Leafsplitter",
+        "text": "Up to 2 times, you may choose a diagonal direction and destroy the first piece in that direction."
+    },
+    {
+        "id": "63",
+        "type": "Sylvan",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Dryad",
+        "text": "On one of the adjacent squares, you may convert 1 non-legendary enemy piece to your common piece."
+    },
+    {
+        "id": "137",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "The Eldest Tree",
+        "text": "On up to 3 adjacent squares: if it has an enemy non-legendary piece, destroy it; if it has your common piece, upgrade it; if it is empty, place 1 common piece of your color there."
+    },
+    {
+        "id": "141",
+        "type": "Flare",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "84515661",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 heroic piece of your color on any empty square."
+    },
+    {
+        "id": "71",
+        "type": "Sylvan",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Kiskin Spirit",
+        "text": "You may choose a card from your discard pile and put it on top of your deck. If you do, or if your discard pile was empty, draw 1 extra card from your deck at the end of this turn."
+    },
+    {
+        "id": "70",
+        "type": "Sylvan",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Centaur Spearman",
+        "text": "The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "4",
+        "name": "Naiad",
+        "text": "You may choose up to 2 of your pieces adjacent to the Naiad and do 1 standard move with each."
+    },
+    {
+        "id": "57",
+        "type": "Sylvan",
+        "type_arg": "2",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Charging Buck",
+        "text": "The Charging Buck may do up to 2 combat leaps, each of distance exactly 2."
+    },
+    {
+        "id": "69",
+        "type": "Sylvan",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Kiskin Leafsplitter",
+        "text": "Up to 2 times, you may choose a diagonal direction and destroy the first piece in that direction."
+    },
+    {
+        "id": "71",
+        "type": "Sylvan",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Kiskin Spirit",
+        "text": "You may choose a card from your discard pile and put it on top of your deck. If you do, or if your discard pile was empty, draw 1 extra card from your deck at the end of this turn."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Naiad",
+        "text": "You may choose up to 2 of your pieces adjacent to the Naiad and do 1 standard move with each."
+    },
+    {
+        "id": "70",
+        "type": "Sylvan",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Centaur Spearman",
+        "text": "The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+    },
+    {
+        "id": "63",
+        "type": "Sylvan",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Dryad",
+        "text": "On one of the adjacent squares, you may convert 1 non-legendary enemy piece to your common piece."
+    },
+    {
+        "id": "57",
+        "type": "Sylvan",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Charging Buck",
+        "text": "The Charging Buck may do up to 2 combat leaps, each of distance exactly 2."
+    },
+    {
+        "id": "70",
+        "type": "Sylvan",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Centaur Spearman",
+        "text": "The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Naiad",
+        "text": "You may choose up to 2 of your pieces adjacent to the Naiad and do 1 standard move with each."
+    },
+    {
+        "id": "57",
+        "type": "Sylvan",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Charging Buck",
+        "text": "The Charging Buck may do up to 2 combat leaps, each of distance exactly 2."
+    },
+    {
+        "id": "137",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "The Eldest Tree",
+        "text": "On up to 3 adjacent squares: if it has an enemy non-legendary piece, destroy it; if it has your common piece, upgrade it; if it is empty, place 1 common piece of your color there."
+    },
+    {
+        "id": "141",
+        "type": "Flare",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "84515661",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 heroic piece of your color on any empty square."
+    },
+    {
+        "id": "75",
+        "type": "Everfrost",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frozen Chest",
+        "text": "You may take one frozen effect from your discard pile and put it directly into play. (The limit of 1 frozen effect in play still applies.)"
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "150",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "6987217",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "6987217",
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "159",
+        "type": "task",
+        "type_arg": "11",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Red Summoning",
+        "text": "You summoned at least 2 beings this turn, at least 1 on a red square."
+    },
+    {
+        "name": "Red Conquest",
+        "type": "task",
+        "difficulty": "simple",
+        "text": "You have at least 3 pieces on red squares, and at least 2 of them are upgraded.",
+        "criteria": "conquestTask",
+        "critargs": [
+            3,
+            2,
+            0,
+            "redSquares"
+        ],
+        "points": 2,
+        "type_arg": "5"
+    },
+    {
+        "name": "Rainbow Dominance",
+        "type": "task",
+        "difficulty": "simple",
+        "text": "You have more upgraded pieces on red squares and more upgraded pieces on green squares than your opponent does.",
+        "criteria": "rainbowDominance",
+        "critargs": [],
+        "points": 2,
+        "type_arg": "10"
+    },
+    {
+        "name": "Corner Chain",
+        "type": "task",
+        "difficulty": "simple",
+        "text": "Squares in two opposite corners of the board are connected by a chain of your pieces.",
+        "criteria": "cornerChain",
+        "critargs": [],
+        "points": 3,
+        "type_arg": "20"
+    },
+    {
+        "id": "150",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": 6987217,
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "138",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": 6987217,
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": 6987217,
+        "name": "Earth Elemental",
+        "text": "Destroy a non-legendary piece on or adjacent to a red square. Then upgrade a common piece on or adjacent to a green square. Then the Earth Elemental may do 1 combat move to an adjacent red or green square."
+    },
+    {
+        "id": "79",
+        "type": "Everfrost",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": 6987217,
+        "name": "Snow Monster",
+        "text": "Destroy each common enemy piece that is within distance 2 of the Snow Monster and adjacent to at least one of your pieces."
+    },
+    {
+        "id": "80",
+        "type": "Everfrost",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": 6987217,
+        "name": "Frost Imp",
+        "text": "You may choose an adjacent common piece and a direction: That piece does as many standard moves as it can in that direction."
+    },
+    {
+        "id": "85",
+        "type": "Everfrost",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": 6987217,
+        "name": "Everfrost Sentinel",
+        "text": "If summoning the Everfrost Sentinel destroyed an enemy piece, you may downgrade the Everfrost Sentinel. If you do, each other player or team has 1 less action on their next turn."
+    },
+    {
+        "id": "141",
+        "type": "Flare",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": 84515661,
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 heroic piece of your color on any empty square."
+    },
+    {
+        "id": "137",
+        "type": "Legends",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": 84515661,
+        "name": "Fire Dragon",
+        "text": "Choose one of the indicated directions: Destroy all non-legendary pieces up to distance 2 in that direction and in both directions at 45 degrees to it."
+    },
+    {
+        "id": "136",
+        "type": "Legends",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": 84515661,
+        "name": "The Eldest Tree",
+        "text": "On up to 3 adjacent squares: if it has an enemy non-legendary piece, destroy it; if it has your common piece, upgrade it; if it is empty, place 1 common piece of your color there."
+    },
+    {
+        "id": "70",
+        "type": "Sylvan",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": 84515661,
+        "name": "Centaur Spearman",
+        "text": "The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": 84515661,
+        "name": "Naiad",
+        "text": "You may choose up to 2 of your pieces adjacent to the Naiad and do 1 standard move with each."
+    },
+    {
+        "id": "57",
+        "type": "Sylvan",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": 84515661,
+        "name": "Charging Buck",
+        "text": "The Charging Buck may do up to 2 combat leaps, each of distance exactly 2."
+    }
+]

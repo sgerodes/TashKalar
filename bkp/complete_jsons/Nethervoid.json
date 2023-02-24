@@ -1,0 +1,92 @@
+{
+    "Demon of Lust": {
+        "type": "Nethervoid",
+        "name": "Demon of Lust",
+        "text": "Choose up to 2 pieces (not necessarily yours). With each, do 1 combat move toward the Gateway. These moves must not destroy the Gateway."
+    },
+    "Acolyte of Growth": {
+        "type": "Nethervoid",
+        "name": "Acolyte of Growth",
+        "text": "Place a common piece of your color on an empty square. If the Gateway is on a green square, place a heroic piece of your color on an empty square adjacent to that new common piece."
+    },
+    "Vortex Master": {
+        "type": "Nethervoid",
+        "name": "Vortex Master",
+        "text": "You may do 1 combat move with the Gateway. Whether you do or not, you may then do 1 combat move with one of your pieces adjacent to the Gateway."
+    },
+    "Demon of Gluttony": {
+        "type": "Nethervoid",
+        "name": "Demon of Gluttony",
+        "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+    },
+    "Demon of Sloth": {
+        "type": "Nethervoid",
+        "name": "Demon of Sloth",
+        "text": "Spend an action to do nothing. If you cannot, destroy the Gateway instead."
+    },
+    "Acolyte of Destruction": {
+        "type": "Nethervoid",
+        "name": "Acolyte of Destruction",
+        "text": "Destroy a common piece. If the Gateway is on a red square, you may also destroy a heroic piece adjacent to the destroyed piece's square."
+    },
+    "Possessed Summoner": {
+        "type": "Nethervoid",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    "Shadow Imp": {
+        "type": "Nethervoid",
+        "name": "Shadow Imp",
+        "text": "The Shadow Imp may do 1 combat move. If it does and it is not the Gateway, then the Gateway may do 1 combat move in the same direction"
+    },
+    "Gate Keeper": {
+        "type": "Nethervoid",
+        "name": "Gate Keeper",
+        "text": "You may upgrade any one of your common pieces or place a common piece of your color on an empty square.  In either case, that piece becomes the Gateway."
+    },
+    "Demon of Envy": {
+        "type": "Nethervoid",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    "Demon of Greed": {
+        "type": "Nethervoid",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    "Flame Imp": {
+        "type": "Nethervoid",
+        "name": "Flame Imp",
+        "text": "You may destroy a common piece adjacent to the Gateway."
+    },
+    "Power Seeker": {
+        "type": "Nethervoid",
+        "name": "Power Seeker",
+        "text": "If the Power Seeker is the Gateway, it may do 1 standard move. Otherwise, it may do any number of combat moves towards the Gateway."
+    },
+    "Gate Master": {
+        "type": "Nethervoid",
+        "name": "Gate Master",
+        "text": "Upgrade the Gateway. Then choose 1 of your non-legendary pieces to become the Gateway. If upgrading created a legendary piece, then Gate Master's summoning counts as summoning a legend on Gate Master's square."
+    },
+    "Hell Rider": {
+        "type": "Nethervoid",
+        "name": "Hell Rider",
+        "text": "If the Hell Rider is the Gateway, it may do 1 combat move. Otherwise, it may do up to 3 combat moves."
+    },
+    "Demon of Wrath": {
+        "type": "Nethervoid",
+        "name": "Demon of Wrath",
+        "text": "Destroy all enemy common pieces adjacent to the Gateway. If there are none, the Gateway may do a standard move first."
+    },
+    "Demon of Pride": {
+        "type": "Nethervoid",
+        "name": "Demon of Pride",
+        "text": "Upgrade the Demon of Pride. It becomes the Gateway. It may do 1 combat move."
+    },
+    "Hell Hound": {
+        "type": "Nethervoid",
+        "name": "Hell Hound",
+        "text": "You may destroy an adjacent piece. If you destroy no legendary piece and if your deck is not out of cards, put this card on the bottom of your deck."
+    }
+}

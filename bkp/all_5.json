@@ -1,0 +1,2571 @@
+[
+    {
+        "id": "40",
+        "type": "Highland",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Clan Healer",
+        "text": "You may place up to 2 common pieces of your color. Each must be placed on an empty square adjacent to a green square."
+    },
+    {
+        "id": "45",
+        "type": "Highland",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Wolf Rider",
+        "text": "The Wolf Rider may do up to 2 combat moves."
+    },
+    {
+        "id": "50",
+        "type": "Highland",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Mountain Troll",
+        "text": "Destroy all common enemy pieces on adjacent squares. If you destroy at least 2 this way, gain an action."
+    },
+    {
+        "id": "44",
+        "type": "Highland",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Werewolf",
+        "text": "If the Werewolf was summoned on a non-central red or green square, it may do up to 3 combat moves. Otherwise it may do 1 standard move."
+    },
+    {
+        "id": "54",
+        "type": "Highland",
+        "type_arg": "11",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "War Summoner",
+        "text": "Gain an action. For the pattern of the next being you summon this turn, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "53",
+        "type": "Highland",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Dire Wolf",
+        "text": "The Dire Wolf may do up to 2 combat moves."
+    },
+    {
+        "id": "52",
+        "type": "Highland",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Ritual Keeper",
+        "text": "If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
+    },
+    {
+        "id": "49",
+        "type": "Highland",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Clan Axeman",
+        "text": "You may destroy 1 non-legendary piece on an orthogonally adjacent square."
+    },
+    {
+        "id": "47",
+        "type": "Highland",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "19",
+        "name": "War Drummer",
+        "text": "Do either 1 combat move or up to 2 standard moves, using your pieces other than the War Drummer."
+    },
+    {
+        "id": "46",
+        "type": "Highland",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Warlord",
+        "text": "Do up to 3 combat moves, using your pieces. If you do all 3, at least one has to be with the Warlord."
+    },
+    {
+        "id": "43",
+        "type": "Highland",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "20",
+        "name": "Clan Guardian",
+        "text": "You may upgrade 1 common piece used to summon the Clan Guardian."
+    },
+    {
+        "id": "42",
+        "type": "Highland",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Blood Shaman",
+        "text": "Destroy 1 non-legendary piece. If it was on a red square, destroy all common pieces adjacent to the red square."
+    },
+    {
+        "id": "41",
+        "type": "Highland",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Eagle Lord",
+        "text": "The Eagle Lord may do a combat leap to any square of the board."
+    },
+    {
+        "id": "37",
+        "type": "Highland",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "13",
+        "name": "Legend Slayer",
+        "text": "You may destroy 1 legendary or up to 2 non-legendary pieces on diagonally adjacent squares."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "128",
+        "type": "Legends",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Leviathan",
+        "text": "Chose one: Either downgrade a connected group of up to 3 upgraded pieces or destroy a connected group of up to 4 common pieces. (A group may have multiple colors.)"
+    },
+    {
+        "id": "50",
+        "type": "Highland",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Mountain Troll",
+        "text": "Destroy all common enemy pieces on adjacent squares. If you destroy at least 2 this way, gain an action."
+    },
+    {
+        "id": "44",
+        "type": "Highland",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Werewolf",
+        "text": "If the Werewolf was summoned on a non-central red or green square, it may do up to 3 combat moves. Otherwise it may do 1 standard move."
+    },
+    {
+        "id": "39",
+        "type": "Highland",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Hill Giant",
+        "text": "Destroy all non-legendary pieces on orthogonally adjacent squares."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "85647269",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "44",
+        "type": "Highland",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Werewolf",
+        "text": "If the Werewolf was summoned on a non-central red or green square, it may do up to 3 combat moves. Otherwise it may do 1 standard move."
+    },
+    {
+        "id": "54",
+        "type": "Highland",
+        "type_arg": "11",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "War Summoner",
+        "text": "Gain an action. For the pattern of the next being you summon this turn, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "53",
+        "type": "Highland",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Dire Wolf",
+        "text": "The Dire Wolf may do up to 2 combat moves."
+    },
+    {
+        "id": "52",
+        "type": "Highland",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Ritual Keeper",
+        "text": "If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
+    },
+    {
+        "id": "49",
+        "type": "Highland",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Clan Axeman",
+        "text": "You may destroy 1 non-legendary piece on an orthogonally adjacent square."
+    },
+    {
+        "id": "47",
+        "type": "Highland",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "19",
+        "name": "War Drummer",
+        "text": "Do either 1 combat move or up to 2 standard moves, using your pieces other than the War Drummer."
+    },
+    {
+        "id": "46",
+        "type": "Highland",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Warlord",
+        "text": "Do up to 3 combat moves, using your pieces. If you do all 3, at least one has to be with the Warlord."
+    },
+    {
+        "id": "43",
+        "type": "Highland",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "20",
+        "name": "Clan Guardian",
+        "text": "You may upgrade 1 common piece used to summon the Clan Guardian."
+    },
+    {
+        "id": "42",
+        "type": "Highland",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Blood Shaman",
+        "text": "Destroy 1 non-legendary piece. If it was on a red square, destroy all common pieces adjacent to the red square."
+    },
+    {
+        "id": "41",
+        "type": "Highland",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Eagle Lord",
+        "text": "The Eagle Lord may do a combat leap to any square of the board."
+    },
+    {
+        "id": "37",
+        "type": "Highland",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "13",
+        "name": "Legend Slayer",
+        "text": "You may destroy 1 legendary or up to 2 non-legendary pieces on diagonally adjacent squares."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "128",
+        "type": "Legends",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Leviathan",
+        "text": "Chose one: Either downgrade a connected group of up to 3 upgraded pieces or destroy a connected group of up to 4 common pieces. (A group may have multiple colors.)"
+    },
+    {
+        "id": "50",
+        "type": "Highland",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Mountain Troll",
+        "text": "Destroy all common enemy pieces on adjacent squares. If you destroy at least 2 this way, gain an action."
+    },
+    {
+        "id": "44",
+        "type": "Highland",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Werewolf",
+        "text": "If the Werewolf was summoned on a non-central red or green square, it may do up to 3 combat moves. Otherwise it may do 1 standard move."
+    },
+    {
+        "id": "39",
+        "type": "Highland",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Hill Giant",
+        "text": "Destroy all non-legendary pieces on orthogonally adjacent squares."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "85647269",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "44",
+        "type": "Highland",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Werewolf",
+        "text": "If the Werewolf was summoned on a non-central red or green square, it may do up to 3 combat moves. Otherwise it may do 1 standard move."
+    },
+    {
+        "id": "156",
+        "type": "task",
+        "type_arg": "8",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Red Legends",
+        "text": "You have at least 2 upgraded pieces on red squares, and at least 1 of them is legendary."
+    },
+    {
+        "id": "156",
+        "type": "task",
+        "type_arg": "8",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Red Legends",
+        "text": "You have at least 2 upgraded pieces on red squares, and at least 1 of them is legendary."
+    },
+    {
+        "id": "154",
+        "type": "task",
+        "type_arg": "13",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Colored Summoning",
+        "text": "You summoned at least 2 beings on red and/or green squares this turn. (Both of them may have been summoned on the same square.)"
+    },
+    {
+        "id": "154",
+        "type": "task",
+        "type_arg": "13",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Colored Summoning",
+        "text": "You summoned at least 2 beings on red and/or green squares this turn. (Both of them may have been summoned on the same square.)"
+    },
+    {
+        "id": "54",
+        "type": "Highland",
+        "type_arg": "11",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "War Summoner",
+        "text": "Gain an action. For the pattern of the next being you summon this turn, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "53",
+        "type": "Highland",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Dire Wolf",
+        "text": "The Dire Wolf may do up to 2 combat moves."
+    },
+    {
+        "id": "52",
+        "type": "Highland",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Ritual Keeper",
+        "text": "If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
+    },
+    {
+        "id": "49",
+        "type": "Highland",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Clan Axeman",
+        "text": "You may destroy 1 non-legendary piece on an orthogonally adjacent square."
+    },
+    {
+        "id": "47",
+        "type": "Highland",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "19",
+        "name": "War Drummer",
+        "text": "Do either 1 combat move or up to 2 standard moves, using your pieces other than the War Drummer."
+    },
+    {
+        "id": "46",
+        "type": "Highland",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Warlord",
+        "text": "Do up to 3 combat moves, using your pieces. If you do all 3, at least one has to be with the Warlord."
+    },
+    {
+        "id": "43",
+        "type": "Highland",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "20",
+        "name": "Clan Guardian",
+        "text": "You may upgrade 1 common piece used to summon the Clan Guardian."
+    },
+    {
+        "id": "42",
+        "type": "Highland",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Blood Shaman",
+        "text": "Destroy 1 non-legendary piece. If it was on a red square, destroy all common pieces adjacent to the red square."
+    },
+    {
+        "id": "41",
+        "type": "Highland",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Eagle Lord",
+        "text": "The Eagle Lord may do a combat leap to any square of the board."
+    },
+    {
+        "id": "37",
+        "type": "Highland",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "13",
+        "name": "Legend Slayer",
+        "text": "You may destroy 1 legendary or up to 2 non-legendary pieces on diagonally adjacent squares."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "128",
+        "type": "Legends",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Leviathan",
+        "text": "Chose one: Either downgrade a connected group of up to 3 upgraded pieces or destroy a connected group of up to 4 common pieces. (A group may have multiple colors.)"
+    },
+    {
+        "id": "50",
+        "type": "Highland",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Mountain Troll",
+        "text": "Destroy all common enemy pieces on adjacent squares. If you destroy at least 2 this way, gain an action."
+    },
+    {
+        "id": "44",
+        "type": "Highland",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Werewolf",
+        "text": "If the Werewolf was summoned on a non-central red or green square, it may do up to 3 combat moves. Otherwise it may do 1 standard move."
+    },
+    {
+        "id": "39",
+        "type": "Highland",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Hill Giant",
+        "text": "Destroy all non-legendary pieces on orthogonally adjacent squares."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "85647269",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "54",
+        "type": "Highland",
+        "type_arg": "11",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "War Summoner",
+        "text": "Gain an action. For the pattern of the next being you summon this turn, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "53",
+        "type": "Highland",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Dire Wolf",
+        "text": "The Dire Wolf may do up to 2 combat moves."
+    },
+    {
+        "id": "52",
+        "type": "Highland",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Ritual Keeper",
+        "text": "If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
+    },
+    {
+        "id": "49",
+        "type": "Highland",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Clan Axeman",
+        "text": "You may destroy 1 non-legendary piece on an orthogonally adjacent square."
+    },
+    {
+        "id": "47",
+        "type": "Highland",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "19",
+        "name": "War Drummer",
+        "text": "Do either 1 combat move or up to 2 standard moves, using your pieces other than the War Drummer."
+    },
+    {
+        "id": "46",
+        "type": "Highland",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Warlord",
+        "text": "Do up to 3 combat moves, using your pieces. If you do all 3, at least one has to be with the Warlord."
+    },
+    {
+        "id": "43",
+        "type": "Highland",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "20",
+        "name": "Clan Guardian",
+        "text": "You may upgrade 1 common piece used to summon the Clan Guardian."
+    },
+    {
+        "id": "42",
+        "type": "Highland",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Blood Shaman",
+        "text": "Destroy 1 non-legendary piece. If it was on a red square, destroy all common pieces adjacent to the red square."
+    },
+    {
+        "id": "41",
+        "type": "Highland",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Eagle Lord",
+        "text": "The Eagle Lord may do a combat leap to any square of the board."
+    },
+    {
+        "id": "37",
+        "type": "Highland",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "13",
+        "name": "Legend Slayer",
+        "text": "You may destroy 1 legendary or up to 2 non-legendary pieces on diagonally adjacent squares."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "128",
+        "type": "Legends",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Leviathan",
+        "text": "Chose one: Either downgrade a connected group of up to 3 upgraded pieces or destroy a connected group of up to 4 common pieces. (A group may have multiple colors.)"
+    },
+    {
+        "id": "50",
+        "type": "Highland",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Mountain Troll",
+        "text": "Destroy all common enemy pieces on adjacent squares. If you destroy at least 2 this way, gain an action."
+    },
+    {
+        "id": "44",
+        "type": "Highland",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Werewolf",
+        "text": "If the Werewolf was summoned on a non-central red or green square, it may do up to 3 combat moves. Otherwise it may do 1 standard move."
+    },
+    {
+        "id": "39",
+        "type": "Highland",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Hill Giant",
+        "text": "Destroy all non-legendary pieces on orthogonally adjacent squares."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "85647269",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "44",
+        "type": "Highland",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Werewolf",
+        "text": "If the Werewolf was summoned on a non-central red or green square, it may do up to 3 combat moves. Otherwise it may do 1 standard move."
+    },
+    {
+        "id": "99",
+        "type": "Nethervoid",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Demon of Envy",
+        "text": "Place a common piece of your color on an empty square adjacent to the Gateway. Then repeat this until there is no such empty square or until no opponent has more pieces than you do."
+    },
+    {
+        "id": "105",
+        "type": "Nethervoid",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Acolyte of Destruction",
+        "text": "Destroy a common piece. If the Gateway is on a red square, you may also destroy a heroic piece adjacent to the destroyed piece's square."
+    },
+    {
+        "id": "50",
+        "type": "Highland",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Mountain Troll",
+        "text": "Destroy all common enemy pieces on adjacent squares. If you destroy at least 2 this way, gain an action."
+    },
+    {
+        "id": "44",
+        "type": "Highland",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Werewolf",
+        "text": "If the Werewolf was summoned on a non-central red or green square, it may do up to 3 combat moves. Otherwise it may do 1 standard move."
+    },
+    {
+        "id": "43",
+        "type": "Highland",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Clan Guardian",
+        "text": "You may upgrade 1 common piece used to summon the Clan Guardian."
+    },
+    {
+        "id": "47",
+        "type": "Highland",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "War Drummer",
+        "text": "Do either 1 combat move or up to 2 standard moves, using your pieces other than the War Drummer."
+    },
+    {
+        "id": "54",
+        "type": "Highland",
+        "type_arg": "11",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "War Summoner",
+        "text": "Gain an action. For the pattern of the next being you summon this turn, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "53",
+        "type": "Highland",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Dire Wolf",
+        "text": "The Dire Wolf may do up to 2 combat moves."
+    },
+    {
+        "id": "52",
+        "type": "Highland",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Ritual Keeper",
+        "text": "If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
+    },
+    {
+        "id": "49",
+        "type": "Highland",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Clan Axeman",
+        "text": "You may destroy 1 non-legendary piece on an orthogonally adjacent square."
+    },
+    {
+        "id": "46",
+        "type": "Highland",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Warlord",
+        "text": "Do up to 3 combat moves, using your pieces. If you do all 3, at least one has to be with the Warlord."
+    },
+    {
+        "id": "42",
+        "type": "Highland",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Blood Shaman",
+        "text": "Destroy 1 non-legendary piece. If it was on a red square, destroy all common pieces adjacent to the red square."
+    },
+    {
+        "id": "41",
+        "type": "Highland",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Eagle Lord",
+        "text": "The Eagle Lord may do a combat leap to any square of the board."
+    },
+    {
+        "id": "37",
+        "type": "Highland",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "13",
+        "name": "Legend Slayer",
+        "text": "You may destroy 1 legendary or up to 2 non-legendary pieces on diagonally adjacent squares."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "128",
+        "type": "Legends",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Leviathan",
+        "text": "Chose one: Either downgrade a connected group of up to 3 upgraded pieces or destroy a connected group of up to 4 common pieces. (A group may have multiple colors.)"
+    },
+    {
+        "id": "47",
+        "type": "Highland",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "War Drummer",
+        "text": "Do either 1 combat move or up to 2 standard moves, using your pieces other than the War Drummer."
+    },
+    {
+        "id": "43",
+        "type": "Highland",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Clan Guardian",
+        "text": "You may upgrade 1 common piece used to summon the Clan Guardian."
+    },
+    {
+        "id": "39",
+        "type": "Highland",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Hill Giant",
+        "text": "Destroy all non-legendary pieces on orthogonally adjacent squares."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "85647269",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "54",
+        "type": "Highland",
+        "type_arg": "11",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "War Summoner",
+        "text": "Gain an action. For the pattern of the next being you summon this turn, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "53",
+        "type": "Highland",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Dire Wolf",
+        "text": "The Dire Wolf may do up to 2 combat moves."
+    },
+    {
+        "id": "52",
+        "type": "Highland",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Ritual Keeper",
+        "text": "If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
+    },
+    {
+        "id": "49",
+        "type": "Highland",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Clan Axeman",
+        "text": "You may destroy 1 non-legendary piece on an orthogonally adjacent square."
+    },
+    {
+        "id": "46",
+        "type": "Highland",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Warlord",
+        "text": "Do up to 3 combat moves, using your pieces. If you do all 3, at least one has to be with the Warlord."
+    },
+    {
+        "id": "42",
+        "type": "Highland",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Blood Shaman",
+        "text": "Destroy 1 non-legendary piece. If it was on a red square, destroy all common pieces adjacent to the red square."
+    },
+    {
+        "id": "41",
+        "type": "Highland",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Eagle Lord",
+        "text": "The Eagle Lord may do a combat leap to any square of the board."
+    },
+    {
+        "id": "37",
+        "type": "Highland",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "13",
+        "name": "Legend Slayer",
+        "text": "You may destroy 1 legendary or up to 2 non-legendary pieces on diagonally adjacent squares."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "128",
+        "type": "Legends",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Leviathan",
+        "text": "Chose one: Either downgrade a connected group of up to 3 upgraded pieces or destroy a connected group of up to 4 common pieces. (A group may have multiple colors.)"
+    },
+    {
+        "id": "47",
+        "type": "Highland",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "War Drummer",
+        "text": "Do either 1 combat move or up to 2 standard moves, using your pieces other than the War Drummer."
+    },
+    {
+        "id": "43",
+        "type": "Highland",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Clan Guardian",
+        "text": "You may upgrade 1 common piece used to summon the Clan Guardian."
+    },
+    {
+        "id": "39",
+        "type": "Highland",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Hill Giant",
+        "text": "Destroy all non-legendary pieces on orthogonally adjacent squares."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "85647269",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "47",
+        "type": "Highland",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "War Drummer",
+        "text": "Do either 1 combat move or up to 2 standard moves, using your pieces other than the War Drummer."
+    },
+    {
+        "id": "54",
+        "type": "Highland",
+        "type_arg": "11",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "War Summoner",
+        "text": "Gain an action. For the pattern of the next being you summon this turn, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "53",
+        "type": "Highland",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Dire Wolf",
+        "text": "The Dire Wolf may do up to 2 combat moves."
+    },
+    {
+        "id": "52",
+        "type": "Highland",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Ritual Keeper",
+        "text": "If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
+    },
+    {
+        "id": "49",
+        "type": "Highland",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Clan Axeman",
+        "text": "You may destroy 1 non-legendary piece on an orthogonally adjacent square."
+    },
+    {
+        "id": "46",
+        "type": "Highland",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Warlord",
+        "text": "Do up to 3 combat moves, using your pieces. If you do all 3, at least one has to be with the Warlord."
+    },
+    {
+        "id": "42",
+        "type": "Highland",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Blood Shaman",
+        "text": "Destroy 1 non-legendary piece. If it was on a red square, destroy all common pieces adjacent to the red square."
+    },
+    {
+        "id": "41",
+        "type": "Highland",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Eagle Lord",
+        "text": "The Eagle Lord may do a combat leap to any square of the board."
+    },
+    {
+        "id": "37",
+        "type": "Highland",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "13",
+        "name": "Legend Slayer",
+        "text": "You may destroy 1 legendary or up to 2 non-legendary pieces on diagonally adjacent squares."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "128",
+        "type": "Legends",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Leviathan",
+        "text": "Chose one: Either downgrade a connected group of up to 3 upgraded pieces or destroy a connected group of up to 4 common pieces. (A group may have multiple colors.)"
+    },
+    {
+        "id": "47",
+        "type": "Highland",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "War Drummer",
+        "text": "Do either 1 combat move or up to 2 standard moves, using your pieces other than the War Drummer."
+    },
+    {
+        "id": "43",
+        "type": "Highland",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Clan Guardian",
+        "text": "You may upgrade 1 common piece used to summon the Clan Guardian."
+    },
+    {
+        "id": "39",
+        "type": "Highland",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Hill Giant",
+        "text": "Destroy all non-legendary pieces on orthogonally adjacent squares."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "85647269",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "54",
+        "type": "Highland",
+        "type_arg": "11",
+        "location": "discard",
+        "location_arg": "16",
+        "name": "War Summoner",
+        "text": "Gain an action. For the pattern of the next being you summon this turn, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "53",
+        "type": "Highland",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Dire Wolf",
+        "text": "The Dire Wolf may do up to 2 combat moves."
+    },
+    {
+        "id": "52",
+        "type": "Highland",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Ritual Keeper",
+        "text": "If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
+    },
+    {
+        "id": "49",
+        "type": "Highland",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Clan Axeman",
+        "text": "You may destroy 1 non-legendary piece on an orthogonally adjacent square."
+    },
+    {
+        "id": "46",
+        "type": "Highland",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Warlord",
+        "text": "Do up to 3 combat moves, using your pieces. If you do all 3, at least one has to be with the Warlord."
+    },
+    {
+        "id": "42",
+        "type": "Highland",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Blood Shaman",
+        "text": "Destroy 1 non-legendary piece. If it was on a red square, destroy all common pieces adjacent to the red square."
+    },
+    {
+        "id": "41",
+        "type": "Highland",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Eagle Lord",
+        "text": "The Eagle Lord may do a combat leap to any square of the board."
+    },
+    {
+        "id": "37",
+        "type": "Highland",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "13",
+        "name": "Legend Slayer",
+        "text": "You may destroy 1 legendary or up to 2 non-legendary pieces on diagonally adjacent squares."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "128",
+        "type": "Legends",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Leviathan",
+        "text": "Chose one: Either downgrade a connected group of up to 3 upgraded pieces or destroy a connected group of up to 4 common pieces. (A group may have multiple colors.)"
+    },
+    {
+        "id": "47",
+        "type": "Highland",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "War Drummer",
+        "text": "Do either 1 combat move or up to 2 standard moves, using your pieces other than the War Drummer."
+    },
+    {
+        "id": "43",
+        "type": "Highland",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Clan Guardian",
+        "text": "You may upgrade 1 common piece used to summon the Clan Guardian."
+    },
+    {
+        "id": "39",
+        "type": "Highland",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Hill Giant",
+        "text": "Destroy all non-legendary pieces on orthogonally adjacent squares."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "85647269",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "47",
+        "type": "Highland",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "War Drummer",
+        "text": "Do either 1 combat move or up to 2 standard moves, using your pieces other than the War Drummer."
+    },
+    {
+        "id": "101",
+        "type": "Nethervoid",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Shadow Imp",
+        "text": "The Shadow Imp may do 1 combat move. If it does and it is not the Gateway, then the Gateway may do 1 combat move in the same direction"
+    },
+    {
+        "id": "95",
+        "type": "Nethervoid",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Demon of Gluttony",
+        "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+    },
+    {
+        "id": "168",
+        "type": "task",
+        "type_arg": "21",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Imprisonment",
+        "text": "You have at least 6 pieces adjacent to the same enemy piece."
+    },
+    {
+        "id": "168",
+        "type": "task",
+        "type_arg": "21",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Imprisonment",
+        "text": "You have at least 6 pieces adjacent to the same enemy piece."
+    },
+    {
+        "id": "47",
+        "type": "Highland",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "War Drummer",
+        "text": "Do either 1 combat move or up to 2 standard moves, using your pieces other than the War Drummer."
+    },
+    {
+        "id": "43",
+        "type": "Highland",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Clan Guardian",
+        "text": "You may upgrade 1 common piece used to summon the Clan Guardian."
+    },
+    {
+        "id": "41",
+        "type": "Highland",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Eagle Lord",
+        "text": "The Eagle Lord may do a combat leap to any square of the board."
+    },
+    {
+        "id": "54",
+        "type": "Highland",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "War Summoner",
+        "text": "Gain an action. For the pattern of the next being you summon this turn, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "53",
+        "type": "Highland",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Dire Wolf",
+        "text": "The Dire Wolf may do up to 2 combat moves."
+    },
+    {
+        "id": "52",
+        "type": "Highland",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Ritual Keeper",
+        "text": "If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
+    },
+    {
+        "id": "49",
+        "type": "Highland",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Clan Axeman",
+        "text": "You may destroy 1 non-legendary piece on an orthogonally adjacent square."
+    },
+    {
+        "id": "46",
+        "type": "Highland",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Warlord",
+        "text": "Do up to 3 combat moves, using your pieces. If you do all 3, at least one has to be with the Warlord."
+    },
+    {
+        "id": "42",
+        "type": "Highland",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Blood Shaman",
+        "text": "Destroy 1 non-legendary piece. If it was on a red square, destroy all common pieces adjacent to the red square."
+    },
+    {
+        "id": "37",
+        "type": "Highland",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "13",
+        "name": "Legend Slayer",
+        "text": "You may destroy 1 legendary or up to 2 non-legendary pieces on diagonally adjacent squares."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "128",
+        "type": "Legends",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Leviathan",
+        "text": "Chose one: Either downgrade a connected group of up to 3 upgraded pieces or destroy a connected group of up to 4 common pieces. (A group may have multiple colors.)"
+    },
+    {
+        "id": "54",
+        "type": "Highland",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "War Summoner",
+        "text": "Gain an action. For the pattern of the next being you summon this turn, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "41",
+        "type": "Highland",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Eagle Lord",
+        "text": "The Eagle Lord may do a combat leap to any square of the board."
+    },
+    {
+        "id": "39",
+        "type": "Highland",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Hill Giant",
+        "text": "Destroy all non-legendary pieces on orthogonally adjacent squares."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "85647269",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "53",
+        "type": "Highland",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Dire Wolf",
+        "text": "The Dire Wolf may do up to 2 combat moves."
+    },
+    {
+        "id": "52",
+        "type": "Highland",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Ritual Keeper",
+        "text": "If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
+    },
+    {
+        "id": "49",
+        "type": "Highland",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Clan Axeman",
+        "text": "You may destroy 1 non-legendary piece on an orthogonally adjacent square."
+    },
+    {
+        "id": "46",
+        "type": "Highland",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Warlord",
+        "text": "Do up to 3 combat moves, using your pieces. If you do all 3, at least one has to be with the Warlord."
+    },
+    {
+        "id": "42",
+        "type": "Highland",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Blood Shaman",
+        "text": "Destroy 1 non-legendary piece. If it was on a red square, destroy all common pieces adjacent to the red square."
+    },
+    {
+        "id": "37",
+        "type": "Highland",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "13",
+        "name": "Legend Slayer",
+        "text": "You may destroy 1 legendary or up to 2 non-legendary pieces on diagonally adjacent squares."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "128",
+        "type": "Legends",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Leviathan",
+        "text": "Chose one: Either downgrade a connected group of up to 3 upgraded pieces or destroy a connected group of up to 4 common pieces. (A group may have multiple colors.)"
+    },
+    {
+        "id": "54",
+        "type": "Highland",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "War Summoner",
+        "text": "Gain an action. For the pattern of the next being you summon this turn, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "41",
+        "type": "Highland",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Eagle Lord",
+        "text": "The Eagle Lord may do a combat leap to any square of the board."
+    },
+    {
+        "id": "39",
+        "type": "Highland",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Hill Giant",
+        "text": "Destroy all non-legendary pieces on orthogonally adjacent squares."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "85647269",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "53",
+        "type": "Highland",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Dire Wolf",
+        "text": "The Dire Wolf may do up to 2 combat moves."
+    },
+    {
+        "id": "52",
+        "type": "Highland",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Ritual Keeper",
+        "text": "If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
+    },
+    {
+        "id": "49",
+        "type": "Highland",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Clan Axeman",
+        "text": "You may destroy 1 non-legendary piece on an orthogonally adjacent square."
+    },
+    {
+        "id": "46",
+        "type": "Highland",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Warlord",
+        "text": "Do up to 3 combat moves, using your pieces. If you do all 3, at least one has to be with the Warlord."
+    },
+    {
+        "id": "42",
+        "type": "Highland",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Blood Shaman",
+        "text": "Destroy 1 non-legendary piece. If it was on a red square, destroy all common pieces adjacent to the red square."
+    },
+    {
+        "id": "37",
+        "type": "Highland",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "13",
+        "name": "Legend Slayer",
+        "text": "You may destroy 1 legendary or up to 2 non-legendary pieces on diagonally adjacent squares."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "128",
+        "type": "Legends",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Leviathan",
+        "text": "Chose one: Either downgrade a connected group of up to 3 upgraded pieces or destroy a connected group of up to 4 common pieces. (A group may have multiple colors.)"
+    },
+    {
+        "id": "54",
+        "type": "Highland",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "War Summoner",
+        "text": "Gain an action. For the pattern of the next being you summon this turn, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "41",
+        "type": "Highland",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Eagle Lord",
+        "text": "The Eagle Lord may do a combat leap to any square of the board."
+    },
+    {
+        "id": "39",
+        "type": "Highland",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Hill Giant",
+        "text": "Destroy all non-legendary pieces on orthogonally adjacent squares."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "85647269",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "54",
+        "type": "Highland",
+        "type_arg": "11",
+        "location": "discard_buffer",
+        "location_arg": "1",
+        "name": "War Summoner",
+        "text": "Gain an action. For the pattern of the next being you summon this turn, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "53",
+        "type": "Highland",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Dire Wolf",
+        "text": "The Dire Wolf may do up to 2 combat moves."
+    },
+    {
+        "id": "52",
+        "type": "Highland",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Ritual Keeper",
+        "text": "If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
+    },
+    {
+        "id": "49",
+        "type": "Highland",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Clan Axeman",
+        "text": "You may destroy 1 non-legendary piece on an orthogonally adjacent square."
+    },
+    {
+        "id": "46",
+        "type": "Highland",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Warlord",
+        "text": "Do up to 3 combat moves, using your pieces. If you do all 3, at least one has to be with the Warlord."
+    },
+    {
+        "id": "42",
+        "type": "Highland",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Blood Shaman",
+        "text": "Destroy 1 non-legendary piece. If it was on a red square, destroy all common pieces adjacent to the red square."
+    },
+    {
+        "id": "37",
+        "type": "Highland",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "13",
+        "name": "Legend Slayer",
+        "text": "You may destroy 1 legendary or up to 2 non-legendary pieces on diagonally adjacent squares."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "128",
+        "type": "Legends",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Leviathan",
+        "text": "Chose one: Either downgrade a connected group of up to 3 upgraded pieces or destroy a connected group of up to 4 common pieces. (A group may have multiple colors.)"
+    },
+    {
+        "id": "41",
+        "type": "Highland",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Eagle Lord",
+        "text": "The Eagle Lord may do a combat leap to any square of the board."
+    },
+    {
+        "id": "39",
+        "type": "Highland",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Hill Giant",
+        "text": "Destroy all non-legendary pieces on orthogonally adjacent squares."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "85647269",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "54",
+        "type": "Highland",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "War Summoner",
+        "text": "Gain an action. For the pattern of the next being you summon this turn, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "53",
+        "type": "Highland",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Dire Wolf",
+        "text": "The Dire Wolf may do up to 2 combat moves."
+    },
+    {
+        "id": "52",
+        "type": "Highland",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Ritual Keeper",
+        "text": "If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
+    },
+    {
+        "id": "49",
+        "type": "Highland",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Clan Axeman",
+        "text": "You may destroy 1 non-legendary piece on an orthogonally adjacent square."
+    },
+    {
+        "id": "46",
+        "type": "Highland",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Warlord",
+        "text": "Do up to 3 combat moves, using your pieces. If you do all 3, at least one has to be with the Warlord."
+    },
+    {
+        "id": "42",
+        "type": "Highland",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "Blood Shaman",
+        "text": "Destroy 1 non-legendary piece. If it was on a red square, destroy all common pieces adjacent to the red square."
+    },
+    {
+        "id": "37",
+        "type": "Highland",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "13",
+        "name": "Legend Slayer",
+        "text": "You may destroy 1 legendary or up to 2 non-legendary pieces on diagonally adjacent squares."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "128",
+        "type": "Legends",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Leviathan",
+        "text": "Chose one: Either downgrade a connected group of up to 3 upgraded pieces or destroy a connected group of up to 4 common pieces. (A group may have multiple colors.)"
+    },
+    {
+        "id": "54",
+        "type": "Highland",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "War Summoner",
+        "text": "Gain an action. For the pattern of the next being you summon this turn, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "41",
+        "type": "Highland",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Eagle Lord",
+        "text": "The Eagle Lord may do a combat leap to any square of the board."
+    },
+    {
+        "id": "39",
+        "type": "Highland",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Hill Giant",
+        "text": "Destroy all non-legendary pieces on orthogonally adjacent squares."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "85647269",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "105",
+        "type": "Nethervoid",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Acolyte of Destruction",
+        "text": "Destroy a common piece. If the Gateway is on a red square, you may also destroy a heroic piece adjacent to the destroyed piece's square."
+    },
+    {
+        "id": "108",
+        "type": "Nethervoid",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Demon of Lust",
+        "text": "Choose up to 2 pieces (not necessarily yours). With each, do 1 combat move toward the Gateway. These moves must not destroy the Gateway."
+    },
+    {
+        "id": "144",
+        "type": "Flare",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "88605532",
+        "upgraded": "Gain an action.",
+        "pieces": "Place 1 common piece of your color on any empty square."
+    },
+    {
+        "id": "93",
+        "type": "Nethervoid",
+        "type_arg": "8",
+        "location": "return_buffer",
+        "location_arg": "1",
+        "name": "Hell Hound",
+        "text": "You may destroy an adjacent piece. If you destroy no legendary piece and if your deck is not out of cards, put this card on the bottom of your deck."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "103",
+        "type": "Nethervoid",
+        "type_arg": "15",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Sloth",
+        "text": "Spend an action to do nothing. If you cannot, destroy the Gateway instead."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "12",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Demon of Wrath",
+        "text": "Destroy all enemy common pieces adjacent to the Gateway. If there are none, the Gateway may do a standard move first."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "6",
+        "location": "discard",
+        "location_arg": "11",
+        "name": "Acolyte of Growth",
+        "text": "Place a common piece of your color on an empty square. If the Gateway is on a green square, place a heroic piece of your color on an empty square adjacent to that new common piece."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "10",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "95",
+        "type": "Nethervoid",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Demon of Gluttony",
+        "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+    },
+    {
+        "id": "93",
+        "type": "Nethervoid",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Hell Hound",
+        "text": "You may destroy an adjacent piece. If you destroy no legendary piece and if your deck is not out of cards, put this card on the bottom of your deck."
+    },
+    {
+        "id": "135",
+        "type": "Legends",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Hell Bull",
+        "text": "Choose any direction: The Hell Bull may do any number of combat moves in that direction. If it destroys a legendary piece, it stops."
+    },
+    {
+        "id": "131",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "41",
+        "type": "Highland",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Eagle Lord",
+        "text": "The Eagle Lord may do a combat leap to any square of the board."
+    },
+    {
+        "id": "54",
+        "type": "Highland",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "War Summoner",
+        "text": "Gain an action. For the pattern of the next being you summon this turn, you may use one enemy piece as though it were yours."
+    },
+    {
+        "id": "37",
+        "type": "Highland",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Legend Slayer",
+        "text": "You may destroy 1 legendary or up to 2 non-legendary pieces on diagonally adjacent squares."
+    },
+    {
+        "id": "53",
+        "type": "Highland",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Dire Wolf",
+        "text": "The Dire Wolf may do up to 2 combat moves."
+    },
+    {
+        "id": "174",
+        "type": "task",
+        "type_arg": "18",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Diagonals",
+        "text": "You have at least 4 pieces on each diagonal, and at least 1 of your pieces on each diagonal is upgraded."
+    },
+    {
+        "id": "174",
+        "type": "task",
+        "type_arg": "18",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Diagonals",
+        "text": "You have at least 4 pieces on each diagonal, and at least 1 of your pieces on each diagonal is upgraded."
+    },
+    {
+        "id": "93",
+        "type": "Nethervoid",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Hell Hound",
+        "text": "You may destroy an adjacent piece. If you destroy no legendary piece and if your deck is not out of cards, put this card on the bottom of your deck."
+    },
+    {
+        "id": "95",
+        "type": "Nethervoid",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Demon of Gluttony",
+        "text": "The Demon of Gluttony may do a combat move. If this destroys a piece, upgrade Gluttony and it may do another combat move.  If this destroys another piece, Gluttony becomes the Gateway."
+    },
+    {
+        "id": "146",
+        "type": "Flare",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "88605532",
+        "upgraded": "Place 1 common piece of your color on any empty square, or upgrade 1 of your common pieces.",
+        "pieces": "You may do 1 combat leap with one of your common pieces."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Acolyte of Growth",
+        "text": "Place a common piece of your color on an empty square. If the Gateway is on a green square, place a heroic piece of your color on an empty square adjacent to that new common piece."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "169",
+        "type": "task",
+        "type_arg": "7",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Color Conquest",
+        "text": "You have at least 5 pieces on red and/or green squares, and at least 3 of them are upgraded."
+    },
+    {
+        "id": "169",
+        "type": "task",
+        "type_arg": "7",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Color Conquest",
+        "text": "You have at least 5 pieces on red and/or green squares, and at least 3 of them are upgraded."
+    },
+    {
+        "id": "53",
+        "type": "Highland",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Dire Wolf",
+        "text": "The Dire Wolf may do up to 2 combat moves."
+    },
+    {
+        "id": "52",
+        "type": "Highland",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Ritual Keeper",
+        "text": "If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
+    },
+    {
+        "id": "52",
+        "type": "Highland",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Ritual Keeper",
+        "text": "If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
+    },
+    {
+        "id": "46",
+        "type": "Highland",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Warlord",
+        "text": "Do up to 3 combat moves, using your pieces. If you do all 3, at least one has to be with the Warlord."
+    },
+    {
+        "id": "103",
+        "type": "Nethervoid",
+        "type_arg": "15",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Demon of Sloth",
+        "text": "Spend an action to do nothing. If you cannot, destroy the Gateway instead."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "12",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Demon of Wrath",
+        "text": "Destroy all enemy common pieces adjacent to the Gateway. If there are none, the Gateway may do a standard move first."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Acolyte of Growth",
+        "text": "Place a common piece of your color on an empty square. If the Gateway is on a green square, place a heroic piece of your color on an empty square adjacent to that new common piece."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "135",
+        "type": "Legends",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Hell Bull",
+        "text": "Choose any direction: The Hell Bull may do any number of combat moves in that direction. If it destroys a legendary piece, it stops."
+    },
+    {
+        "id": "131",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "149",
+        "type": "Flare",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "88605532",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 heroic piece of your color on any empty square."
+    },
+    {
+        "id": "149",
+        "type": "Flare",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "88605532",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 heroic piece of your color on any empty square."
+    },
+    {
+        "id": "157",
+        "type": "task",
+        "type_arg": "11",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Red Summoning",
+        "text": "You summoned at least 2 beings this turn, at least 1 on a red square."
+    },
+    {
+        "id": "157",
+        "type": "task",
+        "type_arg": "11",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Red Summoning",
+        "text": "You summoned at least 2 beings this turn, at least 1 on a red square."
+    },
+    {
+        "id": "46",
+        "type": "Highland",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Warlord",
+        "text": "Do up to 3 combat moves, using your pieces. If you do all 3, at least one has to be with the Warlord."
+    },
+    {
+        "id": "148",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "85647269",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "42",
+        "type": "Highland",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Blood Shaman",
+        "text": "Destroy 1 non-legendary piece. If it was on a red square, destroy all common pieces adjacent to the red square."
+    },
+    {
+        "id": "155",
+        "type": "task",
+        "type_arg": "19",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Side Chain",
+        "text": "Squares on two opposite sides of the board are connected by a chain of your pieces."
+    },
+    {
+        "id": "155",
+        "type": "task",
+        "type_arg": "19",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Side Chain",
+        "text": "Squares on two opposite sides of the board are connected by a chain of your pieces."
+    },
+    {
+        "id": "98",
+        "type": "Nethervoid",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Demon of Greed",
+        "text": "Destroy one of your common and one of your heroic non-Gateway pieces. For each destroyed piece, gain an action."
+    },
+    {
+        "id": "103",
+        "type": "Nethervoid",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Demon of Sloth",
+        "text": "Spend an action to do nothing. If you cannot, destroy the Gateway instead."
+    },
+    {
+        "id": "91",
+        "type": "Nethervoid",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Possessed Summoner",
+        "text": "Place a common enemy piece on an empty square adjacent to a piece of the same color. For your next summoning this turn, use pieces of that color instead of your own. You may discard your flare to gain an action."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "12",
+        "location": "hand",
+        "location_arg": "88605532",
+        "name": "Demon of Wrath",
+        "text": "Destroy all enemy common pieces adjacent to the Gateway. If there are none, the Gateway may do a standard move first."
+    },
+    {
+        "id": "39",
+        "type": "Highland",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Hill Giant",
+        "text": "Destroy all non-legendary pieces on orthogonally adjacent squares."
+    },
+    {
+        "id": "49",
+        "type": "Highland",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Clan Axeman",
+        "text": "You may destroy 1 non-legendary piece on an orthogonally adjacent square."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "128",
+        "type": "Legends",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Leviathan",
+        "text": "Chose one: Either downgrade a connected group of up to 3 upgraded pieces or destroy a connected group of up to 4 common pieces. (A group may have multiple colors.)"
+    },
+    {
+        "id": "49",
+        "type": "Highland",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Clan Axeman",
+        "text": "You may destroy 1 non-legendary piece on an orthogonally adjacent square."
+    },
+    {
+        "id": "42",
+        "type": "Highland",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Blood Shaman",
+        "text": "Destroy 1 non-legendary piece. If it was on a red square, destroy all common pieces adjacent to the red square."
+    },
+    {
+        "id": "37",
+        "type": "Highland",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "85647269",
+        "name": "Legend Slayer",
+        "text": "You may destroy 1 legendary or up to 2 non-legendary pieces on diagonally adjacent squares."
+    },
+    {
+        "id": "141",
+        "type": "Flare",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "85647269",
+        "upgraded": "You may do 1 standard leap with one of your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "165",
+        "type": "task",
+        "type_arg": "1",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Devastation",
+        "text": "You destroyed at least 4 enemy pieces this turn."
+    },
+    {
+        "name": "Center Cross",
+        "type": "task",
+        "difficulty": "simple",
+        "text": "You have at least 5 pieces on the central squares in a + or x pattern.",
+        "criteria": "dominanceTask",
+        "critargs": [
+            5,
+            0,
+            0,
+            "centerCross"
+        ],
+        "points": 2,
+        "type_arg": "16"
+    },
+    {
+        "name": "Green Conquest",
+        "type": "task",
+        "difficulty": "simple",
+        "text": "You have at least 3 pieces on green squares, and at least 2 of them are upgraded.",
+        "criteria": "conquestTask",
+        "critargs": [
+            3,
+            2,
+            0,
+            "greenSquares"
+        ],
+        "points": 2,
+        "type_arg": "6"
+    },
+    {
+        "name": "Rainbow Dominance",
+        "type": "task",
+        "difficulty": "simple",
+        "text": "You have more upgraded pieces on red squares and more upgraded pieces on green squares than your opponent does.",
+        "criteria": "rainbowDominance",
+        "critargs": [],
+        "points": 2,
+        "type_arg": "10"
+    },
+    {
+        "id": "143",
+        "type": "Flare",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": 88605532,
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
+    },
+    {
+        "id": "131",
+        "type": "Legends",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": 88605532,
+        "name": "Bone Catapult",
+        "text": "You may choose any 1 piece in any of the indicated directions: Destroy it and all common pieces adjacent to it."
+    },
+    {
+        "id": "135",
+        "type": "Legends",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": 88605532,
+        "name": "Hell Bull",
+        "text": "Choose any direction: The Hell Bull may do any number of combat moves in that direction. If it destroys a legendary piece, it stops."
+    },
+    {
+        "id": "92",
+        "type": "Nethervoid",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": 88605532,
+        "name": "Acolyte of Growth",
+        "text": "Place a common piece of your color on an empty square. If the Gateway is on a green square, place a heroic piece of your color on an empty square adjacent to that new common piece."
+    },
+    {
+        "id": "96",
+        "type": "Nethervoid",
+        "type_arg": "12",
+        "location": "hand",
+        "location_arg": 88605532,
+        "name": "Demon of Wrath",
+        "text": "Destroy all enemy common pieces adjacent to the Gateway. If there are none, the Gateway may do a standard move first."
+    },
+    {
+        "id": "103",
+        "type": "Nethervoid",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": 88605532,
+        "name": "Demon of Sloth",
+        "text": "Spend an action to do nothing. If you cannot, destroy the Gateway instead."
+    },
+    {
+        "id": "141",
+        "type": "Flare",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": 85647269,
+        "upgraded": "You may do 1 standard leap with one of your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "133",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": 85647269,
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "128",
+        "type": "Legends",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": 85647269,
+        "name": "Leviathan",
+        "text": "Chose one: Either downgrade a connected group of up to 3 upgraded pieces or destroy a connected group of up to 4 common pieces. (A group may have multiple colors.)"
+    },
+    {
+        "id": "37",
+        "type": "Highland",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": 85647269,
+        "name": "Legend Slayer",
+        "text": "You may destroy 1 legendary or up to 2 non-legendary pieces on diagonally adjacent squares."
+    },
+    {
+        "id": "42",
+        "type": "Highland",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": 85647269,
+        "name": "Blood Shaman",
+        "text": "Destroy 1 non-legendary piece. If it was on a red square, destroy all common pieces adjacent to the red square."
+    },
+    {
+        "id": "49",
+        "type": "Highland",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": 85647269,
+        "name": "Clan Axeman",
+        "text": "You may destroy 1 non-legendary piece on an orthogonally adjacent square."
+    }
+]

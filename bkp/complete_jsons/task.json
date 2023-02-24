@@ -1,0 +1,122 @@
+{
+    "Red Legends": {
+        "type": "task",
+        "name": "Red Legends",
+        "text": "You have at least 2 upgraded pieces on red squares, and at least 1 of them is legendary."
+    },
+    "Imprisonment": {
+        "type": "task",
+        "name": "Imprisonment",
+        "text": "You have at least 6 pieces adjacent to the same enemy piece."
+    },
+    "Green Legends": {
+        "type": "task",
+        "name": "Green Legends",
+        "text": "You have at least 2 upgraded pieces on green squares, and at least 1 of them is legendary."
+    },
+    "Rainbow Dominance": {
+        "name": "Rainbow Dominance",
+        "type": "task",
+        "text": "You have more upgraded pieces on red squares and more upgraded pieces on green squares than your opponent does."
+    },
+    "Green Summoning": {
+        "type": "task",
+        "name": "Green Summoning",
+        "text": "You summoned at least 2 beings this turn, at least 1 on a green square."
+    },
+    "Red Summoning": {
+        "type": "task",
+        "name": "Red Summoning",
+        "text": "You summoned at least 2 beings this turn, at least 1 on a red square."
+    },
+    "Devastation": {
+        "name": "Devastation",
+        "type": "task",
+        "text": "You destroyed at least 4 enemy pieces this turn."
+    },
+    "Envelopment": {
+        "type": "task",
+        "name": "Envelopment",
+        "text": "You have at least 7 pieces adjacent to the same enemy piece."
+    },
+    "Red Conquest": {
+        "name": "Red Conquest",
+        "type": "task",
+        "text": "You have at least 3 pieces on red squares, and at least 2 of them are upgraded."
+    },
+    "Central Dominance": {
+        "type": "task",
+        "name": "Central Dominance",
+        "text": "You have at least 5 pieces on the nine central squares, and at least 2 of them are upgraded."
+    },
+    "Green Conquest": {
+        "name": "Green Conquest",
+        "type": "task",
+        "text": "You have at least 3 pieces on green squares, and at least 2 of them are upgraded."
+    },
+    "Heroic Devastation": {
+        "type": "task",
+        "name": "Heroic Devastation",
+        "text": "You destroyed at least 4 enemy pieces this turn, at least 2 of them upgraded."
+    },
+    "End of Legends": {
+        "type": "task",
+        "name": "End of Legends",
+        "text": "You destroyed at least 1 legendary enemy piece or 2 heroic enemy pieces this turn."
+    },
+    "Color Conquest": {
+        "type": "task",
+        "name": "Color Conquest",
+        "text": "You have at least 5 pieces on red and/or green squares, and at least 3 of them are upgraded."
+    },
+    "Line Dominance": {
+        "type": "task",
+        "name": "Line Dominance",
+        "text": "On one of the orthogonal lines through the central squares, you have 6 more pieces than your opponent does."
+    },
+    "Center Cross": {
+        "name": "Center Cross",
+        "type": "task",
+        "text": "You have at least 5 pieces on the central squares in a + or x pattern."
+    },
+    "Legendary Summoning": {
+        "type": "task",
+        "name": "Legendary Summoning",
+        "text": "You summoned at least 2 beings this turn, at least one of them legendary."
+    },
+    "Isolation": {
+        "type": "task",
+        "name": "Isolation",
+        "text": "An enemy piece is within 2 squares of another enemy piece, but it cannot get adjacent to any enemy piece in 3 or fewer moves through empty squares."
+    },
+    "Heroic Destruction": {
+        "type": "task",
+        "name": "Heroic Destruction",
+        "text": "You destroyed at least 3 enemy pieces this turn, at least 1 of them upgraded."
+    },
+    "Diagonals": {
+        "type": "task",
+        "name": "Diagonals",
+        "text": "You have at least 4 pieces on each diagonal, and at least 1 of your pieces on each diagonal is upgraded."
+    },
+    "Corner Chain": {
+        "name": "Corner Chain",
+        "type": "task",
+        "text": "Squares in two opposite corners of the board are connected by a chain of your pieces."
+    },
+    "Destruction": {
+        "type": "task",
+        "name": "Destruction",
+        "text": "You destroyed at least 3 enemy pieces this turn."
+    },
+    "Side Chain": {
+        "type": "task",
+        "name": "Side Chain",
+        "text": "Squares on two opposite sides of the board are connected by a chain of your pieces."
+    },
+    "Colored Summoning": {
+        "type": "task",
+        "name": "Colored Summoning",
+        "text": "You summoned at least 2 beings on red and/or green squares this turn. (Both of them may have been summoned on the same square.)"
+    }
+}

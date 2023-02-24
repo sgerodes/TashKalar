@@ -1,0 +1,92 @@
+{
+    "Mountain Troll": {
+        "type": "Highland",
+        "name": "Mountain Troll",
+        "text": "Destroy all common enemy pieces on adjacent squares. If you destroy at least 2 this way, gain an action."
+    },
+    "Hungry Bear": {
+        "type": "Highland",
+        "name": "Hungry Bear",
+        "text": "The hungry bear may do up to 2 standard moves. If it moves onto an empty square, it stops moving."
+    },
+    "Hill Giant": {
+        "type": "Highland",
+        "name": "Hill Giant",
+        "text": "Destroy all non-legendary pieces on orthogonally adjacent squares."
+    },
+    "Ritual Master": {
+        "type": "Highland",
+        "name": "Ritual Master",
+        "text": "If the Ritual Master was summoned on a green square, gain 2 actions; if on a red square, you may destroy 1 heroic and/or 1 common piece anywhere on the board."
+    },
+    "Clan Healer": {
+        "type": "Highland",
+        "name": "Clan Healer",
+        "text": "You may place up to 2 common pieces of your color. Each must be placed on an empty square adjacent to a green square."
+    },
+    "Eagle Lord": {
+        "type": "Highland",
+        "name": "Eagle Lord",
+        "text": "The Eagle Lord may do a combat leap to any square of the board."
+    },
+    "Clan Guardian": {
+        "type": "Highland",
+        "name": "Clan Guardian",
+        "text": "You may upgrade 1 common piece used to summon the Clan Guardian."
+    },
+    "Blood Shaman": {
+        "type": "Highland",
+        "name": "Blood Shaman",
+        "text": "Destroy 1 non-legendary piece. If it was on a red square, destroy all common pieces adjacent to the red square."
+    },
+    "Wild Eagle": {
+        "type": "Highland",
+        "name": "Wild Eagle",
+        "text": "The Wild Eagle may do a combat leap to any square of the board."
+    },
+    "Ritual Keeper": {
+        "type": "Highland",
+        "name": "Ritual Keeper",
+        "text": "If the Ritual Keeper was summoned on a green square, upgrade one of your common pieces; if on a red square, you may do 1 combat move with 1 of your pieces."
+    },
+    "Dire Wolf": {
+        "type": "Highland",
+        "name": "Dire Wolf",
+        "text": "The Dire Wolf may do up to 2 combat moves."
+    },
+    "War Summoner": {
+        "type": "Highland",
+        "name": "War Summoner",
+        "text": "Gain an action. For the pattern of the next being you summon this turn, you may use one enemy piece as though it were yours."
+    },
+    "War Drummer": {
+        "type": "Highland",
+        "name": "War Drummer",
+        "text": "Do either 1 combat move or up to 2 standard moves, using your pieces other than the War Drummer."
+    },
+    "Warlord": {
+        "type": "Highland",
+        "name": "Warlord",
+        "text": "Do up to 3 combat moves, using your pieces. If you do all 3, at least one has to be with the Warlord."
+    },
+    "Wolf Rider": {
+        "type": "Highland",
+        "name": "Wolf Rider",
+        "text": "The Wolf Rider may do up to 2 combat moves."
+    },
+    "Werewolf": {
+        "type": "Highland",
+        "name": "Werewolf",
+        "text": "If the Werewolf was summoned on a non-central red or green square, it may do up to 3 combat moves. Otherwise it may do 1 standard move."
+    },
+    "Clan Axeman": {
+        "type": "Highland",
+        "name": "Clan Axeman",
+        "text": "You may destroy 1 non-legendary piece on an orthogonally adjacent square."
+    },
+    "Legend Slayer": {
+        "type": "Highland",
+        "name": "Legend Slayer",
+        "text": "You may destroy 1 legendary or up to 2 non-legendary pieces on diagonally adjacent squares."
+    }
+}

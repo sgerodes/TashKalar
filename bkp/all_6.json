@@ -1,0 +1,3213 @@
+[
+    {
+        "id": "171",
+        "type": "task",
+        "type_arg": "17",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Line Dominance",
+        "text": "On one of the orthogonal lines through the central squares, you have 6 more pieces than your opponent does."
+    },
+    {
+        "id": "171",
+        "type": "task",
+        "type_arg": "17",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Line Dominance",
+        "text": "On one of the orthogonal lines through the central squares, you have 6 more pieces than your opponent does."
+    },
+    {
+        "id": "66",
+        "type": "Sylvan",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Unicorn",
+        "text": "Choose one: Either the Unicorn may do 1 combat move, or you gain 1 action."
+    },
+    {
+        "id": "14",
+        "type": "Northern",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Bomb",
+        "text": "If summoning the Bomb is your last action this turn, nothing happens ; otherwise, destroy the Bomb and all common pieces adjacent to it."
+    },
+    {
+        "id": "13",
+        "type": "Northern",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Hypnotist",
+        "text": "You may choose up to 3 common or up to 2 heroic pieces in one enemy color: Do 1 combat move with each."
+    },
+    {
+        "id": "16",
+        "type": "Northern",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Assassin",
+        "text": "Destroy any piece on the marked square. If the marked square was empty, the Assassin may move onto it."
+    },
+    {
+        "id": "3",
+        "type": "Northern",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Time Mage",
+        "text": "Gain an action. If there is an enemy piece on the marked square, destroy it."
+    },
+    {
+        "id": "18",
+        "type": "Northern",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "11",
+        "name": "Champion",
+        "text": "You may destroy 1 adjacent enemy piece. If that piece was legendary, you also destroy the Champion and gain an action."
+    },
+    {
+        "id": "17",
+        "type": "Northern",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "14",
+        "name": "Swordmaster",
+        "text": "You may destroy 1 common enemy piece on a diagonally adjacent square. If you do, upgrade the Swordmaster."
+    },
+    {
+        "id": "15",
+        "type": "Northern",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Summoner",
+        "text": "You may place up to 2 common pieces of your color on empty marked squares."
+    },
+    {
+        "id": "12",
+        "type": "Northern",
+        "type_arg": "12",
+        "location": "discard",
+        "location_arg": "28",
+        "name": "Cavalry Captain",
+        "text": "You may choose 1 of your pieces other than the Cavalry Captain: You may do up to 1 combat move and up to 2 standard moves with it (in any order)."
+    },
+    {
+        "id": "11",
+        "type": "Northern",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "21",
+        "name": "Knight",
+        "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "discard",
+        "location_arg": "4",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    {
+        "id": "9",
+        "type": "Northern",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Cannon",
+        "text": "You may choose 1 of the indicated directions: Destroy all common pieces in that direction."
+    },
+    {
+        "id": "8",
+        "type": "Northern",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    {
+        "id": "7",
+        "type": "Northern",
+        "type_arg": "13",
+        "location": "discard",
+        "location_arg": "30",
+        "name": "Gryphon Rider",
+        "text": "The Gryphon Rider may do a combat leap. If she does, you may then downgrade her and place 1 common piece of your color on an empty adjacent space."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "4",
+        "type": "Northern",
+        "type_arg": "15",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "High Priestess",
+        "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
+    },
+    {
+        "id": "1",
+        "type": "Northern",
+        "type_arg": "17",
+        "location": "discard",
+        "location_arg": "24",
+        "name": "Gun Tower",
+        "text": "You may choose 1 of the indicated directions: Destroy the first 2 pieces in that direction. A legendary piece cannot be destroyed and stops the shot."
+    },
+    {
+        "id": "16",
+        "type": "Northern",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Assassin",
+        "text": "Destroy any piece on the marked square. If the marked square was empty, the Assassin may move onto it."
+    },
+    {
+        "id": "3",
+        "type": "Northern",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Time Mage",
+        "text": "Gain an action. If there is an enemy piece on the marked square, destroy it."
+    },
+    {
+        "id": "2",
+        "type": "Northern",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Herald",
+        "text": "Do up to 2 moves, using only your pieces. These moves can only be onto empty squares."
+    },
+    {
+        "id": "134",
+        "type": "Legends",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Storm Elemental",
+        "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Elemental",
+        "text": "Destroy either all non-legendary enemy pieces on all adjacent squares or all common enemy pieces up to distance 2."
+    },
+    {
+        "id": "147",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "84515661",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "3",
+        "type": "Northern",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Time Mage",
+        "text": "Gain an action. If there is an enemy piece on the marked square, destroy it."
+    },
+    {
+        "id": "63",
+        "type": "Sylvan",
+        "type_arg": "12",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Woodland Druid",
+        "text": "Upgrade 1 common piece of each color."
+    },
+    {
+        "id": "55",
+        "type": "Sylvan",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Forest Mystic",
+        "text": "At the end of this turn, draw 1 extra card from your deck and 1 extra card from the legendary deck."
+    },
+    {
+        "id": "61",
+        "type": "Sylvan",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Charging Buck",
+        "text": "The Charging Buck may do up to 2 combat leaps, each of distance exactly 2."
+    },
+    {
+        "id": "69",
+        "type": "Sylvan",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Sapling",
+        "text": "Upgrade the Sapling after summoning it."
+    },
+    {
+        "id": "3",
+        "type": "Northern",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Time Mage",
+        "text": "Gain an action. If there is an enemy piece on the marked square, destroy it."
+    },
+    {
+        "id": "7",
+        "type": "Northern",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Gryphon Rider",
+        "text": "The Gryphon Rider may do a combat leap. If she does, you may then downgrade her and place 1 common piece of your color on an empty adjacent space."
+    },
+    {
+        "id": "69",
+        "type": "Sylvan",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Sapling",
+        "text": "Upgrade the Sapling after summoning it."
+    },
+    {
+        "id": "71",
+        "type": "Sylvan",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Dryad",
+        "text": "On one of the adjacent squares, you may convert 1 non-legendary enemy piece to your common piece."
+    },
+    {
+        "id": "7",
+        "type": "Northern",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Gryphon Rider",
+        "text": "The Gryphon Rider may do a combat leap. If she does, you may then downgrade her and place 1 common piece of your color on an empty adjacent space."
+    },
+    {
+        "id": "147",
+        "type": "Flare",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "84515661",
+        "upgraded": "You may do up to 3 standard moves, using your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "12",
+        "type": "Northern",
+        "type_arg": "12",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Cavalry Captain",
+        "text": "You may choose 1 of your pieces other than the Cavalry Captain: You may do up to 1 combat move and up to 2 standard moves with it (in any order)."
+    },
+    {
+        "id": "172",
+        "type": "task",
+        "type_arg": "0",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Destruction",
+        "text": "You destroyed at least 3 enemy pieces this turn."
+    },
+    {
+        "id": "172",
+        "type": "task",
+        "type_arg": "0",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Destruction",
+        "text": "You destroyed at least 3 enemy pieces this turn."
+    },
+    {
+        "id": "66",
+        "type": "Sylvan",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Unicorn",
+        "text": "Choose one: Either the Unicorn may do 1 combat move, or you gain 1 action."
+    },
+    {
+        "id": "61",
+        "type": "Sylvan",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Charging Buck",
+        "text": "The Charging Buck may do up to 2 combat leaps, each of distance exactly 2."
+    },
+    {
+        "id": "72",
+        "type": "Sylvan",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Sylvan Princess",
+        "text": "You may convert 1 common enemy piece on a diagonally adjacent square to your common piece."
+    },
+    {
+        "id": "60",
+        "type": "Sylvan",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Naiad",
+        "text": "You may choose up to 2 of your pieces adjacent to the Naiad and do 1 standard move with each."
+    },
+    {
+        "id": "166",
+        "type": "task",
+        "type_arg": "8",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Red Legends",
+        "text": "You have at least 2 upgraded pieces on red squares, and at least 1 of them is legendary."
+    },
+    {
+        "id": "166",
+        "type": "task",
+        "type_arg": "8",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Red Legends",
+        "text": "You have at least 2 upgraded pieces on red squares, and at least 1 of them is legendary."
+    },
+    {
+        "id": "2",
+        "type": "Northern",
+        "type_arg": "2",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Herald",
+        "text": "Do up to 2 moves, using only your pieces. These moves can only be onto empty squares."
+    },
+    {
+        "id": "143",
+        "type": "Flare",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "84515661",
+        "upgraded": "Place 1 heroic piece of your color on any empty square.",
+        "pieces": "You may do 1 standard move and 1 combat move (in either order), using your common pieces."
+    },
+    {
+        "id": "1",
+        "type": "Northern",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Gun Tower",
+        "text": "You may choose 1 of the indicated directions: Destroy the first 2 pieces in that direction. A legendary piece cannot be destroyed and stops the shot."
+    },
+    {
+        "id": "18",
+        "type": "Northern",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "11",
+        "name": "Champion",
+        "text": "You may destroy 1 adjacent enemy piece. If that piece was legendary, you also destroy the Champion and gain an action."
+    },
+    {
+        "id": "17",
+        "type": "Northern",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "14",
+        "name": "Swordmaster",
+        "text": "You may destroy 1 common enemy piece on a diagonally adjacent square. If you do, upgrade the Swordmaster."
+    },
+    {
+        "id": "15",
+        "type": "Northern",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Summoner",
+        "text": "You may place up to 2 common pieces of your color on empty marked squares."
+    },
+    {
+        "id": "11",
+        "type": "Northern",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "21",
+        "name": "Knight",
+        "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "discard",
+        "location_arg": "4",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    {
+        "id": "9",
+        "type": "Northern",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Cannon",
+        "text": "You may choose 1 of the indicated directions: Destroy all common pieces in that direction."
+    },
+    {
+        "id": "8",
+        "type": "Northern",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "4",
+        "type": "Northern",
+        "type_arg": "15",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "High Priestess",
+        "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
+    },
+    {
+        "id": "16",
+        "type": "Northern",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Assassin",
+        "text": "Destroy any piece on the marked square. If the marked square was empty, the Assassin may move onto it."
+    },
+    {
+        "id": "12",
+        "type": "Northern",
+        "type_arg": "12",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Cavalry Captain",
+        "text": "You may choose 1 of your pieces other than the Cavalry Captain: You may do up to 1 combat move and up to 2 standard moves with it (in any order)."
+    },
+    {
+        "id": "1",
+        "type": "Northern",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Gun Tower",
+        "text": "You may choose 1 of the indicated directions: Destroy the first 2 pieces in that direction. A legendary piece cannot be destroyed and stops the shot."
+    },
+    {
+        "id": "134",
+        "type": "Legends",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Storm Elemental",
+        "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Elemental",
+        "text": "Destroy either all non-legendary enemy pieces on all adjacent squares or all common enemy pieces up to distance 2."
+    },
+    {
+        "id": "146",
+        "type": "Flare",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
+    },
+    {
+        "id": "18",
+        "type": "Northern",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "11",
+        "name": "Champion",
+        "text": "You may destroy 1 adjacent enemy piece. If that piece was legendary, you also destroy the Champion and gain an action."
+    },
+    {
+        "id": "17",
+        "type": "Northern",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "14",
+        "name": "Swordmaster",
+        "text": "You may destroy 1 common enemy piece on a diagonally adjacent square. If you do, upgrade the Swordmaster."
+    },
+    {
+        "id": "15",
+        "type": "Northern",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Summoner",
+        "text": "You may place up to 2 common pieces of your color on empty marked squares."
+    },
+    {
+        "id": "11",
+        "type": "Northern",
+        "type_arg": "14",
+        "location": "discard",
+        "location_arg": "21",
+        "name": "Knight",
+        "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "discard",
+        "location_arg": "4",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    {
+        "id": "9",
+        "type": "Northern",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Cannon",
+        "text": "You may choose 1 of the indicated directions: Destroy all common pieces in that direction."
+    },
+    {
+        "id": "8",
+        "type": "Northern",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "4",
+        "type": "Northern",
+        "type_arg": "15",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "High Priestess",
+        "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
+    },
+    {
+        "id": "16",
+        "type": "Northern",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Assassin",
+        "text": "Destroy any piece on the marked square. If the marked square was empty, the Assassin may move onto it."
+    },
+    {
+        "id": "12",
+        "type": "Northern",
+        "type_arg": "12",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Cavalry Captain",
+        "text": "You may choose 1 of your pieces other than the Cavalry Captain: You may do up to 1 combat move and up to 2 standard moves with it (in any order)."
+    },
+    {
+        "id": "1",
+        "type": "Northern",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Gun Tower",
+        "text": "You may choose 1 of the indicated directions: Destroy the first 2 pieces in that direction. A legendary piece cannot be destroyed and stops the shot."
+    },
+    {
+        "id": "134",
+        "type": "Legends",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Storm Elemental",
+        "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Elemental",
+        "text": "Destroy either all non-legendary enemy pieces on all adjacent squares or all common enemy pieces up to distance 2."
+    },
+    {
+        "id": "146",
+        "type": "Flare",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
+    },
+    {
+        "id": "60",
+        "type": "Sylvan",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Naiad",
+        "text": "You may choose up to 2 of your pieces adjacent to the Naiad and do 1 standard move with each."
+    },
+    {
+        "id": "59",
+        "type": "Sylvan",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Tree Shepherd",
+        "text": "Choose 1 of your pieces: If it is common, upgrade it; if heroic, it may do 1 combat move; if legendary, it may do 1 standard move."
+    },
+    {
+        "id": "16",
+        "type": "Northern",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Assassin",
+        "text": "Destroy any piece on the marked square. If the marked square was empty, the Assassin may move onto it."
+    },
+    {
+        "id": "146",
+        "type": "Flare",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
+    },
+    {
+        "id": "11",
+        "type": "Northern",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Knight",
+        "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
+    },
+    {
+        "id": "18",
+        "type": "Northern",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "11",
+        "name": "Champion",
+        "text": "You may destroy 1 adjacent enemy piece. If that piece was legendary, you also destroy the Champion and gain an action."
+    },
+    {
+        "id": "17",
+        "type": "Northern",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "14",
+        "name": "Swordmaster",
+        "text": "You may destroy 1 common enemy piece on a diagonally adjacent square. If you do, upgrade the Swordmaster."
+    },
+    {
+        "id": "15",
+        "type": "Northern",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Summoner",
+        "text": "You may place up to 2 common pieces of your color on empty marked squares."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "discard",
+        "location_arg": "4",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    {
+        "id": "9",
+        "type": "Northern",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Cannon",
+        "text": "You may choose 1 of the indicated directions: Destroy all common pieces in that direction."
+    },
+    {
+        "id": "8",
+        "type": "Northern",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "4",
+        "type": "Northern",
+        "type_arg": "15",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "High Priestess",
+        "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
+    },
+    {
+        "id": "12",
+        "type": "Northern",
+        "type_arg": "12",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Cavalry Captain",
+        "text": "You may choose 1 of your pieces other than the Cavalry Captain: You may do up to 1 combat move and up to 2 standard moves with it (in any order)."
+    },
+    {
+        "id": "11",
+        "type": "Northern",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Knight",
+        "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
+    },
+    {
+        "id": "1",
+        "type": "Northern",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Gun Tower",
+        "text": "You may choose 1 of the indicated directions: Destroy the first 2 pieces in that direction. A legendary piece cannot be destroyed and stops the shot."
+    },
+    {
+        "id": "134",
+        "type": "Legends",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Storm Elemental",
+        "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Elemental",
+        "text": "Destroy either all non-legendary enemy pieces on all adjacent squares or all common enemy pieces up to distance 2."
+    },
+    {
+        "id": "18",
+        "type": "Northern",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "11",
+        "name": "Champion",
+        "text": "You may destroy 1 adjacent enemy piece. If that piece was legendary, you also destroy the Champion and gain an action."
+    },
+    {
+        "id": "17",
+        "type": "Northern",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "14",
+        "name": "Swordmaster",
+        "text": "You may destroy 1 common enemy piece on a diagonally adjacent square. If you do, upgrade the Swordmaster."
+    },
+    {
+        "id": "15",
+        "type": "Northern",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Summoner",
+        "text": "You may place up to 2 common pieces of your color on empty marked squares."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "discard",
+        "location_arg": "4",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    {
+        "id": "9",
+        "type": "Northern",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Cannon",
+        "text": "You may choose 1 of the indicated directions: Destroy all common pieces in that direction."
+    },
+    {
+        "id": "8",
+        "type": "Northern",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "4",
+        "type": "Northern",
+        "type_arg": "15",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "High Priestess",
+        "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
+    },
+    {
+        "id": "12",
+        "type": "Northern",
+        "type_arg": "12",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Cavalry Captain",
+        "text": "You may choose 1 of your pieces other than the Cavalry Captain: You may do up to 1 combat move and up to 2 standard moves with it (in any order)."
+    },
+    {
+        "id": "11",
+        "type": "Northern",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Knight",
+        "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
+    },
+    {
+        "id": "1",
+        "type": "Northern",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Gun Tower",
+        "text": "You may choose 1 of the indicated directions: Destroy the first 2 pieces in that direction. A legendary piece cannot be destroyed and stops the shot."
+    },
+    {
+        "id": "134",
+        "type": "Legends",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Storm Elemental",
+        "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Elemental",
+        "text": "Destroy either all non-legendary enemy pieces on all adjacent squares or all common enemy pieces up to distance 2."
+    },
+    {
+        "id": "11",
+        "type": "Northern",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Knight",
+        "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
+    },
+    {
+        "id": "18",
+        "type": "Northern",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "11",
+        "name": "Champion",
+        "text": "You may destroy 1 adjacent enemy piece. If that piece was legendary, you also destroy the Champion and gain an action."
+    },
+    {
+        "id": "17",
+        "type": "Northern",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "14",
+        "name": "Swordmaster",
+        "text": "You may destroy 1 common enemy piece on a diagonally adjacent square. If you do, upgrade the Swordmaster."
+    },
+    {
+        "id": "15",
+        "type": "Northern",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Summoner",
+        "text": "You may place up to 2 common pieces of your color on empty marked squares."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "discard",
+        "location_arg": "4",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    {
+        "id": "9",
+        "type": "Northern",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Cannon",
+        "text": "You may choose 1 of the indicated directions: Destroy all common pieces in that direction."
+    },
+    {
+        "id": "8",
+        "type": "Northern",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "4",
+        "type": "Northern",
+        "type_arg": "15",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "High Priestess",
+        "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
+    },
+    {
+        "id": "12",
+        "type": "Northern",
+        "type_arg": "12",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Cavalry Captain",
+        "text": "You may choose 1 of your pieces other than the Cavalry Captain: You may do up to 1 combat move and up to 2 standard moves with it (in any order)."
+    },
+    {
+        "id": "11",
+        "type": "Northern",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Knight",
+        "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
+    },
+    {
+        "id": "1",
+        "type": "Northern",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Gun Tower",
+        "text": "You may choose 1 of the indicated directions: Destroy the first 2 pieces in that direction. A legendary piece cannot be destroyed and stops the shot."
+    },
+    {
+        "id": "134",
+        "type": "Legends",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Storm Elemental",
+        "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Elemental",
+        "text": "Destroy either all non-legendary enemy pieces on all adjacent squares or all common enemy pieces up to distance 2."
+    },
+    {
+        "id": "18",
+        "type": "Northern",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "11",
+        "name": "Champion",
+        "text": "You may destroy 1 adjacent enemy piece. If that piece was legendary, you also destroy the Champion and gain an action."
+    },
+    {
+        "id": "17",
+        "type": "Northern",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "14",
+        "name": "Swordmaster",
+        "text": "You may destroy 1 common enemy piece on a diagonally adjacent square. If you do, upgrade the Swordmaster."
+    },
+    {
+        "id": "15",
+        "type": "Northern",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Summoner",
+        "text": "You may place up to 2 common pieces of your color on empty marked squares."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "discard",
+        "location_arg": "4",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    {
+        "id": "9",
+        "type": "Northern",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Cannon",
+        "text": "You may choose 1 of the indicated directions: Destroy all common pieces in that direction."
+    },
+    {
+        "id": "8",
+        "type": "Northern",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "4",
+        "type": "Northern",
+        "type_arg": "15",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "High Priestess",
+        "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
+    },
+    {
+        "id": "12",
+        "type": "Northern",
+        "type_arg": "12",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Cavalry Captain",
+        "text": "You may choose 1 of your pieces other than the Cavalry Captain: You may do up to 1 combat move and up to 2 standard moves with it (in any order)."
+    },
+    {
+        "id": "11",
+        "type": "Northern",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Knight",
+        "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
+    },
+    {
+        "id": "1",
+        "type": "Northern",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Gun Tower",
+        "text": "You may choose 1 of the indicated directions: Destroy the first 2 pieces in that direction. A legendary piece cannot be destroyed and stops the shot."
+    },
+    {
+        "id": "134",
+        "type": "Legends",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Storm Elemental",
+        "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Elemental",
+        "text": "Destroy either all non-legendary enemy pieces on all adjacent squares or all common enemy pieces up to distance 2."
+    },
+    {
+        "id": "11",
+        "type": "Northern",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Knight",
+        "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
+    },
+    {
+        "id": "18",
+        "type": "Northern",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "11",
+        "name": "Champion",
+        "text": "You may destroy 1 adjacent enemy piece. If that piece was legendary, you also destroy the Champion and gain an action."
+    },
+    {
+        "id": "17",
+        "type": "Northern",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "14",
+        "name": "Swordmaster",
+        "text": "You may destroy 1 common enemy piece on a diagonally adjacent square. If you do, upgrade the Swordmaster."
+    },
+    {
+        "id": "15",
+        "type": "Northern",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Summoner",
+        "text": "You may place up to 2 common pieces of your color on empty marked squares."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "discard",
+        "location_arg": "4",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    {
+        "id": "9",
+        "type": "Northern",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Cannon",
+        "text": "You may choose 1 of the indicated directions: Destroy all common pieces in that direction."
+    },
+    {
+        "id": "8",
+        "type": "Northern",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "4",
+        "type": "Northern",
+        "type_arg": "15",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "High Priestess",
+        "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
+    },
+    {
+        "id": "12",
+        "type": "Northern",
+        "type_arg": "12",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Cavalry Captain",
+        "text": "You may choose 1 of your pieces other than the Cavalry Captain: You may do up to 1 combat move and up to 2 standard moves with it (in any order)."
+    },
+    {
+        "id": "11",
+        "type": "Northern",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Knight",
+        "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
+    },
+    {
+        "id": "1",
+        "type": "Northern",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Gun Tower",
+        "text": "You may choose 1 of the indicated directions: Destroy the first 2 pieces in that direction. A legendary piece cannot be destroyed and stops the shot."
+    },
+    {
+        "id": "134",
+        "type": "Legends",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Storm Elemental",
+        "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Elemental",
+        "text": "Destroy either all non-legendary enemy pieces on all adjacent squares or all common enemy pieces up to distance 2."
+    },
+    {
+        "id": "18",
+        "type": "Northern",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "11",
+        "name": "Champion",
+        "text": "You may destroy 1 adjacent enemy piece. If that piece was legendary, you also destroy the Champion and gain an action."
+    },
+    {
+        "id": "17",
+        "type": "Northern",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "14",
+        "name": "Swordmaster",
+        "text": "You may destroy 1 common enemy piece on a diagonally adjacent square. If you do, upgrade the Swordmaster."
+    },
+    {
+        "id": "15",
+        "type": "Northern",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Summoner",
+        "text": "You may place up to 2 common pieces of your color on empty marked squares."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "discard",
+        "location_arg": "4",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    {
+        "id": "9",
+        "type": "Northern",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Cannon",
+        "text": "You may choose 1 of the indicated directions: Destroy all common pieces in that direction."
+    },
+    {
+        "id": "8",
+        "type": "Northern",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "4",
+        "type": "Northern",
+        "type_arg": "15",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "High Priestess",
+        "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
+    },
+    {
+        "id": "12",
+        "type": "Northern",
+        "type_arg": "12",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Cavalry Captain",
+        "text": "You may choose 1 of your pieces other than the Cavalry Captain: You may do up to 1 combat move and up to 2 standard moves with it (in any order)."
+    },
+    {
+        "id": "11",
+        "type": "Northern",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Knight",
+        "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
+    },
+    {
+        "id": "1",
+        "type": "Northern",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Gun Tower",
+        "text": "You may choose 1 of the indicated directions: Destroy the first 2 pieces in that direction. A legendary piece cannot be destroyed and stops the shot."
+    },
+    {
+        "id": "134",
+        "type": "Legends",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Storm Elemental",
+        "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Elemental",
+        "text": "Destroy either all non-legendary enemy pieces on all adjacent squares or all common enemy pieces up to distance 2."
+    },
+    {
+        "id": "11",
+        "type": "Northern",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Knight",
+        "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
+    },
+    {
+        "id": "18",
+        "type": "Northern",
+        "type_arg": "10",
+        "location": "discard",
+        "location_arg": "11",
+        "name": "Champion",
+        "text": "You may destroy 1 adjacent enemy piece. If that piece was legendary, you also destroy the Champion and gain an action."
+    },
+    {
+        "id": "17",
+        "type": "Northern",
+        "type_arg": "0",
+        "location": "discard",
+        "location_arg": "14",
+        "name": "Swordmaster",
+        "text": "You may destroy 1 common enemy piece on a diagonally adjacent square. If you do, upgrade the Swordmaster."
+    },
+    {
+        "id": "15",
+        "type": "Northern",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "8",
+        "name": "Summoner",
+        "text": "You may place up to 2 common pieces of your color on empty marked squares."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "discard",
+        "location_arg": "4",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    {
+        "id": "9",
+        "type": "Northern",
+        "type_arg": "9",
+        "location": "discard",
+        "location_arg": "12",
+        "name": "Cannon",
+        "text": "You may choose 1 of the indicated directions: Destroy all common pieces in that direction."
+    },
+    {
+        "id": "8",
+        "type": "Northern",
+        "type_arg": "16",
+        "location": "discard",
+        "location_arg": "17",
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "4",
+        "type": "Northern",
+        "type_arg": "15",
+        "location": "discard",
+        "location_arg": "5",
+        "name": "High Priestess",
+        "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
+    },
+    {
+        "id": "12",
+        "type": "Northern",
+        "type_arg": "12",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Cavalry Captain",
+        "text": "You may choose 1 of your pieces other than the Cavalry Captain: You may do up to 1 combat move and up to 2 standard moves with it (in any order)."
+    },
+    {
+        "id": "11",
+        "type": "Northern",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Knight",
+        "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
+    },
+    {
+        "id": "1",
+        "type": "Northern",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Gun Tower",
+        "text": "You may choose 1 of the indicated directions: Destroy the first 2 pieces in that direction. A legendary piece cannot be destroyed and stops the shot."
+    },
+    {
+        "id": "134",
+        "type": "Legends",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Storm Elemental",
+        "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Elemental",
+        "text": "Destroy either all non-legendary enemy pieces on all adjacent squares or all common enemy pieces up to distance 2."
+    },
+    {
+        "id": "71",
+        "type": "Sylvan",
+        "type_arg": "6",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Dryad",
+        "text": "On one of the adjacent squares, you may convert 1 non-legendary enemy piece to your common piece."
+    },
+    {
+        "id": "57",
+        "type": "Sylvan",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Forest Ancient",
+        "text": "Place 2 enemy common pieces on empty squares up to distance 2. Then destroy 2 common pieces of the same color or colors up to distance 3."
+    },
+    {
+        "id": "57",
+        "type": "Sylvan",
+        "type_arg": "13",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Forest Ancient",
+        "text": "Place 2 enemy common pieces on empty squares up to distance 2. Then destroy 2 common pieces of the same color or colors up to distance 3."
+    },
+    {
+        "id": "70",
+        "type": "Sylvan",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Sylvan Queen",
+        "text": "You may convert 1 non-legendary enemy piece on a diagonally adjacent square to your piece of the same rank."
+    },
+    {
+        "id": "161",
+        "type": "task",
+        "type_arg": "15",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Central Dominance",
+        "text": "You have at least 5 pieces on the nine central squares, and at least 2 of them are upgraded."
+    },
+    {
+        "id": "161",
+        "type": "task",
+        "type_arg": "15",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Central Dominance",
+        "text": "You have at least 5 pieces on the nine central squares, and at least 2 of them are upgraded."
+    },
+    {
+        "id": "12",
+        "type": "Northern",
+        "type_arg": "12",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Cavalry Captain",
+        "text": "You may choose 1 of your pieces other than the Cavalry Captain: You may do up to 1 combat move and up to 2 standard moves with it (in any order)."
+    },
+    {
+        "id": "141",
+        "type": "Flare",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "84515661",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 heroic piece of your color on any empty square."
+    },
+    {
+        "id": "8",
+        "type": "Northern",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    {
+        "id": "163",
+        "type": "task",
+        "type_arg": "13",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Colored Summoning",
+        "text": "You summoned at least 2 beings on red and/or green squares this turn. (Both of them may have been summoned on the same square.)"
+    },
+    {
+        "id": "163",
+        "type": "task",
+        "type_arg": "13",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Colored Summoning",
+        "text": "You summoned at least 2 beings on red and/or green squares this turn. (Both of them may have been summoned on the same square.)"
+    },
+    {
+        "id": "70",
+        "type": "Sylvan",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Sylvan Queen",
+        "text": "You may convert 1 non-legendary enemy piece on a diagonally adjacent square to your piece of the same rank."
+    },
+    {
+        "id": "62",
+        "type": "Sylvan",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Kiskin Boughrunner",
+        "text": "The Kiskin Boughrunner may do up to 3 combat moves. Each move must end on a square adjacent to one of your pieces."
+    },
+    {
+        "id": "68",
+        "type": "Sylvan",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Kiskin Spirit",
+        "text": "You may choose a card from your discard pile and put it on top of your deck. If you do, or if your discard pile was empty, draw 1 extra card from your deck at the end of this turn."
+    },
+    {
+        "id": "67",
+        "type": "Sylvan",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "13",
+        "name": "Centaur Spearman",
+        "text": "The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+    },
+    {
+        "id": "65",
+        "type": "Sylvan",
+        "type_arg": "15",
+        "location": "discard",
+        "location_arg": "10",
+        "name": "Kiskin Leafsplitter",
+        "text": "Up to 2 times, you may choose a diagonal direction and destroy the first piece in that direction."
+    },
+    {
+        "id": "64",
+        "type": "Sylvan",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Kiskin Farseeders",
+        "text": "You may place 1 common piece of your color on an empty square adjacent to one of your pieces."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Centaur Chieftain",
+        "text": "The Centaur Chieftain may do 1 combat move. If he does, you may do up to 3 combat moves in the same direction, using other pieces of yours."
+    },
+    {
+        "id": "56",
+        "type": "Sylvan",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Forest Wardens",
+        "text": "Destroy 1 common piece of an opponent with more common pieces than you. Destroy 1 heroic piece of an opponent with more upgraded pieces than you."
+    },
+    {
+        "id": "72",
+        "type": "Sylvan",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Sylvan Princess",
+        "text": "You may convert 1 common enemy piece on a diagonally adjacent square to your common piece."
+    },
+    {
+        "id": "62",
+        "type": "Sylvan",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Kiskin Boughrunner",
+        "text": "The Kiskin Boughrunner may do up to 3 combat moves. Each move must end on a square adjacent to one of your pieces."
+    },
+    {
+        "id": "59",
+        "type": "Sylvan",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Tree Shepherd",
+        "text": "Choose 1 of your pieces: If it is common, upgrade it; if heroic, it may do 1 combat move; if legendary, it may do 1 standard move."
+    },
+    {
+        "id": "137",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "129",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "140",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "34784214",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "68",
+        "type": "Sylvan",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Kiskin Spirit",
+        "text": "You may choose a card from your discard pile and put it on top of your deck. If you do, or if your discard pile was empty, draw 1 extra card from your deck at the end of this turn."
+    },
+    {
+        "id": "67",
+        "type": "Sylvan",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "13",
+        "name": "Centaur Spearman",
+        "text": "The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+    },
+    {
+        "id": "65",
+        "type": "Sylvan",
+        "type_arg": "15",
+        "location": "discard",
+        "location_arg": "10",
+        "name": "Kiskin Leafsplitter",
+        "text": "Up to 2 times, you may choose a diagonal direction and destroy the first piece in that direction."
+    },
+    {
+        "id": "64",
+        "type": "Sylvan",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Kiskin Farseeders",
+        "text": "You may place 1 common piece of your color on an empty square adjacent to one of your pieces."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Centaur Chieftain",
+        "text": "The Centaur Chieftain may do 1 combat move. If he does, you may do up to 3 combat moves in the same direction, using other pieces of yours."
+    },
+    {
+        "id": "56",
+        "type": "Sylvan",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Forest Wardens",
+        "text": "Destroy 1 common piece of an opponent with more common pieces than you. Destroy 1 heroic piece of an opponent with more upgraded pieces than you."
+    },
+    {
+        "id": "72",
+        "type": "Sylvan",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Sylvan Princess",
+        "text": "You may convert 1 common enemy piece on a diagonally adjacent square to your common piece."
+    },
+    {
+        "id": "62",
+        "type": "Sylvan",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Kiskin Boughrunner",
+        "text": "The Kiskin Boughrunner may do up to 3 combat moves. Each move must end on a square adjacent to one of your pieces."
+    },
+    {
+        "id": "59",
+        "type": "Sylvan",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Tree Shepherd",
+        "text": "Choose 1 of your pieces: If it is common, upgrade it; if heroic, it may do 1 combat move; if legendary, it may do 1 standard move."
+    },
+    {
+        "id": "137",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "129",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "140",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "34784214",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "68",
+        "type": "Sylvan",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Kiskin Spirit",
+        "text": "You may choose a card from your discard pile and put it on top of your deck. If you do, or if your discard pile was empty, draw 1 extra card from your deck at the end of this turn."
+    },
+    {
+        "id": "67",
+        "type": "Sylvan",
+        "type_arg": "7",
+        "location": "discard",
+        "location_arg": "13",
+        "name": "Centaur Spearman",
+        "text": "The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+    },
+    {
+        "id": "65",
+        "type": "Sylvan",
+        "type_arg": "15",
+        "location": "discard",
+        "location_arg": "10",
+        "name": "Kiskin Leafsplitter",
+        "text": "Up to 2 times, you may choose a diagonal direction and destroy the first piece in that direction."
+    },
+    {
+        "id": "64",
+        "type": "Sylvan",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Kiskin Farseeders",
+        "text": "You may place 1 common piece of your color on an empty square adjacent to one of your pieces."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Centaur Chieftain",
+        "text": "The Centaur Chieftain may do 1 combat move. If he does, you may do up to 3 combat moves in the same direction, using other pieces of yours."
+    },
+    {
+        "id": "56",
+        "type": "Sylvan",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Forest Wardens",
+        "text": "Destroy 1 common piece of an opponent with more common pieces than you. Destroy 1 heroic piece of an opponent with more upgraded pieces than you."
+    },
+    {
+        "id": "72",
+        "type": "Sylvan",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Sylvan Princess",
+        "text": "You may convert 1 common enemy piece on a diagonally adjacent square to your common piece."
+    },
+    {
+        "id": "62",
+        "type": "Sylvan",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Kiskin Boughrunner",
+        "text": "The Kiskin Boughrunner may do up to 3 combat moves. Each move must end on a square adjacent to one of your pieces."
+    },
+    {
+        "id": "59",
+        "type": "Sylvan",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Tree Shepherd",
+        "text": "Choose 1 of your pieces: If it is common, upgrade it; if heroic, it may do 1 combat move; if legendary, it may do 1 standard move."
+    },
+    {
+        "id": "137",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "129",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "140",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "34784214",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "1",
+        "type": "Northern",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Gun Tower",
+        "text": "You may choose 1 of the indicated directions: Destroy the first 2 pieces in that direction. A legendary piece cannot be destroyed and stops the shot."
+    },
+    {
+        "id": "17",
+        "type": "Northern",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Swordmaster",
+        "text": "You may destroy 1 common enemy piece on a diagonally adjacent square. If you do, upgrade the Swordmaster."
+    },
+    {
+        "id": "62",
+        "type": "Sylvan",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Kiskin Boughrunner",
+        "text": "The Kiskin Boughrunner may do up to 3 combat moves. Each move must end on a square adjacent to one of your pieces."
+    },
+    {
+        "id": "67",
+        "type": "Sylvan",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Centaur Spearman",
+        "text": "The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+    },
+    {
+        "id": "68",
+        "type": "Sylvan",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Kiskin Spirit",
+        "text": "You may choose a card from your discard pile and put it on top of your deck. If you do, or if your discard pile was empty, draw 1 extra card from your deck at the end of this turn."
+    },
+    {
+        "id": "65",
+        "type": "Sylvan",
+        "type_arg": "15",
+        "location": "discard",
+        "location_arg": "10",
+        "name": "Kiskin Leafsplitter",
+        "text": "Up to 2 times, you may choose a diagonal direction and destroy the first piece in that direction."
+    },
+    {
+        "id": "64",
+        "type": "Sylvan",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "7",
+        "name": "Kiskin Farseeders",
+        "text": "You may place 1 common piece of your color on an empty square adjacent to one of your pieces."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "8",
+        "location": "discard",
+        "location_arg": "9",
+        "name": "Centaur Chieftain",
+        "text": "The Centaur Chieftain may do 1 combat move. If he does, you may do up to 3 combat moves in the same direction, using other pieces of yours."
+    },
+    {
+        "id": "56",
+        "type": "Sylvan",
+        "type_arg": "3",
+        "location": "discard",
+        "location_arg": "6",
+        "name": "Forest Wardens",
+        "text": "Destroy 1 common piece of an opponent with more common pieces than you. Destroy 1 heroic piece of an opponent with more upgraded pieces than you."
+    },
+    {
+        "id": "72",
+        "type": "Sylvan",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Sylvan Princess",
+        "text": "You may convert 1 common enemy piece on a diagonally adjacent square to your common piece."
+    },
+    {
+        "id": "67",
+        "type": "Sylvan",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Centaur Spearman",
+        "text": "The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+    },
+    {
+        "id": "59",
+        "type": "Sylvan",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Tree Shepherd",
+        "text": "Choose 1 of your pieces: If it is common, upgrade it; if heroic, it may do 1 combat move; if legendary, it may do 1 standard move."
+    },
+    {
+        "id": "137",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "129",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "140",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "34784214",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "17",
+        "type": "Northern",
+        "type_arg": "0",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Swordmaster",
+        "text": "You may destroy 1 common enemy piece on a diagonally adjacent square. If you do, upgrade the Swordmaster."
+    },
+    {
+        "id": "11",
+        "type": "Northern",
+        "type_arg": "14",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Knight",
+        "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
+    },
+    {
+        "id": "9",
+        "type": "Northern",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Cannon",
+        "text": "You may choose 1 of the indicated directions: Destroy all common pieces in that direction."
+    },
+    {
+        "id": "18",
+        "type": "Northern",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Champion",
+        "text": "You may destroy 1 adjacent enemy piece. If that piece was legendary, you also destroy the Champion and gain an action."
+    },
+    {
+        "id": "59",
+        "type": "Sylvan",
+        "type_arg": "17",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Tree Shepherd",
+        "text": "Choose 1 of your pieces: If it is common, upgrade it; if heroic, it may do 1 combat move; if legendary, it may do 1 standard move."
+    },
+    {
+        "id": "67",
+        "type": "Sylvan",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Centaur Spearman",
+        "text": "The Centaur Spearman may do 1 combat move. If he does, destroy the next piece in the same direction, unless it is legendary."
+    },
+    {
+        "id": "65",
+        "type": "Sylvan",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Kiskin Leafsplitter",
+        "text": "Up to 2 times, you may choose a diagonal direction and destroy the first piece in that direction."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Centaur Chieftain",
+        "text": "The Centaur Chieftain may do 1 combat move. If he does, you may do up to 3 combat moves in the same direction, using other pieces of yours."
+    },
+    {
+        "id": "9",
+        "type": "Northern",
+        "type_arg": "9",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Cannon",
+        "text": "You may choose 1 of the indicated directions: Destroy all common pieces in that direction."
+    },
+    {
+        "id": "15",
+        "type": "Northern",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Summoner",
+        "text": "You may place up to 2 common pieces of your color on empty marked squares."
+    },
+    {
+        "id": "65",
+        "type": "Sylvan",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Kiskin Leafsplitter",
+        "text": "Up to 2 times, you may choose a diagonal direction and destroy the first piece in that direction."
+    },
+    {
+        "id": "64",
+        "type": "Sylvan",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Kiskin Farseeders",
+        "text": "You may place 1 common piece of your color on an empty square adjacent to one of your pieces."
+    },
+    {
+        "id": "56",
+        "type": "Sylvan",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Forest Wardens",
+        "text": "Destroy 1 common piece of an opponent with more common pieces than you. Destroy 1 heroic piece of an opponent with more upgraded pieces than you."
+    },
+    {
+        "id": "68",
+        "type": "Sylvan",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Kiskin Spirit",
+        "text": "You may choose a card from your discard pile and put it on top of your deck. If you do, or if your discard pile was empty, draw 1 extra card from your deck at the end of this turn."
+    },
+    {
+        "id": "72",
+        "type": "Sylvan",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Sylvan Princess",
+        "text": "You may convert 1 common enemy piece on a diagonally adjacent square to your common piece."
+    },
+    {
+        "id": "64",
+        "type": "Sylvan",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Kiskin Farseeders",
+        "text": "You may place 1 common piece of your color on an empty square adjacent to one of your pieces."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Centaur Chieftain",
+        "text": "The Centaur Chieftain may do 1 combat move. If he does, you may do up to 3 combat moves in the same direction, using other pieces of yours."
+    },
+    {
+        "id": "56",
+        "type": "Sylvan",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Forest Wardens",
+        "text": "Destroy 1 common piece of an opponent with more common pieces than you. Destroy 1 heroic piece of an opponent with more upgraded pieces than you."
+    },
+    {
+        "id": "137",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "129",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "140",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "34784214",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "68",
+        "type": "Sylvan",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Kiskin Spirit",
+        "text": "You may choose a card from your discard pile and put it on top of your deck. If you do, or if your discard pile was empty, draw 1 extra card from your deck at the end of this turn."
+    },
+    {
+        "id": "72",
+        "type": "Sylvan",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Sylvan Princess",
+        "text": "You may convert 1 common enemy piece on a diagonally adjacent square to your common piece."
+    },
+    {
+        "id": "64",
+        "type": "Sylvan",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Kiskin Farseeders",
+        "text": "You may place 1 common piece of your color on an empty square adjacent to one of your pieces."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Centaur Chieftain",
+        "text": "The Centaur Chieftain may do 1 combat move. If he does, you may do up to 3 combat moves in the same direction, using other pieces of yours."
+    },
+    {
+        "id": "56",
+        "type": "Sylvan",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Forest Wardens",
+        "text": "Destroy 1 common piece of an opponent with more common pieces than you. Destroy 1 heroic piece of an opponent with more upgraded pieces than you."
+    },
+    {
+        "id": "137",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "129",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "140",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "34784214",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "68",
+        "type": "Sylvan",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Kiskin Spirit",
+        "text": "You may choose a card from your discard pile and put it on top of your deck. If you do, or if your discard pile was empty, draw 1 extra card from your deck at the end of this turn."
+    },
+    {
+        "id": "72",
+        "type": "Sylvan",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Sylvan Princess",
+        "text": "You may convert 1 common enemy piece on a diagonally adjacent square to your common piece."
+    },
+    {
+        "id": "64",
+        "type": "Sylvan",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Kiskin Farseeders",
+        "text": "You may place 1 common piece of your color on an empty square adjacent to one of your pieces."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Centaur Chieftain",
+        "text": "The Centaur Chieftain may do 1 combat move. If he does, you may do up to 3 combat moves in the same direction, using other pieces of yours."
+    },
+    {
+        "id": "56",
+        "type": "Sylvan",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Forest Wardens",
+        "text": "Destroy 1 common piece of an opponent with more common pieces than you. Destroy 1 heroic piece of an opponent with more upgraded pieces than you."
+    },
+    {
+        "id": "137",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "129",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "140",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "34784214",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "68",
+        "type": "Sylvan",
+        "type_arg": "5",
+        "location": "discard",
+        "location_arg": "3",
+        "name": "Kiskin Spirit",
+        "text": "You may choose a card from your discard pile and put it on top of your deck. If you do, or if your discard pile was empty, draw 1 extra card from your deck at the end of this turn."
+    },
+    {
+        "id": "72",
+        "type": "Sylvan",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Sylvan Princess",
+        "text": "You may convert 1 common enemy piece on a diagonally adjacent square to your common piece."
+    },
+    {
+        "id": "64",
+        "type": "Sylvan",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Kiskin Farseeders",
+        "text": "You may place 1 common piece of your color on an empty square adjacent to one of your pieces."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Centaur Chieftain",
+        "text": "The Centaur Chieftain may do 1 combat move. If he does, you may do up to 3 combat moves in the same direction, using other pieces of yours."
+    },
+    {
+        "id": "56",
+        "type": "Sylvan",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Forest Wardens",
+        "text": "Destroy 1 common piece of an opponent with more common pieces than you. Destroy 1 heroic piece of an opponent with more upgraded pieces than you."
+    },
+    {
+        "id": "137",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "129",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "140",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": "34784214",
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "18",
+        "type": "Northern",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Champion",
+        "text": "You may destroy 1 adjacent enemy piece. If that piece was legendary, you also destroy the Champion and gain an action."
+    },
+    {
+        "id": "15",
+        "type": "Northern",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Summoner",
+        "text": "You may place up to 2 common pieces of your color on empty marked squares."
+    },
+    {
+        "id": "4",
+        "type": "Northern",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "High Priestess",
+        "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    {
+        "id": "8",
+        "type": "Northern",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    {
+        "id": "4",
+        "type": "Northern",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "High Priestess",
+        "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
+    },
+    {
+        "id": "134",
+        "type": "Legends",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Storm Elemental",
+        "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Elemental",
+        "text": "Destroy either all non-legendary enemy pieces on all adjacent squares or all common enemy pieces up to distance 2."
+    },
+    {
+        "id": "144",
+        "type": "Flare",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84515661",
+        "upgraded": "You may do 1 standard leap with one of your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "discard",
+        "location_arg": "2",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    {
+        "id": "8",
+        "type": "Northern",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    {
+        "id": "4",
+        "type": "Northern",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "High Priestess",
+        "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
+    },
+    {
+        "id": "134",
+        "type": "Legends",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Storm Elemental",
+        "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Elemental",
+        "text": "Destroy either all non-legendary enemy pieces on all adjacent squares or all common enemy pieces up to distance 2."
+    },
+    {
+        "id": "144",
+        "type": "Flare",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84515661",
+        "upgraded": "You may do 1 standard leap with one of your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    {
+        "id": "72",
+        "type": "Sylvan",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Sylvan Princess",
+        "text": "You may convert 1 common enemy piece on a diagonally adjacent square to your common piece."
+    },
+    {
+        "id": "64",
+        "type": "Sylvan",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Kiskin Farseeders",
+        "text": "You may place 1 common piece of your color on an empty square adjacent to one of your pieces."
+    },
+    {
+        "id": "68",
+        "type": "Sylvan",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Kiskin Spirit",
+        "text": "You may choose a card from your discard pile and put it on top of your deck. If you do, or if your discard pile was empty, draw 1 extra card from your deck at the end of this turn."
+    },
+    {
+        "id": "64",
+        "type": "Sylvan",
+        "type_arg": "1",
+        "location": "discard",
+        "location_arg": "1",
+        "name": "Kiskin Farseeders",
+        "text": "You may place 1 common piece of your color on an empty square adjacent to one of your pieces."
+    },
+    {
+        "id": "4",
+        "type": "Northern",
+        "type_arg": "15",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "High Priestess",
+        "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    {
+        "id": "8",
+        "type": "Northern",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "134",
+        "type": "Legends",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Storm Elemental",
+        "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Elemental",
+        "text": "Destroy either all non-legendary enemy pieces on all adjacent squares or all common enemy pieces up to distance 2."
+    },
+    {
+        "id": "144",
+        "type": "Flare",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84515661",
+        "upgraded": "You may do 1 standard leap with one of your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    {
+        "id": "8",
+        "type": "Northern",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "134",
+        "type": "Legends",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Storm Elemental",
+        "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Elemental",
+        "text": "Destroy either all non-legendary enemy pieces on all adjacent squares or all common enemy pieces up to distance 2."
+    },
+    {
+        "id": "144",
+        "type": "Flare",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84515661",
+        "upgraded": "You may do 1 standard leap with one of your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "68",
+        "type": "Sylvan",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Kiskin Spirit",
+        "text": "You may choose a card from your discard pile and put it on top of your deck. If you do, or if your discard pile was empty, draw 1 extra card from your deck at the end of this turn."
+    },
+    {
+        "id": "64",
+        "type": "Sylvan",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": "34784214",
+        "name": "Kiskin Farseeders",
+        "text": "You may place 1 common piece of your color on an empty square adjacent to one of your pieces."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    {
+        "id": "8",
+        "type": "Northern",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "134",
+        "type": "Legends",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Storm Elemental",
+        "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Elemental",
+        "text": "Destroy either all non-legendary enemy pieces on all adjacent squares or all common enemy pieces up to distance 2."
+    },
+    {
+        "id": "144",
+        "type": "Flare",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84515661",
+        "upgraded": "You may do 1 standard leap with one of your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    },
+    {
+        "id": "8",
+        "type": "Northern",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "134",
+        "type": "Legends",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Storm Elemental",
+        "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": "84515661",
+        "name": "Fire Elemental",
+        "text": "Destroy either all non-legendary enemy pieces on all adjacent squares or all common enemy pieces up to distance 2."
+    },
+    {
+        "id": "144",
+        "type": "Flare",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": "84515661",
+        "upgraded": "You may do 1 standard leap with one of your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "151",
+        "type": "task",
+        "type_arg": "2",
+        "location": "next_task",
+        "location_arg": 0,
+        "name": "Heroic Destruction",
+        "text": "You destroyed at least 3 enemy pieces this turn, at least 1 of them upgraded."
+    },
+    {
+        "name": "Center Cross",
+        "type": "task",
+        "difficulty": "simple",
+        "text": "You have at least 5 pieces on the central squares in a + or x pattern.",
+        "criteria": "dominanceTask",
+        "critargs": [
+            5,
+            0,
+            0,
+            "centerCross"
+        ],
+        "points": 2,
+        "type_arg": "16"
+    },
+    {
+        "name": "Devastation",
+        "type": "task",
+        "difficulty": "simple",
+        "text": "You destroyed at least 4 enemy pieces this turn.",
+        "criteria": "destroyAtLeast",
+        "critargs": [
+            4,
+            0
+        ],
+        "points": 2,
+        "type_arg": "1"
+    },
+    {
+        "name": "Green Conquest",
+        "type": "task",
+        "difficulty": "simple",
+        "text": "You have at least 3 pieces on green squares, and at least 2 of them are upgraded.",
+        "criteria": "conquestTask",
+        "critargs": [
+            3,
+            2,
+            0,
+            "greenSquares"
+        ],
+        "points": 2,
+        "type_arg": "6"
+    },
+    {
+        "id": "140",
+        "type": "Flare",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": 34784214,
+        "upgraded": "Place 1 common piece of your color on any empty square.",
+        "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
+    },
+    {
+        "id": "137",
+        "type": "Legends",
+        "type_arg": "7",
+        "location": "hand",
+        "location_arg": 34784214,
+        "name": "Two-Headed Dragon",
+        "text": "You may upgrade 1 of the pieces used to summon the Two-Headed Dragon. If you do, you may destroy 1 heroic piece adjacent to the upgraded piece."
+    },
+    {
+        "id": "129",
+        "type": "Legends",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": 34784214,
+        "name": "Titan",
+        "text": "Destroy all orthogonally adjacent pieces and all non-legendary diagonally adjacent pieces. They do not count as pieces destroyed by you."
+    },
+    {
+        "id": "56",
+        "type": "Sylvan",
+        "type_arg": "3",
+        "location": "hand",
+        "location_arg": 34784214,
+        "name": "Forest Wardens",
+        "text": "Destroy 1 common piece of an opponent with more common pieces than you. Destroy 1 heroic piece of an opponent with more upgraded pieces than you."
+    },
+    {
+        "id": "64",
+        "type": "Sylvan",
+        "type_arg": "1",
+        "location": "hand",
+        "location_arg": 34784214,
+        "name": "Kiskin Farseeders",
+        "text": "You may place 1 common piece of your color on an empty square adjacent to one of your pieces."
+    },
+    {
+        "id": "58",
+        "type": "Sylvan",
+        "type_arg": "8",
+        "location": "hand",
+        "location_arg": 34784214,
+        "name": "Centaur Chieftain",
+        "text": "The Centaur Chieftain may do 1 combat move. If he does, you may do up to 3 combat moves in the same direction, using other pieces of yours."
+    },
+    {
+        "id": "144",
+        "type": "Flare",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": 84515661,
+        "upgraded": "You may do 1 standard leap with one of your common pieces.",
+        "pieces": "Gain an action."
+    },
+    {
+        "id": "134",
+        "type": "Legends",
+        "type_arg": "10",
+        "location": "hand",
+        "location_arg": 84515661,
+        "name": "Storm Elemental",
+        "text": "You may place 1 piece of your color on an empty square up to distance 3. With it, do up to 1 (if legendary), 3 (if heroic), or 5 (if common) combat moves in one direction. Then destroy it."
+    },
+    {
+        "id": "127",
+        "type": "Legends",
+        "type_arg": "5",
+        "location": "hand",
+        "location_arg": 84515661,
+        "name": "Fire Elemental",
+        "text": "Destroy either all non-legendary enemy pieces on all adjacent squares or all common enemy pieces up to distance 2."
+    },
+    {
+        "id": "6",
+        "type": "Northern",
+        "type_arg": "4",
+        "location": "hand",
+        "location_arg": 84515661,
+        "name": "Chronicler",
+        "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
+    },
+    {
+        "id": "8",
+        "type": "Northern",
+        "type_arg": "16",
+        "location": "hand",
+        "location_arg": 84515661,
+        "name": "Master of Intrigue",
+        "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
+    },
+    {
+        "id": "10",
+        "type": "Northern",
+        "type_arg": "11",
+        "location": "hand",
+        "location_arg": 84515661,
+        "name": "Infantry Captain",
+        "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
+    }
+]
