@@ -2,6 +2,13 @@ from PIL import Image
 import constants
 from metadata import all_manual_metadata_ordered
 import models
+import logging
+import typing as t
+import utils
+from functools import reduce
+
+
+logger = logging.getLogger()
 
 
 def init_image_indexes():
@@ -38,8 +45,11 @@ class ImageManager:
             return models.CreatureCard.image_width
 
     @staticmethod
-    def get_card_image_from_big_image(card_type: str, card_name: str):
+    def get_card_image_from_big_image(card_type: str, card_name: str) -> t.Optional[Image]:
         big_pil_image = Image.open(f'{constants.pictures_folder}/{card_type}_big.webp')
+        if not ImageManager.image_indexes.get(card_type) or not ImageManager.image_indexes.get(card_type).get(card_name):
+            logger.warning(f'For {card_type}:{card_name} there is no configuration for the image')
+            return None
         card_order_number = ImageManager.image_indexes[card_type][card_name]
         card_width = ImageManager.get_card_width(card_type)
         height = big_pil_image.height
@@ -47,17 +57,7 @@ class ImageManager:
 
     @staticmethod
     def create_combined_picture():
-        create_new_folder(combined_pictures_path)
-        pil_images = [Image.open(f'{pictures_folder}/{f.value}_big.webp') for f in factions_imperial_combined]
-        combined_image = reduce(concat_images_v, pil_images)
-        combined_image.save(f'{combined_pictures_path}/combined.webp')
-
-    @staticmethod
-    def get_card_image_from_big_image(faction: str, card_name: str):
-        cards_order = cards_pictures_order[faction]
-        big_pil_image = Image.open(f'{pictures_folder}/{faction}_big.webp')
-        card_order_number = cards_order.index(card_name)
-
-        card_width = 250
-        height = big_pil_image.height
-        return big_pil_image.crop((card_width * card_order_number, 0, card_width * (card_order_number + 1), height))
+        pil_images = [Image.open(f'{constants.pictures_folder}/{f.value}_big.webp')
+                      for f in constants.factions_imperial_combined]
+        combined_image = reduce(ImageManager.concat_images_v, pil_images)
+        combined_image.save(f'{constants.combined_pictures_path}/combined.webp')
