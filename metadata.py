@@ -1295,24 +1295,3 @@ metadata_fetched = {
         }
     }
 }
-
-
-
-def one():
-    for card_type, faction_metadata in metadata_fetched.items():
-        if card_type not in all_manual_metadata_ordered:
-            print(f"\tFaction.{card_type.upper()}.value: [")
-            for card_name, card_fetched_metadata in faction_metadata.items():
-                line = f"\t\t{{'name': '{card_name}'"
-                if card_type == 'task':
-                    line += "},"
-                elif card_type == 'Flare':
-                    pass
-                else:
-                    line += ", 'cost': None},"
-
-
-                print(line)
-            print(f'\t],\n')
-
-
