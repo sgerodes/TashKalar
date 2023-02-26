@@ -7,6 +7,7 @@ import typing as t
 import utils
 from functools import reduce
 from metadataManager import MetadataManager
+from collections import defaultdict
 
 
 logger = logging.getLogger()
@@ -76,3 +77,23 @@ class ImageManager:
     def create_all_singles():
         for card_type in constants.card_types_all:
             ImageManager.create_singles_for_card_type(card_type)
+
+    @staticmethod
+    def create_ranked_picture_for_card_type(card_type):
+        all_type_cards = ImageManager.create_all_cards_for(card_type)
+        min_level = reduce(lambda a, b: min(a, b), map(lambda card: card.common_cost, all_type_cards))
+        max_level = reduce(lambda a, b: max(a, b), map(lambda card: card.common_cost, all_type_cards))
+
+        cost_to_cards = defaultdict(list)
+        for card in all_type_cards:
+            cost_to_cards[card.common_cost].append(card)
+
+        image_rows = [reduce(ImageManager.concat_images_h, map(lambda card: card.pilImage, cost_to_cards[cost]))
+                      for cost in range(min_level, max_level+1)]
+        ranked_image = reduce(ImageManager.concat_images_v, image_rows)
+        ranked_image.save(f'{constants.ranked_pictures_path}/{card_type}_ranked.webp')
+
+    @staticmethod
+    def create_ranked_pictures():
+        for card_type in constants.factions_imperial_combined:
+            ImageManager.create_ranked_picture_for_card_type(card_type)
