@@ -79,19 +79,41 @@ class ImageManager:
             ImageManager.create_singles_for_card_type(card_type)
 
     @staticmethod
-    def create_ranked_picture_for_card_type(card_type):
+    def create_ranked_picture_for_card_type(card_type, cost_rank_provider=None, ranked_image_infix=""):
+        if not cost_rank_provider:
+            cost_rank_provider = lambda card: card.common_cost
+
         all_type_cards = ImageManager.create_all_cards_for(card_type)
-        min_level = reduce(lambda a, b: min(a, b), map(lambda card: card.common_cost, all_type_cards))
-        max_level = reduce(lambda a, b: max(a, b), map(lambda card: card.common_cost, all_type_cards))
+        min_level = reduce(lambda a, b: min(a, b), map(cost_rank_provider, all_type_cards))
+        max_level = reduce(lambda a, b: max(a, b), map(cost_rank_provider, all_type_cards))
 
         cost_to_cards = defaultdict(list)
         for card in all_type_cards:
-            cost_to_cards[card.common_cost].append(card)
+            cost_to_cards[cost_rank_provider(card)].append(card)
 
         image_rows = [reduce(ImageManager.concat_images_h, map(lambda card: card.pilImage, cost_to_cards[cost]))
-                      for cost in range(min_level, max_level+1)]
+                      for cost in sorted(cost_to_cards.keys())]
         ranked_image = reduce(ImageManager.concat_images_v, image_rows)
-        ranked_image.save(f'{constants.ranked_pictures_path}/{card_type}_ranked.webp')
+        ranked_image.save(f'{constants.ranked_pictures_path}/{card_type}{ranked_image_infix}_ranked.webp')
+
+    @staticmethod
+    def create_legendary_ranked_pictures():
+        card_type = models.NonFactionType.LEGEND.value
+        create_ranked = ImageManager.create_ranked_picture_for_card_type
+        create_ranked(card_type=card_type,
+                      cost_rank_provider=lambda card: card.common_cost,
+                      ranked_image_infix="_common")
+        create_ranked(card_type=card_type,
+                      cost_rank_provider=lambda card: card.upgraded_cost,
+                      ranked_image_infix="_upgraded")
+        create_ranked(card_type=card_type,
+                      cost_rank_provider=lambda card: card.get_total_cost(),
+                      ranked_image_infix="_total")
+        upgraded_cost_weight = 3
+        create_ranked(card_type=card_type,
+                      cost_rank_provider=lambda card: card.common_cost + card.upgraded_cost * upgraded_cost_weight,
+                      ranked_image_infix=f"_total_weighted_x{upgraded_cost_weight}")
+
 
     @staticmethod
     def create_ranked_pictures():

@@ -46,8 +46,8 @@ all_manual_metadata_ordered = {
         },
         {
             "name": "Earth Elemental",
-            "common_cost": 2,
-            "upgraded_cost": 3,
+            "common_cost": 3,
+            "upgraded_cost": 2,
         },
         {
             "name": "Time Elemental",

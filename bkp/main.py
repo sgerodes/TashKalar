@@ -336,7 +336,7 @@ def create_all_in_one_description():
     all_in_one_json[Faction.SOUTHERN.value] = all_in_one_json[Faction.IMPERIAL.value]
     all_in_one_json[Faction.NORTHERN.value] = all_in_one_json[Faction.IMPERIAL.value]
 
-    with open(f'bkp/descriptions/all_in_one.json', "w") as fw:
+    with open(f'descriptions/all_in_one.json', "w") as fw:
         fw.write(json.dumps(all_in_one_json, indent=4))
 
 
