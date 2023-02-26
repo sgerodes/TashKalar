@@ -319,7 +319,7 @@ def save_for_faction():
         print(f'Not all cards present. Is {len(fetched_metadata)}, Should {card_count}')
     print(fetched_metadata)
     print(sorted(fetched_metadata.keys()))
-    with open(f'resources/descriptions/{faction_str}_2.json', "w") as f:
+    with open(f'bkp/descriptions/{faction_str}_2.json', "w") as f:
         f.write(json.dumps(fetched_metadata, indent=4))
 
 
@@ -336,7 +336,7 @@ def create_all_in_one_description():
     all_in_one_json[Faction.SOUTHERN.value] = all_in_one_json[Faction.IMPERIAL.value]
     all_in_one_json[Faction.NORTHERN.value] = all_in_one_json[Faction.IMPERIAL.value]
 
-    with open(f'resources/descriptions/all_in_one.json', "w") as fw:
+    with open(f'bkp/descriptions/all_in_one.json', "w") as fw:
         fw.write(json.dumps(all_in_one_json, indent=4))
 
 

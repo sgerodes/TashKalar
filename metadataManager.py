@@ -15,7 +15,6 @@ class MetadataManager:
 
     @staticmethod
     def get_fetched_metadata_for_card(card_type, card_name):
-        mafm = metadata.all_fetched_metadata
         return metadata.all_fetched_metadata[card_type][card_name]
 
 

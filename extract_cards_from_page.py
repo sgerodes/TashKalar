@@ -77,7 +77,7 @@ def extact_g_gamelogs():
 
 
 
-        with open('resources/descriptions/all_7.json', 'w') as f2:
+        with open('bkp/descriptions/all_7.json', 'w') as f2:
            f2.write(json.dumps(all_card_jsons, indent=4))
 
 if __name__ == '__main__':

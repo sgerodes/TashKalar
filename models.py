@@ -1,6 +1,6 @@
 from enum import Enum
 import typing as t
-
+from PIL import Image
 
 class SpecialTextType(Enum):
     WARP_TEXT = 'warptext'
@@ -21,7 +21,9 @@ class Card:
     image_height = None
 
     def __init__(self):
-        self.pilImage = None
+        self.pilImage: Image.Image = None
+        self.big_image_index = None
+        self.card_type: str = None
 
 
 class FlareCard(Card):

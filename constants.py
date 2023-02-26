@@ -9,6 +9,7 @@ pictures_folder = 'resources/pictures'
 ranked_pictures_path = f'{pictures_folder}/ranked'
 combined_pictures_path = f'{pictures_folder}/combined'
 description_folder = 'resources/descriptions'
+singles_folder_path = f"{pictures_folder}/single_cards"
 all_in_one_fetched_metadata_path = f'{description_folder}/all_in_one.json'
 
 factions_original = tuple(map(lambda e: e.value, (Faction.SYLVAN, Faction.SOUTHERN, Faction.NORTHERN, Faction.HIGHLAND,

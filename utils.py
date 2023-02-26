@@ -53,6 +53,11 @@ def create_card(card_type: str, card_name: str) -> Card:
         logger.warning(f'Type {card_type} is not known')
         raise RuntimeError()
 
+    card.card_type = card_type
+    if card_type == NonFactionType.FLARE.value:
+        card.big_image_index = metadataManager.MetadataManager.get_index_in_big_image_for_card(card_type, card_name)
+    else:
+        card.big_image_index = card_name
     card.pilImage = imageManager.ImageManager.get_card_image_from_big_image(card_type, card_name)
 
     return card

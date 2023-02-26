@@ -23,14 +23,14 @@ class ImageManager:
     @staticmethod
     def concat_images_v(im1, im2):  # TODO test
         dst = Image.new('RGB', (max(im1.width, im2.width), im1.height + im2.height))
-        dst.paste(im2, (0, 0))
-        dst.paste(im1, (0, im2.height))
+        dst.paste(im1, (0, 0))
+        dst.paste(im2, (0, im1.height))
         return dst
 
     @staticmethod
     def get_card_width(card_type):
         if card_type == models.NonFactionType.TASK.value:
-            return models.FlareCard.image_width
+            return models.TaskCard.image_width
         else:
             return models.CreatureCard.image_width
 
@@ -39,9 +39,6 @@ class ImageManager:
         return [utils.create_card(card_type, manual_metadata['name'])
                 for manual_metadata in all_manual_metadata_ordered[card_type]]
 
-    @staticmethod
-    def create_singles():
-        pass
 
 
     @staticmethod
@@ -57,7 +54,25 @@ class ImageManager:
 
     @staticmethod
     def create_combined_picture():
-        pil_images = [Image.open(f'{constants.pictures_folder}/{f.value}_big.webp')
-                      for f in constants.factions_imperial_combined]
+        pil_images = [Image.open(f'{constants.pictures_folder}/{fac}_big.webp')
+                      for fac in constants.factions_imperial_combined]
         combined_image = reduce(ImageManager.concat_images_v, pil_images)
         combined_image.save(f'{constants.combined_pictures_path}/combined.webp')
+
+    @staticmethod
+    def create_singles_for_card_type(card_type):
+        folder = f'{constants.singles_folder_path}/{card_type}'
+        utils.create_new_folder(folder)
+        all_type_cards = ImageManager.create_all_cards_for(card_type)
+        for card in all_type_cards:
+            if card_type == models.NonFactionType.FLARE.value:
+                card_path = f'{folder}/{card.big_image_index}.webp'
+            else:
+                card_path = f'{folder}/{card.name}.webp'
+            logger.info(f'saving {card_path}')
+            card.pilImage.save(card_path)
+
+    @staticmethod
+    def create_all_singles():
+        for card_type in constants.card_types_all:
+            ImageManager.create_singles_for_card_type(card_type)
