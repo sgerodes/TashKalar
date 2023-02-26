@@ -31,9 +31,9 @@ class FlareCard(Card):
     def __init__(self):
         super().__init__()
         self.upgraded_text = None
-        self.common_text = None
+        self.pieces_text = None
         self.upgraded_cost = None
-        self.common_cost = None
+        self.pieces_cost = None
 
 
 class TaskCard(Card):
@@ -41,6 +41,8 @@ class TaskCard(Card):
     image_height = 240
 
     def __init__(self):
+        self.name = None
+        self.text = None
         super().__init__()
 
 

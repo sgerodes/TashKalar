@@ -30,7 +30,7 @@ all_manual_metadata_ordered = {
             "upgraded_cost": 3,
         },
         {
-            "name": "Fire  Elemental",
+            "name": "Fire Elemental",
             "common_cost": 3,
             "upgraded_cost": 2,
         },
@@ -66,124 +66,124 @@ all_manual_metadata_ordered = {
         },
     ],
     Faction.ETHERWEAVE.value: [
-        {'name': 'Doppelganger', 'cost': 2},
-        {'name': 'Paradox Worm', 'cost': 3},
-        {'name': 'Lesser Shadow Twin', 'cost': 3},
-        {'name': 'Translocationist', 'cost': 4},
-        {'name': 'Antimatter Spirit', 'cost': 2},
-        {'name': 'Merchant of Time', 'cost': 4},
-        {'name': 'Gate of Oblivion', 'cost': 4},
-        {'name': 'Time Traveler', 'cost': 3},
-        {'name': 'Greater Shadow Twin', 'cost': 3},
-        {'name': 'Warpmaster', 'cost': 3},
-        {'name': 'Dark Sphere', 'cost': 4},
-        {'name': 'Void Summoner', 'cost': 4},
-        {'name': 'Eternal Emperor', 'cost': 4},
-        {'name': 'Reality Patch', 'cost': 4},
-        {'name': 'Polarity Queen', 'cost': 4},
-        {'name': 'Singularity', 'cost': 4},
-        {'name': 'Ziggurat Sentinel', 'cost': 5},
-        {'name': 'Iris of Eternity', 'cost': 5},
+        {'name': 'Doppelganger', 'common_cost': 2},
+        {'name': 'Paradox Worm', 'common_cost': 3},
+        {'name': 'Lesser Shadow Twin', 'common_cost': 3},
+        {'name': 'Translocationist', 'common_cost': 4},
+        {'name': 'Antimatter Spirit', 'common_cost': 2},
+        {'name': 'Merchant of Time', 'common_cost': 4},
+        {'name': 'Gate of Oblivion', 'common_cost': 4},
+        {'name': 'Time Traveler', 'common_cost': 3},
+        {'name': 'Greater Shadow Twin', 'common_cost': 3},
+        {'name': 'Warpmaster', 'common_cost': 3},
+        {'name': 'Dark Sphere', 'common_cost': 4},
+        {'name': 'Void Summoner', 'common_cost': 4},
+        {'name': 'Eternal Emperor', 'common_cost': 4},
+        {'name': 'Reality Patch', 'common_cost': 4},
+        {'name': 'Polarity Queen', 'common_cost': 4},
+        {'name': 'Singularity', 'common_cost': 4},
+        {'name': 'Ziggurat Sentinel', 'common_cost': 5},
+        {'name': 'Iris of Eternity', 'common_cost': 5},
     ],
     Faction.IMPERIAL.value: [
-        {'name': 'Swordmaster', 'cost': 2},
-        {'name': 'Messenger', 'cost': 2},
-        {'name': 'Herald', 'cost': 3},
-        {'name': 'Bomb', 'cost': 2},
-        {'name': 'Chronicler', 'cost': 3},
-        {'name': 'Assassin', 'cost': 3},
-        {'name': 'Time Mage', 'cost': 4},
-        {'name': 'Summoner', 'cost': 3},
-        {'name': 'Hypnotist', 'cost': 4},
-        {'name': 'Cannon', 'cost': 3},
-        {'name': 'Champion', 'cost': 4},
-        {'name': 'Infantry Captain', 'cost': 4},
-        {'name': 'Cavalry Captain', 'cost': 4},
-        {'name': 'Gryphon Rider', 'cost': 4},
-        {'name': 'Knight', 'cost': 4},
-        {'name': 'High Priestess', 'cost': 4},
-        {'name': 'Master of Intrigue', 'cost': 4},
-        {'name': 'Gun Tower', 'cost': 4},
+        {'name': 'Swordmaster', 'common_cost': 2},
+        {'name': 'Messenger', 'common_cost': 2},
+        {'name': 'Herald', 'common_cost': 3},
+        {'name': 'Bomb', 'common_cost': 2},
+        {'name': 'Chronicler', 'common_cost': 3},
+        {'name': 'Assassin', 'common_cost': 3},
+        {'name': 'Time Mage', 'common_cost': 4},
+        {'name': 'Summoner', 'common_cost': 3},
+        {'name': 'Hypnotist', 'common_cost': 4},
+        {'name': 'Cannon', 'common_cost': 3},
+        {'name': 'Champion', 'common_cost': 4},
+        {'name': 'Infantry Captain', 'common_cost': 4},
+        {'name': 'Cavalry Captain', 'common_cost': 4},
+        {'name': 'Gryphon Rider', 'common_cost': 4},
+        {'name': 'Knight', 'common_cost': 4},
+        {'name': 'High Priestess', 'common_cost': 4},
+        {'name': 'Master of Intrigue', 'common_cost': 4},
+        {'name': 'Gun Tower', 'common_cost': 4},
     ],
     Faction.SYLVAN.value: [
-        {'name': 'Tree Shepherd', 'cost': None},
-        {'name': 'Kiskin Boughrunner', 'cost': None},
-        {'name': 'Naiad', 'cost': None},
-        {'name': 'Charging Buck', 'cost': None},
-        {'name': 'Woodland Druid', 'cost': None},
-        {'name': 'Forest Ancient', 'cost': None},
-        {'name': 'Kiskin Spirit', 'cost': None},
-        {'name': 'Sapling', 'cost': None},
-        {'name': 'Centaur Chieftain', 'cost': None},
-        {'name': 'Sylvan Queen', 'cost': None},
-        {'name': 'Forest Mystic', 'cost': None},
-        {'name': 'Unicorn', 'cost': None},
-        {'name': 'Centaur Spearman', 'cost': None},
-        {'name': 'Forest Wardens', 'cost': None},
-        {'name': 'Sylvan Princess', 'cost': None},
-        {'name': 'Kiskin Leafsplitter', 'cost': None},
-        {'name': 'Dryad', 'cost': None},
-        {'name': 'Kiskin Farseeders', 'cost': None},
+        {'name': 'Sapling', 'common_cost': 2},
+        {'name': 'Kiskin Farseeders', 'common_cost': 2},
+        {'name': 'Charging Buck', 'common_cost': 3},
+        {'name': 'Forest Wardens', 'common_cost': 2},
+        {'name': 'Naiad', 'common_cost': 3},
+        {'name': 'Kiskin Spirit', 'common_cost': 3},
+        {'name': 'Dryad', 'common_cost': 3},
+        {'name': 'Centaur Spearman', 'common_cost': 4},
+        {'name': 'Centaur Chieftain', 'common_cost': 4},
+        {'name': 'Unicorn', 'common_cost': 4},
+        {'name': 'Sylvan Queen', 'common_cost': 4},
+        {'name': 'Sylvan Princess', 'common_cost': 3},
+        {'name': 'Woodland Druid', 'common_cost': 3},
+        {'name': 'Forest Ancient', 'common_cost': 4},
+        {'name': 'Forest Mystic', 'common_cost': 3},
+        {'name': 'Kiskin Leafsplitter', 'common_cost': 4},
+        {'name': 'Kiskin Boughrunner', 'common_cost': 4},
+        {'name': 'Tree Shepherd', 'common_cost': 4},
     ],
     Faction.HIGHLAND.value: [
-        {'name': 'Mountain Troll', 'cost': None},
-        {'name': 'Hungry Bear', 'cost': None},
-        {'name': 'Hill Giant', 'cost': None},
-        {'name': 'Ritual Master', 'cost': None},
-        {'name': 'Clan Healer', 'cost': None},
-        {'name': 'Eagle Lord', 'cost': None},
-        {'name': 'Clan Guardian', 'cost': None},
-        {'name': 'Blood Shaman', 'cost': None},
-        {'name': 'Wild Eagle', 'cost': None},
-        {'name': 'Ritual Keeper', 'cost': None},
-        {'name': 'Dire Wolf', 'cost': None},
-        {'name': 'War Summoner', 'cost': None},
-        {'name': 'War Drummer', 'cost': None},
-        {'name': 'Warlord', 'cost': None},
-        {'name': 'Wolf Rider', 'cost': None},
-        {'name': 'Werewolf', 'cost': None},
-        {'name': 'Clan Axeman', 'cost': None},
-        {'name': 'Legend Slayer', 'cost': None},
+        {'name': 'Wild Eagle', 'common_cost': 2},
+        {'name': 'Clan Axeman', 'common_cost': 2},
+        {'name': 'Clan Healer', 'common_cost': 3},
+        {'name': 'Dire Wolf', 'common_cost': 3},
+        {'name': 'Ritual Keeper', 'common_cost': 2},
+        {'name': 'Eagle Lord', 'common_cost': 4},
+        {'name': 'Wolf Rider', 'common_cost': 4},
+        {'name': 'Blood Shaman', 'common_cost': 4},
+        {'name': 'War Drummer', 'common_cost': 4},
+        {'name': 'Hill Giant', 'common_cost': 4},
+        {'name': 'Warlord', 'common_cost': 5},
+        {'name': 'War Summoner', 'common_cost': 4},
+        {'name': 'Ritual Master', 'common_cost': 3},
+        {'name': 'Legend Slayer', 'common_cost': 4},
+        {'name': 'Mountain Troll', 'common_cost': 4},
+        {'name': 'Hungry Bear', 'common_cost': 3},
+        {'name': 'Werewolf', 'common_cost': 3},
+        {'name': 'Clan Guardian', 'common_cost': 3},
     ],
     Faction.EVERFROST.value: [
-        {'name': 'Snow Monster', 'cost': None},
-        {'name': 'Polar Bear', 'cost': None},
-        {'name': 'Winter Whisperer', 'cost': None},
-        {'name': 'Ice Wyvern', 'cost': None},
-        {'name': 'Deathbringer', 'cost': None},
-        {'name': 'Frost Imp', 'cost': None},
-        {'name': 'Ice Princess', 'cost': None},
-        {'name': 'Everfrost Sentinel', 'cost': None},
-        {'name': 'Glacier Giant', 'cost': None},
-        {'name': 'Frostweave Illusionist', 'cost': None},
-        {'name': 'War Sled', 'cost': None},
-        {'name': 'Ice Queen', 'cost': None},
-        {'name': 'Frostweave Summoner', 'cost': None},
-        {'name': 'Snow Fox', 'cost': None},
-        {'name': 'Crystal Mirror', 'cost': None},
-        {'name': 'Royal Reindeer', 'cost': None},
-        {'name': 'Frozen Chest', 'cost': None},
-        {'name': 'Crystal Grower', 'cost': None},
+        {'name': 'Snow Fox', 'common_cost': 2},
+        {'name': 'Royal Reindeer', 'common_cost': 3},
+        {'name': 'Crystal Mirror', 'common_cost': 2},
+        {'name': 'Crystal Grower', 'common_cost': 2},
+        {'name': 'Ice Princess', 'common_cost': 3},
+        {'name': 'Ice Queen', 'common_cost': 4},
+        {'name': 'Frostweave Summoner', 'common_cost': 3},
+        {'name': 'Winter Whisperer', 'common_cost': 4},
+        {'name': 'Frozen Chest', 'common_cost': 3},
+        {'name': 'Everfrost Sentinel', 'common_cost': 4},
+        {'name': 'Glacier Giant', 'common_cost': 4},
+        {'name': 'Polar Bear', 'common_cost': 4},
+        {'name': 'War Sled', 'common_cost': 4},
+        {'name': 'Snow Monster', 'common_cost': 4},
+        {'name': 'Frost Imp', 'common_cost': 3},
+        {'name': 'Ice Wyvern', 'common_cost': 4},
+        {'name': 'Deathbringer', 'common_cost': 4},
+        {'name': 'Frostweave Illusionist', 'common_cost': 3},
     ],
     Faction.NETHERVOID.value: [
-        {'name': 'Demon of Lust', 'cost': None},
-        {'name': 'Acolyte of Growth', 'cost': None},
-        {'name': 'Vortex Master', 'cost': None},
-        {'name': 'Demon of Gluttony', 'cost': None},
-        {'name': 'Demon of Sloth', 'cost': None},
-        {'name': 'Acolyte of Destruction', 'cost': None},
-        {'name': 'Possessed Summoner', 'cost': None},
-        {'name': 'Shadow Imp', 'cost': None},
-        {'name': 'Gate Keeper', 'cost': None},
-        {'name': 'Demon of Envy', 'cost': None},
-        {'name': 'Demon of Greed', 'cost': None},
-        {'name': 'Flame Imp', 'cost': None},
-        {'name': 'Power Seeker', 'cost': None},
-        {'name': 'Gate Master', 'cost': None},
-        {'name': 'Hell Rider', 'cost': None},
-        {'name': 'Demon of Wrath', 'cost': None},
-        {'name': 'Demon of Pride', 'cost': None},
-        {'name': 'Hell Hound', 'cost': None},
+        {'name': 'Shadow Imp', 'common_cost': 2},
+        {'name': 'Flame Imp', 'common_cost': 2},
+        {'name': 'Gate Keeper', 'common_cost': 3},
+        {'name': 'Demon of Gluttony', 'common_cost': 3},
+        {'name': 'Demon of Pride', 'common_cost': 3},
+        {'name': 'Acolyte of Destruction', 'common_cost': 3},
+        {'name': 'Acolyte of Growth', 'common_cost': 4},
+        {'name': 'Power Seeker', 'common_cost': 4},
+        {'name': 'Hell Hound', 'common_cost': 4},
+        {'name': 'Vortex Master', 'common_cost': 4},
+        {'name': 'Gate Master', 'common_cost': 5},
+        {'name': 'Hell Rider', 'common_cost': 4},
+        {'name': 'Demon of Wrath', 'common_cost': 4},
+        {'name': 'Demon of Greed', 'common_cost': 4},
+        {'name': 'Demon of Lust', 'common_cost': 4},
+        {'name': 'Demon of Sloth', 'common_cost': 1},
+        {'name': 'Demon of Envy', 'common_cost': 3},
+        {'name': 'Possessed Summoner', 'common_cost': 4},
     ],
     NonFactionType.TASK.value: [
         {'name': 'Red Legends'},
@@ -213,6 +213,7 @@ all_manual_metadata_ordered = {
     ],
     NonFactionType.FLARE.value: [
         {
+            'name': 0,
             "type": "Flare",
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "Place 1 heroic piece of your color on any empty square.",
@@ -220,6 +221,7 @@ all_manual_metadata_ordered = {
             "upgraded_cost": 6
         },
         {
+            'name': 1,
             "type": "Flare",
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "Place 1 common piece of your color on any empty square.",
@@ -227,6 +229,7 @@ all_manual_metadata_ordered = {
             "upgraded_cost": 4
         },
         {
+            'name': 2,
             "type": "Flare",
             "upgraded": "You may do up to 3 standard moves, using your common pieces.",
             "pieces": "Gain an action.",
@@ -234,42 +237,49 @@ all_manual_metadata_ordered = {
             "upgraded_cost": 5
         },
         {
+            'name': 3,
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color.",
             "pieces_cost": 4,
             "upgraded_cost": 5
         },
         {
+            'name': 4,
             "upgraded": "Do 1 standard move with one of your common pieces, or upgrade 1 of your common pieces.",
             "pieces": "Place 2 common pieces of your color on empty squares.",
             "pieces_cost": 3,
             "upgraded_cost": 6
         },
         {
+            'name': 5,
             "upgraded": "Place 1 common piece of your color on any empty square, or upgrade 1 of your common pieces.",
             "pieces": "You may do 1 combat leap with one of your common pieces.",
             "pieces_cost": 4,
             "upgraded_cost": 4
         },
         {
+            'name': 6,
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "Upgrade 1 of your common pieces. Gain an action.",
             "pieces_cost": 4,
             "upgraded_cost": 6
         },
         {
+            'name': 7,
             "upgraded": "Gain an action.",
             "pieces": "Place 1 common piece of your color on any empty square.",
             "pieces_cost": 4,
             "upgraded_cost": 5
         },
         {
+            'name': 8,
             "upgraded": "Place 1 heroic piece of your color on any empty square.",
             "pieces": "You may do 1 standard move and 1 combat move (in either order), using your common pieces.",
             "pieces_cost": 5,
             "upgraded_cost": 4
         },
         {
+            'name': 9,
             "type": "Flare",
             "upgraded": "Place 2 common pieces of your color on empty squares.",
             "pieces": "Place 1 common piece of your color on any empty square.",
@@ -277,12 +287,14 @@ all_manual_metadata_ordered = {
             "upgraded_cost": 5
         },
         {
+            'name': 10,
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "You may do 1 combat move or 2 standard moves, using your non-legendary pieces.",
             "pieces_cost": 3,
             "upgraded_cost": 4
         },
         {
+            'name': 11,
             "upgraded": "You may do up to 3 standard moves, using your common pieces.",
             "pieces": "Gain an action.",
             "pieces_cost": 2,
@@ -290,10 +302,11 @@ all_manual_metadata_ordered = {
         }
     ]
 }
+
 all_manual_metadata_ordered[Faction.SOUTHERN.value] = all_manual_metadata_ordered.get(Faction.IMPERIAL.value)
 all_manual_metadata_ordered[Faction.NORTHERN.value] = all_manual_metadata_ordered.get(Faction.IMPERIAL.value)
 
-metadata_fetched = {
+all_fetched_metadata = {
     "Sylvan": {
         "Tree Shepherd": {
             "type": "Sylvan",
@@ -986,63 +999,63 @@ metadata_fetched = {
             "text": "You summoned at least 2 beings on red and/or green squares this turn. (Both of them may have been summoned on the same square.)"
         }
     },
-    "Flare": {
-        "Place 1 common piece of your color on any empty square.Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color.": {
+    "Flare": { # TODO the indexes are wrong
+        0: {
             "type": "Flare",
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
         },
-        "Place 2 common pieces of your color on empty squares.Place 1 common piece of your color on any empty square.": {
+        1: {
             "type": "Flare",
             "upgraded": "Place 2 common pieces of your color on empty squares.",
             "pieces": "Place 1 common piece of your color on any empty square."
         },
-        "Place 1 heroic piece of your color on any empty square.You may do 1 standard move and 1 combat move (in either order), using your common pieces.": {
+        2: {
             "type": "Flare",
             "upgraded": "Place 1 heroic piece of your color on any empty square.",
             "pieces": "You may do 1 standard move and 1 combat move (in either order), using your common pieces."
         },
-        "Place 1 common piece of your color on any empty square.Upgrade 1 of your common pieces. Gain an action.": {
+        3: {
             "type": "Flare",
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "Upgrade 1 of your common pieces. Gain an action."
         },
-        "Do 1 standard move with one of your common pieces, or upgrade 1 of your common pieces.Place 2 common pieces of your color on empty squares.": {
+        4: {
             "type": "Flare",
             "upgraded": "Do 1 standard move with one of your common pieces, or upgrade 1 of your common pieces.",
             "pieces": "Place 2 common pieces of your color on empty squares."
         },
-        "You may do up to 3 standard moves, using your common pieces.Gain an action.": {
+        5: {
             "type": "Flare",
             "upgraded": "You may do up to 3 standard moves, using your common pieces.",
             "pieces": "Gain an action."
         },
-        "Place 1 common piece of your color on any empty square.Place 1 heroic piece of your color on any empty square.": {
+        6: {
             "type": "Flare",
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "Place 1 heroic piece of your color on any empty square."
         },
-        "Place 1 common piece of your color on any empty square, or upgrade 1 of your common pieces.You may do 1 combat leap with one of your common pieces.": {
+        7: {
             "type": "Flare",
             "upgraded": "Place 1 common piece of your color on any empty square, or upgrade 1 of your common pieces.",
             "pieces": "You may do 1 combat leap with one of your common pieces."
         },
-        "You may do 1 standard leap with one of your common pieces.Gain an action.": {
+        8: {
             "type": "Flare",
             "upgraded": "You may do 1 standard leap with one of your common pieces.",
             "pieces": "Gain an action."
         },
-        "Gain an action.Place 1 common piece of your color on any empty square.": {
+        9: {
             "type": "Flare",
             "upgraded": "Gain an action.",
             "pieces": "Place 1 common piece of your color on any empty square."
         },
-        "Place 1 common piece of your color on any empty square.You may do 1 combat move or 2 standard moves, using your non-legendary pieces.": {
+        10: {
             "type": "Flare",
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
         },
-        "Place 1 common piece of your color on any empty square.Place 1 common piece of your color on any empty square.": {
+        11: {
             "type": "Flare",
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "Place 1 common piece of your color on any empty square."
@@ -1110,188 +1123,6 @@ metadata_fetched = {
             "text": "Chose one: Either downgrade a connected group of up to 3 upgraded pieces or destroy a connected group of up to 4 common pieces. (A group may have multiple colors.)"
         }
     },
-    "Southern": {
-        "Infantry Captain": {
-            "type": "Imperial",
-            "name": "Infantry Captain",
-            "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
-        },
-        "Chronicler": {
-            "type": "Imperial",
-            "name": "Chronicler",
-            "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
-        },
-        "Gun Tower": {
-            "type": "Imperial",
-            "name": "Gun Tower",
-            "text": "You may choose 1 of the indicated directions: Destroy the first 2 pieces in that direction. A legendary piece cannot be destroyed and stops the shot."
-        },
-        "Knight": {
-            "type": "Imperial",
-            "name": "Knight",
-            "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
-        },
-        "Cannon": {
-            "type": "Imperial",
-            "name": "Cannon",
-            "text": "You may choose 1 of the indicated directions: Destroy all common pieces in that direction."
-        },
-        "Messenger": {
-            "type": "Imperial",
-            "name": "Messenger",
-            "text": "You may choose 1 of your non-legendary pieces and a direction. That piece may do any number of standard moves in that direction."
-        },
-        "Herald": {
-            "type": "Imperial",
-            "name": "Herald",
-            "text": "Do up to 2 moves, using only your pieces. These moves can only be onto empty squares."
-        },
-        "Champion": {
-            "type": "Imperial",
-            "name": "Champion",
-            "text": "You may destroy 1 adjacent enemy piece. If that piece was legendary, you also destroy the Champion and gain an action."
-        },
-        "Summoner": {
-            "type": "Imperial",
-            "name": "Summoner",
-            "text": "You may place up to 2 common pieces of your color on empty marked squares."
-        },
-        "Cavalry Captain": {
-            "type": "Imperial",
-            "name": "Cavalry Captain",
-            "text": "You may choose 1 of your pieces other than the Cavalry Captain: You may do up to 1 combat move and up to 2 standard moves with it (in any order)."
-        },
-        "Bomb": {
-            "type": "Imperial",
-            "name": "Bomb",
-            "text": "If summoning the Bomb is your last action this turn, nothing happens ; otherwise, destroy the Bomb and all common pieces adjacent to it."
-        },
-        "Master of Intrigue": {
-            "type": "Imperial",
-            "name": "Master of Intrigue",
-            "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
-        },
-        "High Priestess": {
-            "type": "Imperial",
-            "name": "High Priestess",
-            "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
-        },
-        "Hypnotist": {
-            "type": "Imperial",
-            "name": "Hypnotist",
-            "text": "You may choose up to 3 common or up to 2 heroic pieces in one enemy color: Do 1 combat move with each."
-        },
-        "Gryphon Rider": {
-            "type": "Imperial",
-            "name": "Gryphon Rider",
-            "text": "The Gryphon Rider may do a combat leap. If she does, you may then downgrade her and place 1 common piece of your color on an empty adjacent space."
-        },
-        "Assassin": {
-            "type": "Imperial",
-            "name": "Assassin",
-            "text": "Destroy any piece on the marked square. If the marked square was empty, the Assassin may move onto it."
-        },
-        "Time Mage": {
-            "type": "Imperial",
-            "name": "Time Mage",
-            "text": "Gain an action. If there is an enemy piece on the marked square, destroy it."
-        },
-        "Swordmaster": {
-            "type": "Imperial",
-            "name": "Swordmaster",
-            "text": "You may destroy 1 common enemy piece on a diagonally adjacent square. If you do, upgrade the Swordmaster."
-        }
-    },
-    "Northern": {
-        "Infantry Captain": {
-            "type": "Imperial",
-            "name": "Infantry Captain",
-            "text": "Do up to 2 combat moves, using your pieces other than the Infantry Captain."
-        },
-        "Chronicler": {
-            "type": "Imperial",
-            "name": "Chronicler",
-            "text": "Upgrade 1 of your common pieces other than the Chronicler. Then that piece may do a standard move."
-        },
-        "Gun Tower": {
-            "type": "Imperial",
-            "name": "Gun Tower",
-            "text": "You may choose 1 of the indicated directions: Destroy the first 2 pieces in that direction. A legendary piece cannot be destroyed and stops the shot."
-        },
-        "Knight": {
-            "type": "Imperial",
-            "name": "Knight",
-            "text": "The Knight may do up to 3 combat moves. You cannot destroy common pieces with these moves."
-        },
-        "Cannon": {
-            "type": "Imperial",
-            "name": "Cannon",
-            "text": "You may choose 1 of the indicated directions: Destroy all common pieces in that direction."
-        },
-        "Messenger": {
-            "type": "Imperial",
-            "name": "Messenger",
-            "text": "You may choose 1 of your non-legendary pieces and a direction. That piece may do any number of standard moves in that direction."
-        },
-        "Herald": {
-            "type": "Imperial",
-            "name": "Herald",
-            "text": "Do up to 2 moves, using only your pieces. These moves can only be onto empty squares."
-        },
-        "Champion": {
-            "type": "Imperial",
-            "name": "Champion",
-            "text": "You may destroy 1 adjacent enemy piece. If that piece was legendary, you also destroy the Champion and gain an action."
-        },
-        "Summoner": {
-            "type": "Imperial",
-            "name": "Summoner",
-            "text": "You may place up to 2 common pieces of your color on empty marked squares."
-        },
-        "Cavalry Captain": {
-            "type": "Imperial",
-            "name": "Cavalry Captain",
-            "text": "You may choose 1 of your pieces other than the Cavalry Captain: You may do up to 1 combat move and up to 2 standard moves with it (in any order)."
-        },
-        "Bomb": {
-            "type": "Imperial",
-            "name": "Bomb",
-            "text": "If summoning the Bomb is your last action this turn, nothing happens ; otherwise, destroy the Bomb and all common pieces adjacent to it."
-        },
-        "Master of Intrigue": {
-            "type": "Imperial",
-            "name": "Master of Intrigue",
-            "text": "Do up to 3 moves: standard moves with the Master of Intrigue and/or combat moves using non-legendary pieces that were used to summon him."
-        },
-        "High Priestess": {
-            "type": "Imperial",
-            "name": "High Priestess",
-            "text": "The High Priestess may do 1 standard move. Whether she moves or not, you may then upgrade 1 common piece adjacent to her."
-        },
-        "Hypnotist": {
-            "type": "Imperial",
-            "name": "Hypnotist",
-            "text": "You may choose up to 3 common or up to 2 heroic pieces in one enemy color: Do 1 combat move with each."
-        },
-        "Gryphon Rider": {
-            "type": "Imperial",
-            "name": "Gryphon Rider",
-            "text": "The Gryphon Rider may do a combat leap. If she does, you may then downgrade her and place 1 common piece of your color on an empty adjacent space."
-        },
-        "Assassin": {
-            "type": "Imperial",
-            "name": "Assassin",
-            "text": "Destroy any piece on the marked square. If the marked square was empty, the Assassin may move onto it."
-        },
-        "Time Mage": {
-            "type": "Imperial",
-            "name": "Time Mage",
-            "text": "Gain an action. If there is an enemy piece on the marked square, destroy it."
-        },
-        "Swordmaster": {
-            "type": "Imperial",
-            "name": "Swordmaster",
-            "text": "You may destroy 1 common enemy piece on a diagonally adjacent square. If you do, upgrade the Swordmaster."
-        }
-    }
 }
+all_fetched_metadata[Faction.SOUTHERN.value] = all_fetched_metadata.get(Faction.IMPERIAL.value)
+all_fetched_metadata[Faction.NORTHERN.value] = all_fetched_metadata.get(Faction.IMPERIAL.value)

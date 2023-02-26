@@ -2,17 +2,18 @@ import os
 import json
 import constants
 import logging
-from metadata import all_manual_metadata_ordered
+from metadata import all_manual_metadata_ordered, all_fetched_metadata
 from models import *
-from imageManager import ImageManager
+# from imageManager import ImageManager
+import imageManager
+import metadataManager
 
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
-
-with open(constants.all_in_one_fetched_metadata_path, 'r') as f:
-    all_fetched_metadata = json.loads(f.read())
+get_manual_metadata_for_card = metadataManager.MetadataManager.get_manual_metadata_for_card
+get_fetched_metadata_for_card = metadataManager.MetadataManager.get_fetched_metadata_for_card
 
 
 def create_new_folder(folder_name):
@@ -23,32 +24,35 @@ def create_new_folder(folder_name):
 
 
 def create_card(card_type: str, card_name: str) -> Card:
-    fetched_metadata = all_fetched_metadata[card_type]
-    manual_metadata = all_manual_metadata_ordered[card_type]
-
     if card_type in constants.factions_all:
         card = CreatureCard()
         card.name = card_name
-        card.text = fetched_metadata.get(card_name).get('text')
-        card.common_cost = manual_metadata.get(card_name).get('common_cost')
-        # TODO
+        card.text = get_fetched_metadata_for_card(card_type, card_name).get('text')
+        card.common_cost = get_manual_metadata_for_card(card_type, card_name).get('common_cost')
+
     elif card_type == NonFactionType.LEGEND.value:
         card = LegendaryCard()
         card.name = card_name
-        card.text = fetched_metadata.get(card_name).get('text')
-        card.common_cost = manual_metadata.get(card_name).get('common_cost')
-        card.upgraded_cost = manual_metadata.get(card_name).get('upgraded_cost')
-        # TODO
+        card.text = get_fetched_metadata_for_card(card_type, card_name).get('text')
+        card.common_cost = get_manual_metadata_for_card(card_type, card_name).get('common_cost')
+        card.upgraded_cost = get_manual_metadata_for_card(card_type, card_name).get('upgraded_cost')
+
     elif card_type == NonFactionType.TASK.value:
         card = TaskCard()
-        # TODO
+        card.name = card_name
+        card.text = get_fetched_metadata_for_card(card_type, card_name).get('text')
+
     elif card_type == NonFactionType.FLARE.value:
         card = FlareCard()
-        # TODO
+        card.upgraded_text = get_fetched_metadata_for_card(card_type, card_name).get('upgraded')
+        card.pieces_text = get_fetched_metadata_for_card(card_type, card_name).get('pieces')
+        card.upgraded_cost = get_manual_metadata_for_card(card_type, card_name).get('upgraded_cost')
+        card.pieces_cost = get_manual_metadata_for_card(card_type, card_name).get('pieces_cost')
+
     else:
         logger.warning(f'Type {card_type} is not known')
         raise RuntimeError()
 
-    card.pilImage = get_card_image_from_big_image(faction, card_name)
+    card.pilImage = imageManager.ImageManager.get_card_image_from_big_image(card_type, card_name)
 
     return card
