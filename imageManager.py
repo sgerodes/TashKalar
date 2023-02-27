@@ -29,6 +29,21 @@ class ImageManager:
         return dst
 
     @staticmethod
+    def grey_out(image: Image.Image, how=None):
+        if how is None or how == 'full':
+            return image.convert('LA')
+        elif how == 'top_half':
+            width, height = image.size
+            top_half = ImageManager.grey_out(image.crop((0, 0, width, height / 2)))
+            bottom_half = image.crop((0, height / 2, width, height))
+            return ImageManager.concat_images_v(top_half, bottom_half)
+        elif how == 'bottom_half':
+            width, height = image.size
+            top_half = image.crop((0, 0, width, height / 2))
+            bottom_half = ImageManager.grey_out(image.crop((0, height / 2, width, height)))
+            return ImageManager.concat_images_v(top_half, bottom_half)
+
+    @staticmethod
     def get_card_width(card_type):
         if card_type == models.NonFactionType.TASK.value:
             return models.TaskCard.image_width
@@ -79,15 +94,19 @@ class ImageManager:
             ImageManager.create_singles_for_card_type(card_type)
 
     @staticmethod
-    def create_ranked_picture_for_card_type(card_type, cost_rank_provider=None, ranked_image_infix=''):
+    def create_ranked_picture_for_card_type(card_type,
+                                            cost_rank_provider=None,
+                                            ranked_image_infix='',
+                                            image_altering_provider=None):
         if not cost_rank_provider:
             cost_rank_provider = lambda card: card.common_cost
 
         cost_to_cards = defaultdict(list)
         for card in ImageManager.create_all_cards_for(card_type):
-            cost_to_cards[cost_rank_provider(card)].append(card)
+            img = card.pilImage if not image_altering_provider else image_altering_provider(card.pilImage)
+            cost_to_cards[cost_rank_provider(card)].append(img)
 
-        image_rows = [reduce(ImageManager.concat_images_h, map(lambda card: card.pilImage, cost_to_cards[cost]))
+        image_rows = [reduce(ImageManager.concat_images_h, cost_to_cards[cost])
                       for cost in sorted(cost_to_cards.keys())]
         ranked_image = reduce(ImageManager.concat_images_v, image_rows)
         ranked_image.save(f'{constants.ranked_pictures_path}/{card_type}{ranked_image_infix}_ranked.webp')
@@ -110,6 +129,19 @@ class ImageManager:
                       cost_rank_provider=lambda card: card.common_cost + card.upgraded_cost * upgraded_cost_weight,
                       ranked_image_infix=f"_total_weighted_x{upgraded_cost_weight}")
 
+
+    @staticmethod
+    def create_flare_ranked_pictures():
+        card_type = models.NonFactionType.FLARE.value
+        create_ranked = ImageManager.create_ranked_picture_for_card_type
+        create_ranked(card_type=card_type,
+                      cost_rank_provider=lambda card: card.pieces_cost,
+                      ranked_image_infix="_pieces")
+                      #image_altering_provider=lambda image: ImageManager.grey_out(image, how='top_half'))
+        create_ranked(card_type=card_type,
+                      cost_rank_provider=lambda card: card.upgraded_cost,
+                      ranked_image_infix="_upgraded")
+                      #image_altering_provider=lambda image: ImageManager.grey_out(image, how='bottom_half'))
 
     @staticmethod
     def create_ranked_pictures():

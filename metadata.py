@@ -1,6 +1,5 @@
 from models import Faction, NonFactionType
 
-
 all_manual_metadata_ordered = {
     NonFactionType.LEGEND.value: [
         {
@@ -217,8 +216,8 @@ all_manual_metadata_ordered = {
             "type": "Flare",
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "Place 1 heroic piece of your color on any empty square.",
-            "pieces_cost": 3,
-            "upgraded_cost": 6
+            "pieces_cost": 6,
+            "upgraded_cost": 3
         },
         {
             'name': 1,
@@ -240,15 +239,15 @@ all_manual_metadata_ordered = {
             'name': 3,
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color.",
-            "pieces_cost": 4,
-            "upgraded_cost": 5
+            "pieces_cost": 5,
+            "upgraded_cost": 4
         },
         {
             'name': 4,
             "upgraded": "Do 1 standard move with one of your common pieces, or upgrade 1 of your common pieces.",
             "pieces": "Place 2 common pieces of your color on empty squares.",
-            "pieces_cost": 3,
-            "upgraded_cost": 6
+            "pieces_cost": 6,
+            "upgraded_cost": 3
         },
         {
             'name': 5,
@@ -261,22 +260,22 @@ all_manual_metadata_ordered = {
             'name': 6,
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "Upgrade 1 of your common pieces. Gain an action.",
-            "pieces_cost": 4,
-            "upgraded_cost": 6
+            "pieces_cost": 6,
+            "upgraded_cost": 4
         },
         {
             'name': 7,
             "upgraded": "Gain an action.",
             "pieces": "Place 1 common piece of your color on any empty square.",
-            "pieces_cost": 4,
-            "upgraded_cost": 5
+            "pieces_cost": 5,
+            "upgraded_cost": 4
         },
         {
             'name': 8,
             "upgraded": "Place 1 heroic piece of your color on any empty square.",
             "pieces": "You may do 1 standard move and 1 combat move (in either order), using your common pieces.",
-            "pieces_cost": 5,
-            "upgraded_cost": 4
+            "pieces_cost": 4,
+            "upgraded_cost": 5
         },
         {
             'name': 9,
@@ -290,8 +289,8 @@ all_manual_metadata_ordered = {
             'name': 10,
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "You may do 1 combat move or 2 standard moves, using your non-legendary pieces.",
-            "pieces_cost": 3,
-            "upgraded_cost": 4
+            "pieces_cost": 4,
+            "upgraded_cost": 3
         },
         {
             'name': 11,
@@ -302,6 +301,7 @@ all_manual_metadata_ordered = {
         }
     ]
 }
+
 
 all_manual_metadata_ordered[Faction.SOUTHERN.value] = all_manual_metadata_ordered.get(Faction.IMPERIAL.value)
 all_manual_metadata_ordered[Faction.NORTHERN.value] = all_manual_metadata_ordered.get(Faction.IMPERIAL.value)
@@ -999,23 +999,23 @@ all_fetched_metadata = {
             "text": "You summoned at least 2 beings on red and/or green squares this turn. (Both of them may have been summoned on the same square.)"
         }
     },
-    "Flare": { # TODO the indexes are wrong
-        0: {
+    "Flare": {
+        3: {
             "type": "Flare",
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "Place 1 common piece of your color on any empty square, or convert 1 common enemy piece to your color."
         },
-        1: {
+        9: {
             "type": "Flare",
             "upgraded": "Place 2 common pieces of your color on empty squares.",
             "pieces": "Place 1 common piece of your color on any empty square."
         },
-        2: {
+        8: {
             "type": "Flare",
             "upgraded": "Place 1 heroic piece of your color on any empty square.",
             "pieces": "You may do 1 standard move and 1 combat move (in either order), using your common pieces."
         },
-        3: {
+        6: {
             "type": "Flare",
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "Upgrade 1 of your common pieces. Gain an action."
@@ -1025,27 +1025,27 @@ all_fetched_metadata = {
             "upgraded": "Do 1 standard move with one of your common pieces, or upgrade 1 of your common pieces.",
             "pieces": "Place 2 common pieces of your color on empty squares."
         },
-        5: {
+        2: {
             "type": "Flare",
             "upgraded": "You may do up to 3 standard moves, using your common pieces.",
             "pieces": "Gain an action."
         },
-        6: {
+        0: {
             "type": "Flare",
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "Place 1 heroic piece of your color on any empty square."
         },
-        7: {
+        5: {
             "type": "Flare",
             "upgraded": "Place 1 common piece of your color on any empty square, or upgrade 1 of your common pieces.",
             "pieces": "You may do 1 combat leap with one of your common pieces."
         },
-        8: {
+        11: {
             "type": "Flare",
             "upgraded": "You may do 1 standard leap with one of your common pieces.",
             "pieces": "Gain an action."
         },
-        9: {
+        7: {
             "type": "Flare",
             "upgraded": "Gain an action.",
             "pieces": "Place 1 common piece of your color on any empty square."
@@ -1055,7 +1055,7 @@ all_fetched_metadata = {
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "You may do 1 combat move or 2 standard moves, using your non-legendary pieces."
         },
-        11: {
+        1: {
             "type": "Flare",
             "upgraded": "Place 1 common piece of your color on any empty square.",
             "pieces": "Place 1 common piece of your color on any empty square."

@@ -2,6 +2,7 @@ from enum import Enum
 import typing as t
 from PIL import Image
 
+
 class SpecialTextType(Enum):
     WARP_TEXT = 'warptext'
     FROZEN_TEXT = 'frozentext'
@@ -89,9 +90,27 @@ class Faction(Enum):
     ETHERWEAVE = "Etherweave"
 
     def is_imperial(self):
-        return self is self.NORTHERN or self is self.SOUTHERN
+        return self is self.NORTHERN or self is self.SOUTHERN or self is self.IMPERIAL
+
 
 class NonFactionType(Enum):
     LEGEND = "Legends"
     FLARE = "Flare"
     TASK = "task"
+
+
+class TaskType(Enum):
+    DESTRUCTION = 0  # 5 tasks
+    COLOR_CONTROL = 1  # 6 Tasks
+    COLOR_SUMMONING = 2  # 3
+    LEGENDARY_SUMMONING = 6  # 1 task
+    AREA_CONTROL = 3  # 4 tasks , central control, also line and diagonal control
+    CHAINS = 4  # 2 tasks, maybe combine with are controls
+    ISOLATION = 5  # 3 tasks
+
+
+class BoardCellType(Enum):
+    REGULAR = 1
+    GREEN = 2
+    RED = 3
+    NON_EXISTENT = 4
