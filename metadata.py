@@ -233,8 +233,8 @@ all_manual_metadata_ordered = {
             "type": "Flare",
             "upgraded": "You may do up to 3 standard moves, using your common pieces.",
             "pieces": "Gain an action.",
-            "pieces_cost": 3,
-            "upgraded_cost": 5
+            "pieces_cost": 5,
+            "upgraded_cost": 3
         },
         {
             'name': 3,
@@ -297,8 +297,8 @@ all_manual_metadata_ordered = {
             'name': 11,
             "upgraded": "You may do up to 3 standard moves, using your common pieces.",
             "pieces": "Gain an action.",
-            "pieces_cost": 2,
-            "upgraded_cost": 5
+            "pieces_cost": 5,
+            "upgraded_cost": 2
         }
     ]
 }
