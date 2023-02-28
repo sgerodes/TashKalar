@@ -3,25 +3,25 @@ from functools import lru_cache
 import metadataManager
 import matplotlib.pyplot as plt
 from scipy.ndimage import gaussian_filter
-
+import matplotlib
 
 N = models.BoardCellType.NORMAL
-G = models.BoardCellType.GREEN
-R = models.BoardCellType.RED
-V = models.BoardCellType.VOID
+GREEN = models.BoardCellType.GREEN
+RED = models.BoardCellType.RED
+VOID = models.BoardCellType.VOID
 
 
 class TashKalarBoard:
     square_type_matrix = [
-        [V, V, N, N, N, N, N, V, V, ],
-        [V, N, N, R, N, N, N, N, V, ],
-        [N, N, G, N, N, N, G, N, N, ],
-        [N, N, N, N, N, N, N, N, G, ],
-        [G, N, N, N, R, N, N, N, N, ],
-        [N, N, N, N, N, N, N, G, N, ],
+        [VOID, VOID, N, N, N, N, N, VOID, VOID, ],
+        [VOID, N, N, RED, N, N, N, N, VOID, ],
+        [N, N, GREEN, N, N, N, GREEN, N, N, ],
+        [N, N, N, N, N, N, N, N, GREEN, ],
+        [GREEN, N, N, N, RED, N, N, N, N, ],
+        [N, N, N, N, N, N, N, RED, N, ],
         [N, N, N, N, N, N, N, N, N, ],
-        [V, N, R, N, N, G, N, N, V, ],
-        [V, V, N, R, N, N, N, V, V, ],
+        [VOID, N, RED, N, N, GREEN, N, N, VOID, ],
+        [VOID, VOID, N, N, N, N, N, VOID, VOID, ],
     ]
     void_square_indexes = frozenset([(0, 0), (0, 1), (0, 7), (0, 8), (1, 0), (1, 8), (7, 0), (7, 8), (8, 0), (8, 1), (8, 7), (8, 8)])
     class Square:
@@ -29,7 +29,8 @@ class TashKalarBoard:
             self.row = row
             self.col = col
             self.square_type = square_type
-            self.neighbors = None
+            self.taxicab_neighbors = None  # square neighbours
+            self.von_neuman_neighbors = None  # diamond neighbours
 
         def __repr__(self):
             return f"Square({self.row}, {self.col}, {self.square_type})"
@@ -38,27 +39,27 @@ class TashKalarBoard:
             return f"Square({self.row}, {self.col}, {self.square_type})"
 
         def is_green(self):
-            return self.square_type == G
+            return self.square_type == GREEN
 
         def is_red(self):
-            return self.square_type == R
+            return self.square_type == RED
 
         def is_colored(self):
             return self.is_green() or self.is_red()
 
         @lru_cache(maxsize=1)
         def count_red_neighbors(self) -> int:
-            return len(list(filter(lambda n: n.is_red(), self.neighbors)))
+            return len(list(filter(lambda n: n.is_red(), self.taxicab_neighbors)))
 
         @lru_cache(maxsize=1)
         def count_green_neighbors(self) -> int:
-            return len(list(filter(lambda n: n.is_green(), self.neighbors)))
+            return len(list(filter(lambda n: n.is_green(), self.taxicab_neighbors)))
 
         @lru_cache(maxsize=1)
         def count_colored_neighbors(self) -> int:
-            return len(list(filter(lambda n: n.is_colored(), self.neighbors)))
+            return len(list(filter(lambda n: n.is_colored(), self.taxicab_neighbors)))
 
-        def is_central_square(self):
+        def is_in_central_big_square(self):
             return 3 <= self.row <= 5 and 3 <= self.col <= 5
 
         def is_the_board_centre(self):
@@ -79,7 +80,7 @@ class TashKalarBoard:
             return self.row in {0, 8} or self.col in {0, 8}
 
         def is_void(self):
-            return self.square_type == V
+            return self.square_type == VOID
 
     def __init__(self):
         self.squares = [
@@ -87,14 +88,18 @@ class TashKalarBoard:
             for row_i, row in enumerate(self.square_type_matrix)
         ]
 
-        self.valid_squares = frozenset([sq for row in self.squares for sq in row if sq.square_type != V])
+        self.valid_squares = frozenset([sq for row in self.squares for sq in row if sq.square_type != VOID])
         self.green_squares = frozenset([sq for sq in self if sq.is_green()])
+        for sq in self:
+            if sq.is_red():
+                pass
+
         self.red_squares = frozenset([sq for sq in self if sq.is_red()])
         self.colored_squares = frozenset([sq for sq in self if sq.is_colored()])
-        self.void_squares = frozenset([sq for sq in self if sq.is_void()])
+        self.void_squares = frozenset([sq for sq in self.iter_all() if sq.is_void()])
 
         for sq in self:
-            sq.neighbors = self.get_taxicab_neighbors_for_square(sq)
+            sq.taxicab_neighbors = self.get_taxicab_neighbors_for_square(sq)
 
     def get_square(self, row, col):
         return self.squares[row][col]
@@ -135,10 +140,13 @@ class TashKalarBoard:
     def get_taxicab_neighbors(self, row, col) -> frozenset:
         return frozenset([self.squares[r][c]
                           for r, c in self.get_taxicab_neighbors_indexes(row, col)
-                          if self.square_type_matrix[r][c] != V])
+                          if self.square_type_matrix[r][c] != VOID])
 
     def __iter__(self):
         return (sq for sq in self.valid_squares)
+
+    def iter_all(self):
+        return (sq for row in self.squares for sq in row)
 
     def __next__(self):
         return next(self)
@@ -156,27 +164,47 @@ class TashKalarBoard:
         # 7. Green Conquest
         # 8. Red Dominance
         # 9. Green Dominance
+        # tasks = [
+        #     ("Red Legends", lambda sq: task_points if sq.is_red() else (task_points / 2.0 * sq.count_red_neighbors())),
+        #     ("Green Legends", lambda sq: task_points if sq.is_green() else (task_points / 2.0 * sq.count_green_neighbors())),
+        #     ("Rainbow Dominance", lambda sq: task_points if sq.is_colored() else (task_points / 2.0 * sq.count_colored_neighbors())),
+        #     ("Red Conquest", lambda sq: task_points if sq.is_red() else (task_points / 2.0 * sq.count_red_neighbors())),
+        #     ("Green Conquest", lambda sq: task_points if sq.is_green() else (task_points / 2.0 * sq.count_green_neighbors())),
+        #     ("Color Conquest", lambda sq: task_points if sq.is_colored() else (task_points / 2.0 * sq.count_colored_neighbors())),
+        #
+        #     ("Red Summoning", lambda sq: task_points * (sq.count_red_neighbors() + int(sq.is_red()))),
+        #     ("Green Summoning", lambda sq: task_points * (sq.count_green_neighbors() + int(sq.is_green()))),
+        #     ("Colored Summoning", lambda sq: task_points * (sq.count_colored_neighbors() + int(sq.is_colored()))),
+        #
+        #     ("Central Dominance", lambda sq: task_points * int(sq.is_central_square())),
+        #     ("Line Dominance", lambda sq: task_points * int(sq.is_on_central_line())),
+        #     ("Center Cross", lambda sq: task_points * int(sq.is_central_square()) * (2 if sq.is_the_board_centre() else 1)),
+        #     ("Diagonals", lambda sq: task_points * int(sq.is_on_diagonal()) * (2 if sq.is_the_board_centre() else 1)),
+        #     ("Corner Chain", lambda sq: task_points * int(sq.is_corner())),
+        #     ("Side Chain", lambda sq: task_points * int(sq.is_on_border())),
+        # ]
         tasks = [
-            ("Red Legends", lambda sq: task_points if sq.is_red() else (task_points / 2.0 * sq.count_red_neighbors())),
-            ("Green Legends", lambda sq: task_points if sq.is_green() else (task_points / 2.0 * sq.count_green_neighbors())),
-            ("Rainbow Dominance", lambda sq: task_points if sq.is_colored() else (task_points / 2.0 * sq.count_colored_neighbors())),
-            ("Red Conquest", lambda sq: task_points if sq.is_red() else (task_points / 2.0 * sq.count_red_neighbors())),
-            ("Green Conquest", lambda sq: task_points if sq.is_green() else (task_points / 2.0 * sq.count_green_neighbors())),
-            ("Color Conquest", lambda sq: task_points if sq.is_colored() else (task_points / 2.0 * sq.count_colored_neighbors())),
+            ("Red Legends", lambda sq: task_points if sq.is_red() else 0),
+            ("Green Legends", lambda sq: task_points if sq.is_green() else 0),
+            ("Rainbow Dominance", lambda sq: task_points if sq.is_colored() else 0),
+            ("Red Conquest", lambda sq: task_points if sq.is_red() else 0),
+            ("Green Conquest", lambda sq: task_points if sq.is_green() else 0),
+            ("Color Conquest", lambda sq: task_points if sq.is_colored() else 0),
 
-            ("Red Summoning", lambda sq: task_points * (sq.count_red_neighbors() + int(sq.is_red()))),
-            ("Green Summoning", lambda sq: task_points * (sq.count_green_neighbors() + int(sq.is_green()))),
-            ("Colored Summoning", lambda sq: task_points * (sq.count_colored_neighbors() + int(sq.is_colored()))),
+            ("Red Summoning", lambda sq: task_points * int(sq.is_red())),
+            ("Green Summoning", lambda sq: task_points * int(sq.is_green())),
+            ("Colored Summoning", lambda sq: task_points * int(sq.is_colored())),
 
-            ("Central Dominance", lambda sq: task_points * int(sq.is_central_square())),
+            ("Central Dominance", lambda sq: task_points * int(sq.is_in_central_big_square())),
             ("Line Dominance", lambda sq: task_points * int(sq.is_on_central_line())),
-            ("Center Cross", lambda sq: task_points * int(sq.is_central_square()) * (2 if sq.is_the_board_centre() else 1)),
-            ("Diagonals", lambda sq: task_points * int(sq.is_on_diagonal()) * (2 if sq.is_the_board_centre() else 1)),
-            # ("Corner Chain", lambda sq: task_points * int(sq.is_on_corner()) * (2 if sq.is_the_board_centre() else 1)), # TODO check logic, because autogenerated
-            # ("Side Chain", lambda sq: task_points * int(sq.is_on_side()) * (2 if sq.is_the_board_centre() else 1)),  # TODO check logic, because autogenerated
+            ("Center Cross", lambda sq: task_points * (2 if sq.is_the_board_centre() else 1 if sq.is_in_central_big_square() else 0)),
+            ("Diagonals", lambda sq: task_points * (2 if sq.is_the_board_centre() else 1 if sq.is_on_diagonal() else 0)),
+            ("Corner Chain", lambda sq: task_points * int(sq.is_corner())),
+            ("Side Chain", lambda sq: task_points * int(sq.is_on_border())),
         ]
 
-        quality_matrix = [[0 for _ in range(9)] for _ in range(9)]
+
+        quality_matrix = [[0.0 for _ in range(9)] for _ in range(9)]
         for t in tasks:
             task_name = t[0]
             scoring_method = t[1]
@@ -184,28 +212,23 @@ class TashKalarBoard:
 
             for sq in self:
                 quality_matrix[sq.row][sq.col] += scoring_method(sq)
-                if scoring_method(sq) > 0:
-                    print(f'{sq}\t scores {scoring_method(sq)} points for {task_name}')
 
+        # self.plot_matrix(quality_matrix)
+        # self.plot_matrix(self.blur(quality_matrix))
+        self.plot_matrix(self.blur(quality_matrix, extended=True))
 
-
-        # TashKalarBoard.plot_matrix(quality_matrix)
-        #TashKalarBoard.plot_matrix(self.blur(quality_matrix))
-        TashKalarBoard.plot_matrix(self.blur(quality_matrix, extended=True))
-
-    def blur(self, matrix, extended=False):
-        sigma = 0.6
+    def blur(self, matrix, extended=False, extend_squares=2, sigma=0.5):
         if extended:
-            extended_matrix = [[0 for _ in range(len(matrix)+2)] for _ in range(len(matrix)+2)]
+            extended_matrix = [[0 for _ in range(len(matrix)+(2*extend_squares))] for _ in range(len(matrix)+(2*extend_squares))]
             for i in range(len(matrix)):
                 for j in range(len(matrix)):
-                    extended_matrix[i+1][j+1] = matrix[i][j]
+                    extended_matrix[i+extend_squares][j+extend_squares] = matrix[i][j]
 
             blurred_extended = gaussian_filter(extended_matrix, sigma=sigma)
             blurred = [[0 for _ in range(len(matrix))] for _ in range(len(matrix))]
             for i in range(len(matrix)):
                 for j in range(len(matrix)):
-                    blurred[i][j] = blurred_extended[i+1][j+1]
+                    blurred[i][j] = blurred_extended[i+extend_squares][j+extend_squares]
         else:
             blurred = gaussian_filter(matrix, sigma=sigma)
 
@@ -217,13 +240,34 @@ class TashKalarBoard:
                     blurred[sq.row][sq.col] = round(blurred[sq.row][sq.col], 1)
         return blurred
 
-    @staticmethod
-    def plot_matrix(matrix):
+    def plot_matrix(self, matrix):
+        def set_matshow_cell_color(ax, i, j, color, filled=False):
+            if filled:
+                ax.add_patch(plt.Rectangle((j - 0.5, i - 0.5), 1, 1, color=color))
+            else:
+                ax.add_patch(plt.Rectangle((j - 0.48, i - 0.5), 0.94, 0.92, facecolor='none', edgecolor=color, linewidth=2.0, alpha=1))
+
         fig, ax = plt.subplots()
         ax.matshow(matrix, cmap=plt.cm.Blues)
+        ax.set_xlabel('Column')
+        ax.set_ylabel('Row')
+        # ax.set_xticks(list(range(1, len(matrix)+1)))
+        ax.set_xticklabels(list(map(str, range(len(matrix)+1))))
+        ax.set_yticklabels(list(map(str, range(len(matrix)+1))))
+
         for i in range(len(matrix)):
             for j in range(len(matrix)):
                 ax.text(i, j, str(matrix[j][i]), va='center', ha='center')
+
+        for sq in self.void_squares:
+            set_matshow_cell_color(ax, sq.row, sq.col, 'black', filled=True)
+
+        for sq in self.red_squares:
+            set_matshow_cell_color(ax, sq.row, sq.col, 'red')
+
+        for sq in self.green_squares:
+            set_matshow_cell_color(ax, sq.row, sq.col, 'lime')
+
         plt.show()
 
 
