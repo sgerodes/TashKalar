@@ -185,30 +185,43 @@ all_manual_metadata_ordered = {
         {'name': 'Possessed Summoner', 'common_cost': 4},
     ],
     NonFactionType.TASK.value: [
-        {'name': 'Red Legends'},
-        {'name': 'Imprisonment'},
-        {'name': 'Green Legends'},
-        {'name': 'Rainbow Dominance'},
-        {'name': 'Green Summoning'},
-        {'name': 'Red Summoning'},
-        {'name': 'Devastation'},
-        {'name': 'Envelopment'},
-        {'name': 'Red Conquest'},
-        {'name': 'Central Dominance'},
-        {'name': 'Green Conquest'},
-        {'name': 'Heroic Devastation'},
-        {'name': 'End of Legends'},
-        {'name': 'Color Conquest'},
-        {'name': 'Line Dominance'},
-        {'name': 'Center Cross'},
-        {'name': 'Legendary Summoning'},
-        {'name': 'Isolation'},
-        {'name': 'Heroic Destruction'},
-        {'name': 'Diagonals'},
-        {'name': 'Corner Chain'},
-        {'name': 'Destruction'},
-        {'name': 'Side Chain'},
-        {'name': 'Colored Summoning'},
+        # Destruction tasks
+        {'name': 'Destruction', 'points': 1},
+        {'name': 'Devastation', 'points': 2},
+        {'name': 'Heroic Destruction', 'points': 2},
+        {'name': 'Heroic Devastation', 'points': 3},
+        {'name': 'End of Legends', 'points': 2},
+
+        # Color control
+        {'name': 'Red Conquest', 'points': 2},
+        {'name': 'Green Conquest', 'points': 2},
+        {'name': 'Color Conquest', 'points': 3},
+        {'name': 'Red Legends', 'points': 3},
+        {'name': 'Green Legends', 'points': 3},
+        {'name': 'Rainbow Dominance', 'points': 2},
+
+        ## Sumoning
+        # Color Summoning
+        {'name': 'Red Summoning', 'points': 1},
+        {'name': 'Green Summoning', 'points': 1},
+        {'name': 'Colored Summoning', 'points': 2},
+        # Other Summoning
+        {'name': 'Legendary Summoning', 'points': 2},
+
+        # Area Dominance
+        {'name': 'Central Dominance', 'points': 1},
+        {'name': 'Center Cross', 'points': 2},
+        {'name': 'Line Dominance', 'points': 2},
+        {'name': 'Diagonals', 'points': 3},
+
+        # Chains
+        {'name': 'Corner Chain', 'points': 3},
+        {'name': 'Side Chain', 'points': 3},
+
+        # Piece control
+        {'name': 'Imprisonment', 'points': 1},
+        {'name': 'Envelopment', 'points': 2},
+        {'name': 'Isolation', 'points': 2},
     ],
     NonFactionType.FLARE.value: [
         {

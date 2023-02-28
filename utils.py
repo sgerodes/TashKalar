@@ -41,6 +41,7 @@ def create_card(card_type: str, card_name: str) -> Card:
         card = TaskCard()
         card.name = card_name
         card.text = get_fetched_metadata_for_card(card_type, card_name).get('text')
+        card.points = get_manual_metadata_for_card(card_type, card_name).get('points')
 
     elif card_type == NonFactionType.FLARE.value:
         card = FlareCard()

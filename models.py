@@ -46,6 +46,7 @@ class TaskCard(Card):
     def __init__(self):
         self.name = None
         self.text = None
+        self.points = None
         super().__init__()
 
 
@@ -110,7 +111,7 @@ class TaskType(Enum):
 
 
 class BoardCellType(Enum):
-    REGULAR = 1
+    NORMAL = 1
     GREEN = 2
     RED = 3
-    NON_EXISTENT = 4
+    VOID = 4
