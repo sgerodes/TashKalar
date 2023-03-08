@@ -4,6 +4,8 @@ import metadataManager
 import matplotlib.pyplot as plt
 from scipy.ndimage import gaussian_filter
 import matplotlib
+import copy
+
 
 N = models.BoardCellType.NORMAL
 GREEN = models.BoardCellType.GREEN
@@ -82,6 +84,12 @@ class TashKalarBoard:
         def is_void(self):
             return self.square_type == VOID
 
+        def count_corner_neighbors(self):
+            return len([n for n in self.taxicab_neighbors if n.is_corner()])
+
+        def count_border_neighbors(self):
+            return len([n for n in self.taxicab_neighbors if n.is_on_border()])
+
     def __init__(self):
         self.squares = [
             [TashKalarBoard.Square(row_i, col_i, square_type) for col_i, square_type in enumerate(row)]
@@ -90,16 +98,13 @@ class TashKalarBoard:
 
         self.valid_squares = frozenset([sq for row in self.squares for sq in row if sq.square_type != VOID])
         self.green_squares = frozenset([sq for sq in self if sq.is_green()])
-        for sq in self:
-            if sq.is_red():
-                pass
-
         self.red_squares = frozenset([sq for sq in self if sq.is_red()])
         self.colored_squares = frozenset([sq for sq in self if sq.is_colored()])
         self.void_squares = frozenset([sq for sq in self.iter_all() if sq.is_void()])
 
         for sq in self:
             sq.taxicab_neighbors = self.get_taxicab_neighbors_for_square(sq)
+            sq.von_neuman_neighbors = self.get_von_neuman_neighbors_for_square(sq)
 
     def get_square(self, row, col):
         return self.squares[row][col]
@@ -133,8 +138,24 @@ class TashKalarBoard:
             neighbors.append((row + 1, col + 1))
         return frozenset(neighbors)
 
+    @lru_cache(maxsize=256)
+    def get_von_neuman_neighbors_indexes(self, row, col) -> frozenset:
+        neighbors = []
+        if row > 0:
+            neighbors.append((row - 1, col))
+        if row < 8:
+            neighbors.append((row + 1, col))
+        if col > 0:
+            neighbors.append((row, col - 1))
+        if col < 8:
+            neighbors.append((row, col + 1))
+        return frozenset(neighbors)
+
     def get_taxicab_neighbors_for_square(self, square) -> frozenset:
         return self.get_taxicab_neighbors(square.row, square.col)
+
+    def get_von_neuman_neighbors_for_square(self, square) -> frozenset:
+        return self.get_von_neuman_neighbors_indexes(square.row, square.col)
 
     @lru_cache(maxsize=256)
     def get_taxicab_neighbors(self, row, col) -> frozenset:
@@ -153,55 +174,51 @@ class TashKalarBoard:
 
     def main(self):
         get_mm = metadataManager.MetadataManager.get_manual_metadata_for_card
-        get_fm = metadataManager.MetadataManager.get_fetched_metadata_for_card
-        # colored Taks:
-        # 1. Red Legends
-        # 2. Green Legends
-        # 3. Rainbow Dominance
-        # 4. Green Summoning
-        # 5. Red Summoning
-        # 6. Red Conquest
-        # 7. Green Conquest
-        # 8. Red Dominance
-        # 9. Green Dominance
-        # tasks = [
-        #     ("Red Legends", lambda sq: task_points if sq.is_red() else (task_points / 2.0 * sq.count_red_neighbors())),
-        #     ("Green Legends", lambda sq: task_points if sq.is_green() else (task_points / 2.0 * sq.count_green_neighbors())),
-        #     ("Rainbow Dominance", lambda sq: task_points if sq.is_colored() else (task_points / 2.0 * sq.count_colored_neighbors())),
-        #     ("Red Conquest", lambda sq: task_points if sq.is_red() else (task_points / 2.0 * sq.count_red_neighbors())),
-        #     ("Green Conquest", lambda sq: task_points if sq.is_green() else (task_points / 2.0 * sq.count_green_neighbors())),
-        #     ("Color Conquest", lambda sq: task_points if sq.is_colored() else (task_points / 2.0 * sq.count_colored_neighbors())),
-        #
-        #     ("Red Summoning", lambda sq: task_points * (sq.count_red_neighbors() + int(sq.is_red()))),
-        #     ("Green Summoning", lambda sq: task_points * (sq.count_green_neighbors() + int(sq.is_green()))),
-        #     ("Colored Summoning", lambda sq: task_points * (sq.count_colored_neighbors() + int(sq.is_colored()))),
-        #
-        #     ("Central Dominance", lambda sq: task_points * int(sq.is_central_square())),
-        #     ("Line Dominance", lambda sq: task_points * int(sq.is_on_central_line())),
-        #     ("Center Cross", lambda sq: task_points * int(sq.is_central_square()) * (2 if sq.is_the_board_centre() else 1)),
-        #     ("Diagonals", lambda sq: task_points * int(sq.is_on_diagonal()) * (2 if sq.is_the_board_centre() else 1)),
-        #     ("Corner Chain", lambda sq: task_points * int(sq.is_corner())),
-        #     ("Side Chain", lambda sq: task_points * int(sq.is_on_border())),
-        # ]
         tasks = [
-            ("Red Legends", lambda sq: task_points if sq.is_red() else 0),
-            ("Green Legends", lambda sq: task_points if sq.is_green() else 0),
-            ("Rainbow Dominance", lambda sq: task_points if sq.is_colored() else 0),
-            ("Red Conquest", lambda sq: task_points if sq.is_red() else 0),
-            ("Green Conquest", lambda sq: task_points if sq.is_green() else 0),
-            ("Color Conquest", lambda sq: task_points if sq.is_colored() else 0),
+            ("Red Legends", lambda sq: task_points if sq.is_red() else (task_points / 2.0 * sq.count_red_neighbors())),
+            ("Red Conquest", lambda sq: task_points if sq.is_red() else (task_points / 2.0 * sq.count_red_neighbors())),
+            ("Red Summoning", lambda sq: task_points * (sq.count_red_neighbors() + int(sq.is_red()))),
 
-            ("Red Summoning", lambda sq: task_points * int(sq.is_red())),
-            ("Green Summoning", lambda sq: task_points * int(sq.is_green())),
-            ("Colored Summoning", lambda sq: task_points * int(sq.is_colored())),
+            ("Green Legends", lambda sq: task_points if sq.is_green() else (task_points / 2.0 * sq.count_green_neighbors())),
+            ("Green Conquest", lambda sq: task_points if sq.is_green() else (task_points / 2.0 * sq.count_green_neighbors())),
+            ("Green Summoning", lambda sq: task_points * (sq.count_green_neighbors() + int(sq.is_green()))),
+
+            ("Rainbow Dominance", lambda sq: task_points if sq.is_colored() else (task_points / 2.0 * sq.count_colored_neighbors())),
+            ("Color Conquest", lambda sq: task_points if sq.is_colored() else (task_points / 2.0 * sq.count_colored_neighbors())),
+            ("Colored Summoning", lambda sq: task_points * (sq.count_colored_neighbors() + int(sq.is_colored()))),
 
             ("Central Dominance", lambda sq: task_points * int(sq.is_in_central_big_square())),
             ("Line Dominance", lambda sq: task_points * int(sq.is_on_central_line())),
-            ("Center Cross", lambda sq: task_points * (2 if sq.is_the_board_centre() else 1 if sq.is_in_central_big_square() else 0)),
-            ("Diagonals", lambda sq: task_points * (2 if sq.is_the_board_centre() else 1 if sq.is_on_diagonal() else 0)),
-            ("Corner Chain", lambda sq: task_points * int(sq.is_corner())),
-            ("Side Chain", lambda sq: task_points * int(sq.is_on_border())),
+            ("Center Cross", lambda sq: task_points * int(sq.is_in_central_big_square()) * (2 if sq.is_the_board_centre() else 1)),
+            ("Diagonals", lambda sq: task_points * int(sq.is_on_diagonal()) * (2 if sq.is_the_board_centre() else 1)),
+            ("Corner Chain", lambda sq: task_points if sq.is_corner() else task_points / 2.0 * sq.count_corner_neighbors()),
+            ("Side Chain", lambda sq: task_points if sq.is_corner() else task_points / 2.0 * sq.count_border_neighbors()),
         ]
+        available_tasks = [
+            "Center Cross",
+            "Side Chain"
+        ]
+        future_task = "Heroic Destruction"
+
+        # tasks = [
+        #     ("Red Legends", lambda sq: task_points if sq.is_red() else 0),
+        #     ("Green Legends", lambda sq: task_points if sq.is_green() else 0),
+        #     ("Rainbow Dominance", lambda sq: task_points if sq.is_colored() else 0),
+        #     ("Red Conquest", lambda sq: task_points if sq.is_red() else 0),
+        #     ("Green Conquest", lambda sq: task_points if sq.is_green() else 0),
+        #     ("Color Conquest", lambda sq: task_points if sq.is_colored() else 0),
+        #
+        #     ("Red Summoning", lambda sq: task_points * int(sq.is_red())),
+        #     ("Green Summoning", lambda sq: task_points * int(sq.is_green())),
+        #     ("Colored Summoning", lambda sq: task_points * int(sq.is_colored())),
+        #
+        #     ("Central Dominance", lambda sq: task_points * int(sq.is_in_central_big_square())),
+        #     ("Line Dominance", lambda sq: task_points * int(sq.is_on_central_line())),
+        #     ("Center Cross", lambda sq: task_points * (2 if sq.is_the_board_centre() else 1 if sq.is_in_central_big_square() else 0)),
+        #     ("Diagonals", lambda sq: task_points * (2 if sq.is_the_board_centre() else 1 if sq.is_on_diagonal() else 0)),
+        #     ("Corner Chain", lambda sq: task_points * int(sq.is_corner())),
+        #     ("Side Chain", lambda sq: task_points * int(sq.is_on_border())),
+        # ]
 
 
         quality_matrix = [[0.0 for _ in range(9)] for _ in range(9)]
@@ -211,33 +228,63 @@ class TashKalarBoard:
             task_points = get_mm(models.NonFactionType.TASK.value, task_name).get("points")
 
             for sq in self:
-                quality_matrix[sq.row][sq.col] += scoring_method(sq)
+                multiplicator = 1 #0.5 if task_name == future_task else 1.0 if task_name in available_tasks else (1.0/(len(tasks)-4.0))
+                quality_matrix[sq.row][sq.col] += scoring_method(sq) * multiplicator
 
         # self.plot_matrix(quality_matrix)
         # self.plot_matrix(self.blur(quality_matrix))
-        self.plot_matrix(self.blur(quality_matrix, extended=True))
+        # self.plot_matrix(self.blur(quality_matrix, extended=8, sigma=8, normalize=True))
+        self.plot_matrix(self.blur(quality_matrix, extended=1, sigma=0.6, normalize=True))
 
-    def blur(self, matrix, extended=False, extend_squares=2, sigma=0.5):
-        if extended:
-            extended_matrix = [[0 for _ in range(len(matrix)+(2*extend_squares))] for _ in range(len(matrix)+(2*extend_squares))]
+    def blur(self, matrix, extended=2, sigma=0.5, normalize=False):
+        if extended > 0:
+            extended_matrix = [[0 for _ in range(len(matrix)+(2*extended))] for _ in range(len(matrix)+(2*extended))]
             for i in range(len(matrix)):
                 for j in range(len(matrix)):
-                    extended_matrix[i+extend_squares][j+extend_squares] = matrix[i][j]
+                    extended_matrix[i+extended][j+extended] = matrix[i][j]
 
             blurred_extended = gaussian_filter(extended_matrix, sigma=sigma)
             blurred = [[0 for _ in range(len(matrix))] for _ in range(len(matrix))]
             for i in range(len(matrix)):
                 for j in range(len(matrix)):
-                    blurred[i][j] = blurred_extended[i+extend_squares][j+extend_squares]
+                    blurred[i][j] = blurred_extended[i+extended][j+extended]
         else:
-            blurred = gaussian_filter(matrix, sigma=sigma)
+            blurred = gaussian_filter(matrix, sigma=sigma).tolist()
 
         for row in self.squares:
             for sq in row:
                 if sq.is_void():
                     blurred[sq.row][sq.col] = 0
                 else:
-                    blurred[sq.row][sq.col] = round(blurred[sq.row][sq.col], 1)
+                    blurred[sq.row][sq.col] = blurred[sq.row][sq.col]
+
+        if normalize:
+            max_val = -10000000
+            min_val = 100000
+            for row in self.squares:
+                for sq in row:
+                    if not sq.is_void():
+                        max_val = max(max_val, blurred[sq.row][sq.col])
+                        min_val = min(min_val, blurred[sq.row][sq.col])
+
+            min_max_range = max_val - min_val
+            for row in self.squares:
+                for sq in row:
+                    if not sq.is_void():
+                        blurred[sq.row][sq.col] = (blurred[sq.row][sq.col] - min_val) / min_max_range * 100
+
+            # convert to int
+            for row in self.squares:
+                for sq in row:
+                    if not sq.is_void():
+                        blurred[sq.row][sq.col] = int(blurred[sq.row][sq.col])
+        else:
+            # round
+            for row in self.squares:
+                for sq in row:
+                    if not sq.is_void():
+                        blurred[sq.row][sq.col] = round(blurred[sq.row][sq.col], 1)
+
         return blurred
 
     def plot_matrix(self, matrix):

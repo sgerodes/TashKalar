@@ -20,6 +20,9 @@ colorama = "^0.4.6"
 termcolor = "^2.2.0"
 
 
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.254"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
