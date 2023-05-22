@@ -100,7 +100,7 @@ all_manual_metadata_ordered = {
         {'name': 'Cavalry Captain', 'common_cost': 4},
         {'name': 'Gryphon Rider', 'common_cost': 4},
         {'name': 'Knight', 'common_cost': 4},
-        {'name': 'High Priestess', 'common_cost': 4},
+        {'name': 'High Priestess', 'common_cost': 3},
         {'name': 'Master of Intrigue', 'common_cost': 4},
         {'name': 'Gun Tower', 'common_cost': 4},
     ],

@@ -195,10 +195,11 @@ class TashKalarBoard:
             ("Side Chain", lambda sq: task_points if sq.is_corner() else task_points / 2.0 * sq.count_border_neighbors()),
         ]
         available_tasks = [
-            "Center Cross",
-            "Side Chain"
+            "Rainbow Dominance",
+            "Green Summoning",
+            "Corner Chain"
         ]
-        future_task = "Heroic Destruction"
+        future_task = "Heroic Devastation"
 
         # tasks = [
         #     ("Red Legends", lambda sq: task_points if sq.is_red() else 0),

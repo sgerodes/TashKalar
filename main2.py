@@ -16,5 +16,5 @@ def print_averages():
 
 
 if __name__ == '__main__':
-    ImageManager.create_flare_ranked_pictures()
+    ImageManager.create_ranked_pictures(True)
 

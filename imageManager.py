@@ -14,6 +14,8 @@ logger = logging.getLogger()
 
 
 class ImageManager:
+    ranked_pictures = {}
+
     @staticmethod
     def concat_images_h(im1, im2):  # TODO test
         dst = Image.new('RGB', (im1.width + im2.width, max(im1.height, im2.height)))
@@ -110,6 +112,7 @@ class ImageManager:
                       for cost in sorted(cost_to_cards.keys())]
         ranked_image = reduce(ImageManager.concat_images_v, image_rows)
         ranked_image.save(f'{constants.ranked_pictures_path}/{card_type}{ranked_image_infix}_ranked.webp')
+        ImageManager.ranked_pictures[card_type + ranked_image_infix] = ranked_image
 
     @staticmethod
     def create_legendary_ranked_pictures():
@@ -144,6 +147,14 @@ class ImageManager:
                       #image_altering_provider=lambda image: ImageManager.grey_out(image, how='bottom_half'))
 
     @staticmethod
-    def create_ranked_pictures():
+    def create_ranked_pictures(create_combined=False):
         for card_type in constants.factions_imperial_combined:
             ImageManager.create_ranked_picture_for_card_type(card_type)
+
+        if create_combined:
+            # crate combined ranked picture
+            ranked_images_list = [ImageManager.ranked_pictures[card_type]
+                                  for card_type in constants.factions_imperial_combined
+                                  if card_type in ImageManager.ranked_pictures]
+            combined_ranked_image = reduce(ImageManager.concat_images_v, ranked_images_list)
+            combined_ranked_image.save(f'{constants.ranked_pictures_path}/ranked_combined.webp')
